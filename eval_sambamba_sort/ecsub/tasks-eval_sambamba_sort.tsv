@@ -1,0 +1,9 @@
+--env SAMPLE	--input SAM_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env SAMTOOLS_VIEW_OPTION	--env SORT_TOOL	--env SORT_MEMORY	--env SORT_KEY	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbhu	samtools	4G	name	uncompress,samtools -n
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbhu	samtools	4G	coordinate	uncompress,samtools
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbhu	sambamba	4G	name	uncompress,Sambamba -n
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbhu	sambamba	4G	coordinate	uncompress,Sambamba
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbh	samtools	4G	name	compress,samtools -n
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbh	samtools	4G	coordinate	compress,samtools
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbh	sambamba	4G	name	compress,Sambamba -n
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	-Sbh	sambamba	4G	coordinate	compress,Sambamba

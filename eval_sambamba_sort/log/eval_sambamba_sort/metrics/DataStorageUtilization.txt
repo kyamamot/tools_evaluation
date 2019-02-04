@@ -1,0 +1,112 @@
+uncompress,samtools -n	0	2019/01/31 10:53:00	1	Percent
+uncompress,samtools -n	1	2019/01/31 10:54:00	1	Percent
+uncompress,samtools -n	2	2019/01/31 10:55:00	2	Percent
+uncompress,samtools -n	3	2019/01/31 10:56:00	16	Percent
+uncompress,samtools -n	4	2019/01/31 10:57:00	23	Percent
+uncompress,samtools -n	5	2019/01/31 10:58:00	29	Percent
+uncompress,samtools -n	6	2019/01/31 10:59:00	36	Percent
+uncompress,samtools -n	7	2019/01/31 11:00:00	39	Percent
+uncompress,samtools -n	8	2019/01/31 11:01:00	39	Percent
+uncompress,samtools -n	9	2019/01/31 11:02:00	39	Percent
+uncompress,samtools -n	10	2019/01/31 11:03:00	47	Percent
+uncompress,samtools -n	11	2019/01/31 11:04:00	50	Percent
+uncompress,samtools -n	12	2019/01/31 11:05:00	52	Percent
+uncompress,samtools -n	13	2019/01/31 11:06:00	55	Percent
+uncompress,samtools -n	14	2019/01/31 11:07:00	58	Percent
+uncompress,samtools -n	15	2019/01/31 11:08:00	50	Percent
+uncompress,samtools	0	2019/01/31 10:53:00	1	Percent
+uncompress,samtools	1	2019/01/31 10:54:00	1	Percent
+uncompress,samtools	2	2019/01/31 10:55:00	1	Percent
+uncompress,samtools	3	2019/01/31 10:56:00	8	Percent
+uncompress,samtools	4	2019/01/31 10:57:00	19	Percent
+uncompress,samtools	5	2019/01/31 10:58:00	26	Percent
+uncompress,samtools	6	2019/01/31 10:59:00	33	Percent
+uncompress,samtools	7	2019/01/31 11:00:00	39	Percent
+uncompress,samtools	8	2019/01/31 11:01:00	39	Percent
+uncompress,samtools	9	2019/01/31 11:02:00	40	Percent
+uncompress,samtools	10	2019/01/31 11:03:00	47	Percent
+uncompress,samtools	11	2019/01/31 11:04:00	50	Percent
+uncompress,samtools	12	2019/01/31 11:05:00	52	Percent
+uncompress,samtools	13	2019/01/31 11:06:00	55	Percent
+uncompress,Sambamba -n	0	2019/01/31 10:53:00	1	Percent
+uncompress,Sambamba -n	1	2019/01/31 10:54:00	1	Percent
+uncompress,Sambamba -n	2	2019/01/31 10:55:00	1	Percent
+uncompress,Sambamba -n	3	2019/01/31 10:56:00	11	Percent
+uncompress,Sambamba -n	4	2019/01/31 10:57:00	20	Percent
+uncompress,Sambamba -n	5	2019/01/31 10:58:00	27	Percent
+uncompress,Sambamba -n	6	2019/01/31 10:59:00	34	Percent
+uncompress,Sambamba -n	7	2019/01/31 11:00:00	39	Percent
+uncompress,Sambamba -n	8	2019/01/31 11:01:00	39	Percent
+uncompress,Sambamba -n	9	2019/01/31 11:02:00	39	Percent
+uncompress,Sambamba	0	2019/01/31 10:53:00	1	Percent
+uncompress,Sambamba	1	2019/01/31 10:54:00	1	Percent
+uncompress,Sambamba	2	2019/01/31 10:55:00	1	Percent
+uncompress,Sambamba	3	2019/01/31 10:56:00	1	Percent
+uncompress,Sambamba	4	2019/01/31 10:57:00	9	Percent
+uncompress,Sambamba	5	2019/01/31 10:58:00	19	Percent
+uncompress,Sambamba	6	2019/01/31 10:59:00	26	Percent
+uncompress,Sambamba	7	2019/01/31 11:00:00	33	Percent
+uncompress,Sambamba	8	2019/01/31 11:01:00	39	Percent
+uncompress,Sambamba	9	2019/01/31 11:02:00	39	Percent
+uncompress,Sambamba	10	2019/01/31 11:03:00	39	Percent
+uncompress,Sambamba	11	2019/01/31 11:04:00	39	Percent
+compress,samtools -n	0	2019/01/31 10:53:00	1	Percent
+compress,samtools -n	1	2019/01/31 10:54:00	1	Percent
+compress,samtools -n	2	2019/01/31 10:55:00	1	Percent
+compress,samtools -n	3	2019/01/31 10:56:00	1	Percent
+compress,samtools -n	4	2019/01/31 10:57:00	11	Percent
+compress,samtools -n	5	2019/01/31 10:58:00	20	Percent
+compress,samtools -n	6	2019/01/31 10:59:00	27	Percent
+compress,samtools -n	7	2019/01/31 11:00:00	34	Percent
+compress,samtools -n	8	2019/01/31 11:01:00	39	Percent
+compress,samtools -n	9	2019/01/31 11:02:00	39	Percent
+compress,samtools -n	10	2019/01/31 11:03:00	39	Percent
+compress,samtools -n	11	2019/01/31 11:04:00	39	Percent
+compress,samtools -n	12	2019/01/31 11:05:00	40	Percent
+compress,samtools -n	13	2019/01/31 11:06:00	49	Percent
+compress,samtools -n	14	2019/01/31 11:07:00	50	Percent
+compress,samtools -n	15	2019/01/31 11:08:00	53	Percent
+compress,samtools -n	16	2019/01/31 11:09:00	56	Percent
+compress,samtools -n	17	2019/01/31 11:10:00	58	Percent
+compress,samtools	0	2019/01/31 10:53:00	1	Percent
+compress,samtools	1	2019/01/31 10:54:00	1	Percent
+compress,samtools	2	2019/01/31 10:55:00	1	Percent
+compress,samtools	3	2019/01/31 10:56:00	1	Percent
+compress,samtools	4	2019/01/31 10:57:00	9	Percent
+compress,samtools	5	2019/01/31 10:58:00	20	Percent
+compress,samtools	6	2019/01/31 10:59:00	26	Percent
+compress,samtools	7	2019/01/31 11:00:00	33	Percent
+compress,samtools	8	2019/01/31 11:01:00	39	Percent
+compress,samtools	9	2019/01/31 11:02:00	39	Percent
+compress,samtools	10	2019/01/31 11:03:00	39	Percent
+compress,samtools	11	2019/01/31 11:04:00	39	Percent
+compress,samtools	12	2019/01/31 11:05:00	46	Percent
+compress,samtools	13	2019/01/31 11:06:00	48	Percent
+compress,samtools	14	2019/01/31 11:07:00	51	Percent
+compress,samtools	15	2019/01/31 11:08:00	53	Percent
+compress,samtools	16	2019/01/31 11:09:00	47	Percent
+compress,Sambamba -n	0	2019/01/31 10:53:00	1	Percent
+compress,Sambamba -n	1	2019/01/31 10:54:00	1	Percent
+compress,Sambamba -n	2	2019/01/31 10:55:00	1	Percent
+compress,Sambamba -n	3	2019/01/31 10:56:00	1	Percent
+compress,Sambamba -n	4	2019/01/31 10:57:00	8	Percent
+compress,Sambamba -n	5	2019/01/31 10:58:00	19	Percent
+compress,Sambamba -n	6	2019/01/31 10:59:00	26	Percent
+compress,Sambamba -n	7	2019/01/31 11:00:00	33	Percent
+compress,Sambamba -n	8	2019/01/31 11:01:00	39	Percent
+compress,Sambamba -n	9	2019/01/31 11:02:00	39	Percent
+compress,Sambamba -n	10	2019/01/31 11:03:00	39	Percent
+compress,Sambamba -n	11	2019/01/31 11:04:00	39	Percent
+compress,Sambamba	0	2019/01/31 10:53:00	1	Percent
+compress,Sambamba	1	2019/01/31 10:54:00	1	Percent
+compress,Sambamba	2	2019/01/31 10:55:00	1	Percent
+compress,Sambamba	3	2019/01/31 10:56:00	1	Percent
+compress,Sambamba	4	2019/01/31 10:57:00	5	Percent
+compress,Sambamba	5	2019/01/31 10:58:00	17	Percent
+compress,Sambamba	6	2019/01/31 10:59:00	24	Percent
+compress,Sambamba	7	2019/01/31 11:00:00	30	Percent
+compress,Sambamba	8	2019/01/31 11:01:00	37	Percent
+compress,Sambamba	9	2019/01/31 11:02:00	39	Percent
+compress,Sambamba	10	2019/01/31 11:03:00	39	Percent
+compress,Sambamba	11	2019/01/31 11:04:00	39	Percent
+compress,Sambamba	12	2019/01/31 11:05:00	39	Percent

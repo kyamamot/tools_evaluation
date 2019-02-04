@@ -34,6 +34,8 @@ task_condition_field_number=$(head -1 ${tasks_file} \
     | grep -n EVAL_CONDITION \
     | cut -d : -f 1)
 
+metrics_file_suffix_list=($(ls -1 ${metrics_directory} | grep "^0-" | grep ".txt$" | sed "s/^0-//g"))
+
 task_number=-1
 tail -n +2 ${tasks_file} | cut -f ${task_condition_field_number} | while read task_condition
 do

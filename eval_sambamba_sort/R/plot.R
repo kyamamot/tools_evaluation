@@ -60,10 +60,3 @@ chart_storage <- ggplot(data, aes(x = data[,2], y = data[,4])) +
 
 output_file <- paste(output_directory, "disk_storage_usage.png", sep = "/")
 ggsave(file = output_file, chart_storage)
-
-
-# Save
-#grid.arrange(chart_runtime, chart_cpu, chart_memory, chart_storage, ncol = 1)
-#g <- arrangeGrob(chart_runtime, chart_cpu, chart_memory, chart_storage, ncol = 1)
-#output_file <- paste(metrics_directory, "plot.png", sep = "/")
-#ggsave(file = output_file, g)

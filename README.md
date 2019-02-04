@@ -1,2 +1,2 @@
 # tools_evaluation
-Evaluation of genome analysis tools
+Performance evaluation tools of genome analysis softwares.

@@ -58,6 +58,8 @@ output_summary_file=${root_directory}/README.md
 cat << EOS > ${output_summary_file}
 # ${task_name}
 
+${eval_description}
+
 ## Running Time
 ![Running Time](output/running_time.png)
 

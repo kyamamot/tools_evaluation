@@ -1,5 +1,7 @@
 # eval_biobambam_sort
 
+m5.4xlarge spot instance - 16 cpu, 64GiB memory, 120GB EBS
+
 ## Running Time
 ![Running Time](output/running_time.png)
 

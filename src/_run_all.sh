@@ -54,9 +54,9 @@ do
     done
 done
 
-# Output summary
-output_summary_file=${root_directory}/README.md
-cat << EOS > ${output_summary_file}
+# Create README.md file
+readme_file=${root_directory}/README.md
+cat << EOS > ${readme_file}
 # ${task_name}
 
 ## Description

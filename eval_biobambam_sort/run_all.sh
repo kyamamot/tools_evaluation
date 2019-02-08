@@ -18,7 +18,7 @@ fi
 task_file=${task_template_file%.template}
 
 cat ${task_template_file} | sed "s|___SAMPLE___|${SAMPLE}|g" \
-                          | sed "s|___SAM_FILE___|${SAM_FILE}|g" \
+                          | sed "s|___INPUT_FILE___|${INPUT_FILE}|g" \
                           | sed "s|___OUTPUT_DIR___|${OUTPUT_DIR}|g" \
                           | sed "s|___REFERENCE___|${REFERENCE}|g" \
                           > ${task_file}

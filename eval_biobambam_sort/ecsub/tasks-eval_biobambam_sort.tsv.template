@@ -1,7 +1,7 @@
---env SAMPLE	--input SAM_FILE	--output-recursive OUTPUT_DIR	--input-recursive REFERENCE	--env INPUT_THREAD	--env OUTPUT_THREAD	--env EVAL_CONDITION
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	1	inputthread=1,outputthread=1
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	2	inputthread=2,outputthread=2
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	4	inputthread=1,outputthread=4
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	8	inputthread=1,outputthread=8
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	8	8	inputthread=8,outputthread=8
-___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	15	inputthread=1,outputthread=15
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--input-recursive REFERENCE	--env INPUT_THREAD	--env OUTPUT_THREAD	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	1	inputthread=1,outputthread=1
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	2	inputthread=2,outputthread=2
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	4	inputthread=1,outputthread=4
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	8	inputthread=1,outputthread=8
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	8	8	inputthread=8,outputthread=8
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	___REFERENCE___	1	15	inputthread=1,outputthread=15

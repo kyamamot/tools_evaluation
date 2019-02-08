@@ -21,7 +21,7 @@ BAI_FILE=${BAM_FILE}.bai
     calmdnmreference=${REFERENCE} \
     inputformat=sam \
     outputformat=bam \
-    I=${SAM_FILE} \
+    I=${INPUT_FILE} \
     O=${BAM_FILE} \
     indexfilename=${BAI_FILE}
 

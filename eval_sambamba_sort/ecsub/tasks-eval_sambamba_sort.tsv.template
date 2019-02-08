@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env SAMTOOLS_VIEW_OPTION	--env SORT_TOOL	--env SORT_MEMORY	--env SORT_KEY	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbhu	samtools	4G	name	uncompress,samtools -n
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbhu	samtools	4G	coordinate	uncompress,samtools
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbhu	sambamba	4G	name	uncompress,Sambamba -n
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbhu	sambamba	4G	coordinate	uncompress,Sambamba
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbh	samtools	4G	name	compress,samtools -n
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbh	samtools	4G	coordinate	compress,samtools
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbh	sambamba	4G	name	compress,Sambamba -n
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbh	sambamba	4G	coordinate	compress,Sambamba

@@ -1,6 +1,7 @@
 # eval_biobambam_sort
 
 ## Description
+bamsort inputthreads={thread} outputthreads={thread} inputformat=sam outputformat=bam I={sam_file} O={bam_file} index=1 level=1 calmdnm=1 calmdnmrecompindentonly=1 calmdnmreference={reference} indexfilename={bai_file}
 
 ## Computing Environment
 m5.4xlarge spot instance - 16 cpu, 64GiB memory, 120GB EBS

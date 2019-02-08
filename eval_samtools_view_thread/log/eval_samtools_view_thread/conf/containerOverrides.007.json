@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_thread/script/setenv.7.sh"
+                }
+            ],
+            "cpu": 8,
+            "name": "eval_samtools_view_thread_task",
+            "memory": 30000
+        }
+    ]
+}

@@ -8,6 +8,7 @@ aws_ec2_instance_type=${5}
 aws_disk_size=${6}
 aws_s3_bucket=${7}
 eval_description=${8}
+eval_environment=${9}
 
 working_directory=${root_directory}/log
 
@@ -58,7 +59,11 @@ output_summary_file=${root_directory}/README.md
 cat << EOS > ${output_summary_file}
 # ${task_name}
 
+## Description
 ${eval_description}
+
+## Computing Environment
+${eval_environment}
 
 ## Running Time
 ![Running Time](output/running_time.png)

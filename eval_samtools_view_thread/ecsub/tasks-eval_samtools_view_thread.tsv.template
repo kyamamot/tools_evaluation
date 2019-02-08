@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env SAMTOOLS_VIEW_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	1	-Sbhu	thread=1,-Sbhu
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	2	-Sbhu	thread=2,-Sbhu
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	4	-Sbhu	thread=4,-Sbhu
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbhu	thread=8,-Sbhu
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	1	-Sbh	thread=1,-Sbh
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	2	-Sbh	thread=2,-Sbh
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	4	-Sbh	thread=4,-Sbh
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	-Sbh	thread=8,-Sbh

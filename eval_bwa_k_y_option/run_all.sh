@@ -31,4 +31,5 @@ cat ${task_template_file} | sed "s|___SAMPLE___|${SAMPLE}|g" \
                                 "${AWS_EC2_INSTANCE_TYPE}" \
                                 "${AWS_DISK_SIZE}" \
                                 "${AWS_S3_BUCKET}" \
-                                "${EVAL_DESCRIPTION}"
+                                "${EVAL_DESCRIPTION}" \
+                                "${EVAL_ENVIRONMENT}"

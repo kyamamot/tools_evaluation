@@ -1,0 +1,6 @@
+--env SAMPLE	--input INPUT_FASTQ1	--input INPUT_FASTQ2	--output-recursive OUTPUT_DIR	--input-recursive REFERENCE	--env BWA_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 1 -T 0 -K 100000000 -Y	thread=1
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 2 -T 0 -K 100000000 -Y	thread=2
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 4 -T 0 -K 100000000 -Y	thread=4
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0 -K 100000000 -Y	thread=8
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 16 -T 0 -K 100000000 -Y	thread=16

@@ -29,4 +29,5 @@ cat ${task_template_file} | sed "s|___SAMPLE___|${SAMPLE}|g" \
                                 "${DOCKER_IMAGE}" \
                                 "${AWS_EC2_INSTANCE_TYPE}" \
                                 "${AWS_DISK_SIZE}" \
-                                "${OUTPUT_DIR}"
+                                "${OUTPUT_DIR}" \
+                                "${EVAL_DESCRIPTION}"

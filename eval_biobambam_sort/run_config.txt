@@ -5,3 +5,4 @@ REFERENCE=s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/
 DOCKER_IMAGE=kyamamot/eval-biobambam-0.0.191:20190204
 AWS_EC2_INSTANCE_TYPE=m5.4xlarge
 AWS_DISK_SIZE=120
+EVAL_DESCRIPTION="m5.4xlarge spot instance - 16 cpu, 64GiB memory, 120GB EBS"

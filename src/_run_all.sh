@@ -7,6 +7,7 @@ docker_image=${4}
 aws_ec2_instance_type=${5}
 aws_disk_size=${6}
 aws_s3_backet=${7}
+eval_description=${8}
 
 working_directory=${root_directory}/log
 
@@ -51,6 +52,24 @@ do
             >> ${merged_metrics_file}
     done
 done
+
+# Output summary
+output_summary_file=${root_directory}/README.md
+cat << EOS > ${output_summary_file}
+# ${task_name}
+
+## Running Time
+![Running Time](output/running_time.png)
+
+## CPU Utilization
+![CPU Utilization](output/cpu_utilization.png)
+
+## Memory Utilization
+![Memory Utilization](output/memory_utilization.png)
+
+## Disk Storage Usage
+![Disk Storage Usage](output/disk_storage_usage.png)
+EOS
 
 # Output charts 
 output_directory=${root_directory}/output

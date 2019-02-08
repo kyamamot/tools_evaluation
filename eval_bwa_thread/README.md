@@ -1,6 +1,7 @@
 # eval_bwa_thread
 
 ## Description
+bwa-mem -t {thread} -K 100000000 -Y -T 0
 
 ## Computing Environment
 m5.4xlarge spot instance - 16 cpu, 64GiB memory, 80GB EBS

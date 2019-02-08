@@ -4,7 +4,7 @@
 bwa-mem -t {thread} -K 100000000 -Y -T 0
 
 ## Computing Environment
-m5.4xlarge spot instance - 16 cpu, 64GiB memory, 80GB EBS
+aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 80GB EBS
 
 ## Running Time
 ![Running Time](output/running_time.png)

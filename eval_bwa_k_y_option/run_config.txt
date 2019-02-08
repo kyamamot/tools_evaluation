@@ -7,5 +7,5 @@ DOCKER_IMAGE=kyamamot/eval-bwa-0.7.17:20190204
 AWS_EC2_INSTANCE_TYPE=m5.2xlarge
 AWS_DISK_SIZE=80
 AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
-EVAL_DESCRIPTION=""
-EVAL_ENVIRONMENT="m5.2xlarge spot instance - 8 cpu, 32GiB memory, 80GB EBS"
+EVAL_DESCRIPTION="bwa-mem [-K 100000000 -Y] -t 8 -T 0 (3 technical replicates)"
+EVAL_ENVIRONMENT="aws m5.2xlarge EC2 spot instance - 8 cpu, 32GiB memory, 80GB EBS"

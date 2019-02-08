@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-04770d89e9dedfa8b",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_sort_01",
+    "ClusterName": "eval_picard_sort_01",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-08 19:16:45.463159",
+    "Image": "kyamamot/eval-picard-2.18.24:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-08 19:16:45.463060",
+            "ExitCode": 0,
+            "InstanceId": "i-0672433e4fbbb0f89",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.2621583333333333,
+            "Start": "2019-02-08 18:30:34.119398",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.7698176838888889
+        }
+    ],
+    "KeyName": "eval_picard_sort_01",
+    "LogGroupName": "ecsub-eval_picard_sort_01",
+    "No": 4,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/script-eval_picard_sort_01.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-08 18:30:33.168102",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_sort_01:3",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_picard_sort_01/log/eval_picard_sort_01"
+}

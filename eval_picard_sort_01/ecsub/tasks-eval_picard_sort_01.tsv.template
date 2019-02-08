@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env SORT_ORDER	--env PICARD_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___		coordinate		SO=coordinate
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-Xmx4g	coordinate		-Xmx4g,SO=coordinate
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-Xmx40g	coordinate		-Xmx40g,SO=coordinate
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-Xmx40g	coordinate	MAX_RECORDS_IN_RAM=100000	-Xmx40g,SO=coordinate,MAX_RECORDS_IN_RAM=100k
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-Xmx40g	coordinate	MAX_RECORDS_IN_RAM=1000000	-Xmx40g,SO=coordinate,MAX_RECORDS_IN_RAM=1m
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-Xmx40g	coordinate	MAX_RECORDS_IN_RAM=10000000	-Xmx40g,SO=coordinate,MAX_RECORDS_IN_RAM=10m

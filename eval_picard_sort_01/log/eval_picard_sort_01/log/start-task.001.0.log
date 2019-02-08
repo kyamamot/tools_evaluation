@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/beb9f963-f15b-4ae9-8071-0f396706ad49", 
+            "group": "family:eval_picard_sort_01", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_sort_01/script/setenv.1.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_picard_sort_01_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/12ccc063-115e-4d97-b1bf-799dd1a09cd3", 
+            "createdAt": 1549618359.249, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_sort_01", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_sort_01:3", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/1f7758a0-e872-4cbc-9add-036110618cbc", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/beb9f963-f15b-4ae9-8071-0f396706ad49", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_picard_sort_01_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 # eval_samtools_view_thread
 
 ## Description
+samtools -Sbh[u] view -@ {thread} {sam_file}
 
 ## Computing Environment
 m5.2xlarge spot instance - 8 cpu, 32GiB memory, 120GB EBS

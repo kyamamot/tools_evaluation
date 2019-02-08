@@ -1,5 +1,6 @@
 # eval_biobambam_sort
 
+## Description
 
 ## Computing Environment
 m5.4xlarge spot instance - 16 cpu, 64GiB memory, 120GB EBS

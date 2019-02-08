@@ -4,7 +4,7 @@
 samtools view -@ {thread} -Sbh[u] {sam_file}
 
 ## Computing Environment
-m5.2xlarge spot instance - 8 cpu, 32GiB memory, 120GB EBS
+aws m5.2xlarge EC2 spot instance - 8 cpu, 32GiB memory, 120GB EBS
 
 ## Running Time
 ![Running Time](output/running_time.png)

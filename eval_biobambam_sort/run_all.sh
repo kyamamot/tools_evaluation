@@ -23,8 +23,8 @@ cat ${task_template_file} | sed "s|___SAMPLE___|${SAMPLE}|g" \
                           | sed "s|___REFERENCE___|${REFERENCE}|g" \
                           > ${task_file}
 
-
 /bin/bash -x ../src/_run_all.sh "${task_name}" \
+                                "${task_file}" \
                                 "${root_directory}" \
                                 "${DOCKER_IMAGE}" \
                                 "${AWS_EC2_INSTANCE_TYPE}" \

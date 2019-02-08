@@ -1,20 +1,20 @@
 #!/bin/bash
 
 task_name=${1}
-root_directory=${2}
-docker_image=${3}
-aws_ec2_instance_type=${4}
-aws_disk_size=${5}
-aws_s3_backet=${6}
+task_file=${2}
+root_directory=${3}
+docker_image=${4}
+aws_ec2_instance_type=${5}
+aws_disk_size=${6}
+aws_s3_backet=${7}
 
 working_directory=${root_directory}/log
-tasks_file=${root_directory}/ecsub/tasks-${task_name}.tsv
 
 # Invoke ecsub and run tasks
 echo ecsub submit \
     --spot \
     --script ${root_directory}/script-${task_name}.sh \
-    --tasks ${tasks_file} \
+    --tasks ${task_file} \
     --aws-s3-bucket ${aws_s3_bucket} \
     --wdir ${working_directory} \
     --image ${docker_image} \
@@ -28,7 +28,7 @@ if [ ! -d ${metrics_directory} ]; then
     exit 1
 fi
 
-task_condition_field_number=$(head -1 ${tasks_file} \
+task_condition_field_number=$(head -1 ${task_file} \
     | tr '\t' '\n' \
     | grep -n EVAL_CONDITION \
     | cut -d : -f 1)
@@ -36,7 +36,7 @@ task_condition_field_number=$(head -1 ${tasks_file} \
 metrics_file_suffix_list=($(ls -1 ${metrics_directory} | grep "^0-" | grep ".txt$" | sed "s/^0-//g"))
 
 task_number=-1
-tail -n +2 ${tasks_file} | cut -f ${task_condition_field_number} | while read task_condition
+tail -n +2 ${task_file} | cut -f ${task_condition_field_number} | while read task_condition
 do
     task_number=$(expr ${task_number} + 1)
     for metrics_file_suffix in ${metrics_file_suffix_list[@]}

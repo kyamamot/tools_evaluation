@@ -1,7 +1,6 @@
 #!/usr/bin/env R
 
 library(ggplot2)
-library(gridExtra)
 library(ggsci)
 library(plyr)
 

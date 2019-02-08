@@ -1,9 +1,9 @@
 #!/bin/bash
 
-task_name=eval_sambamba_sort
-docker_image=kyamamot/eval-sambamba-0.6.8:20190204
+task_name=eval_bwa_k_y_option
+docker_image=kyamamot/eval-bwa-0.7.17:20190204
 aws_ec2_instance_type=m5.4xlarge
-aws_disk_size=120
+aws_disk_size=80
 aws_s3_bucket=s3://keisuke-singapore/${task_name}/
 
 

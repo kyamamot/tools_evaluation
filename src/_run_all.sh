@@ -1,11 +1,11 @@
 #!/bin/bash
 
 task_name=${1}
-docker_image=${2}
-aws_ec2_instance_type=${3}
-aws_disk_size=${4}
-aws_s3_backet=${5}
-root_directory=${6}
+root_directory=${2}
+docker_image=${3}
+aws_ec2_instance_type=${4}
+aws_disk_size=${5}
+aws_s3_backet=${6}
 
 working_directory=${root_directory}/log
 tasks_file=${root_directory}/ecsub/tasks-${task_name}.tsv
@@ -15,7 +15,7 @@ echo ecsub submit \
     --spot \
     --script ${root_directory}/script-${task_name}.sh \
     --tasks ${tasks_file} \
-    --aws-s3-bucket ${aws_s3_backet} \
+    --aws-s3-bucket ${aws_s3_bucket} \
     --wdir ${working_directory} \
     --image ${docker_image} \
     --aws-ec2-instance-type ${aws_ec2_instance_type} \

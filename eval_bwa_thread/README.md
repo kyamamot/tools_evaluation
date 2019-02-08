@@ -1,5 +1,8 @@
 # eval_bwa_thread
 
+## Description
+
+## Computing Environment
 m5.4xlarge spot instance - 16 cpu, 64GiB memory, 80GB EBS
 
 ## Running Time

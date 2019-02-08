@@ -6,15 +6,15 @@ root_directory=${3}
 docker_image=${4}
 aws_ec2_instance_type=${5}
 aws_disk_size=${6}
-aws_s3_backet=${7}
+aws_s3_bucket=${7}
 eval_description=${8}
 
 working_directory=${root_directory}/log
 
 # Invoke ecsub and run tasks
-echo ecsub submit \
+ecsub submit \
     --spot \
-    --script ${root_directory}/script-${task_name}.sh \
+    --script ${root_directory}/ecsub/script-${task_name}.sh \
     --tasks ${task_file} \
     --aws-s3-bucket ${aws_s3_bucket} \
     --wdir ${working_directory} \

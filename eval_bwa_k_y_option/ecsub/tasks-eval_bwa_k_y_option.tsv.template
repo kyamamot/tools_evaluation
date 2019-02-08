@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_FASTQ1	--input INPUT_FASTQ2	--output-recursive OUTPUT_DIR	--input-recursive REFERENCE	--env BWA_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0 -K 100000000 -Y	-t 8 -T 0 -K 100000000 -Y (1)
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0 -K 100000000 -Y	-t 8 -T 0 -K 100000000 -Y (2)
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0 -K 100000000 -Y	-t 8 -T 0 -K 100000000 -Y (3)
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0	-t 8 -T 0 (1)
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0	-t 8 -T 0 (2)
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___OUTPUT_DIR___	___REFERENCE___	-t 8 -T 0	-t 8 -T 0 (3)

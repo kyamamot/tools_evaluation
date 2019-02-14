@@ -1,0 +1,3 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env SORT_ORDER	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/		default(coordinate)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-n	-n(name)

@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_compress/script/setenv.0.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_sambamba_sort_compress_task",
+            "memory": 62000
+        }
+    ]
+}

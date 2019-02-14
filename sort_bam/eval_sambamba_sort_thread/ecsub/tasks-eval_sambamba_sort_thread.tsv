@@ -1,0 +1,6 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	1	thread=1
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	2	thread=2
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	4	thread=4
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	8	thread=8
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	16	thread=16

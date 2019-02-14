@@ -1,0 +1,6 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	1	thread=1
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	2	thread=2
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	4	thread=4
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8	thread=8
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	16	thread=16

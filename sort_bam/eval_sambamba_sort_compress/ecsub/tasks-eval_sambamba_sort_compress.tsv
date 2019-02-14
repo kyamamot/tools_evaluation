@@ -1,0 +1,6 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env COMPRESS_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/		(default)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-u	-u
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 0	-l 0
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 1	-l 1 (=default?)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 9	-l 9

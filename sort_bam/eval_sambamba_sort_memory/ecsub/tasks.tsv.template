@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env MEMORY	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	default	default (512MiB)
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	1G	-m 1G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	2G	-m 2G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	4G	-m 4G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	8G	-m 8G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	16G	-m 16G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	32G	-m 32G
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	64G	-m 64G 

@@ -1,0 +1,44 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_sort_order",
+    "ClusterName": "eval_sambamba_sort_order",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-14 15:06:30.758130",
+    "Image": "kyamamot/eval-sambamba-0.6.8:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-14 15:06:30.758034",
+            "ExitCode": 0,
+            "InstanceId": "i-0fab8d91a74668271",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.26508333333333334,
+            "Start": "2019-02-14 14:49:25.468886",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.28480254111111114
+        }
+    ],
+    "KeyName": "eval_sambamba_sort_order",
+    "LogGroupName": "ecsub-eval_sambamba_sort_order",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_order/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_order/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_order/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_order/script/setenv.1.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-14 14:49:24.506694",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_sort_order:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_sambamba_sort_order/log/eval_sambamba_sort_order"
+}

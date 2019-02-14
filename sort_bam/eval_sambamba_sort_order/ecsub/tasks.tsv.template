@@ -1,0 +1,3 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env SORT_ORDER	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___		default(coordinate)
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-n	-n(name)

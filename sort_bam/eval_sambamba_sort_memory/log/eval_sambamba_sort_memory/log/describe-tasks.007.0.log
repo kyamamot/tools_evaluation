@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/02/14 13:06:32 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_sort_memory",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/02/14 12:51:30 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/8891a22a-7f74-462b-8e3e-40ce10adff8d",
+            "group": "family:eval_sambamba_sort_memory",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_sambamba_sort_memory;stream=ecsub/eval_sambamba_sort_memory_task/8891a22a-7f74-462b-8e3e-40ce10adff8d",
+            "no": 7,
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_sambamba_sort_memory/log/eval_sambamba_sort_memory/log/describe-tasks.007.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/653963d1-0638-40f5-bd74-c444b1204913",
+            "pullStartedAt": "2019/02/14 12:51:31 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/02/14 12:51:30 KST",
+            "startedAt": "2019/02/14 12:51:51 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_sort_memory:1",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/5906fd66-8103-4924-a80d-087709e78125",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/8891a22a-7f74-462b-8e3e-40ce10adff8d",
+                    "name": "eval_sambamba_sort_memory_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/02/14 13:06:32 KST",
+            "memory": "62000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 120,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.7.sh"
+                            }
+                        ],
+                        "memory": 62000,
+                        "name": "eval_sambamba_sort_memory_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/02/14 12:51:50 KST",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/02/14 13:06:32 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "ea50c22f-300d-11e9-988d-d306d41fe514",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "ea50c22f-300d-11e9-988d-d306d41fe514",
+            "date": "Thu, 14 Feb 2019 04:06:32 GMT",
+            "content-length": "1637",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

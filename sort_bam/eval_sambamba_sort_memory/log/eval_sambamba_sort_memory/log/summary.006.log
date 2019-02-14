@@ -1,0 +1,50 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_sort_memory",
+    "ClusterName": "eval_sambamba_sort_memory",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-14 13:06:48.363015",
+    "Image": "kyamamot/eval-sambamba-0.6.8:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-14 13:06:48.362913",
+            "ExitCode": 0,
+            "InstanceId": "i-027174f86f6876baf",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.26499090909090905,
+            "Start": "2019-02-14 12:48:50.002635",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.2995445216666667
+        }
+    ],
+    "KeyName": "eval_sambamba_sort_memory",
+    "LogGroupName": "ecsub-eval_sambamba_sort_memory",
+    "No": 6,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.5.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.6.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_memory/script/setenv.7.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-14 12:48:48.982107",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_sort_memory:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_sambamba_sort_memory/log/eval_sambamba_sort_memory"
+}

@@ -14,6 +14,9 @@ setwd(output_directory)
 input_file <- paste(metrics_directory, "CPUUtilization.txt", sep = "/")
 data <- read.csv(input_file, header = F, sep = "\t")
 
+conditions_order <- unique(data$V1)
+data$V1 <- factor(data$V1, levels=rev(conditions_order))
+
 count_data <- count(data, "V1")
 
 chart_runtime <- ggplot(count_data, aes(x = V1, y = freq, fill = factor(V1))) +
@@ -25,6 +28,8 @@ chart_runtime <- ggplot(count_data, aes(x = V1, y = freq, fill = factor(V1))) +
 
 output_file <- paste(output_directory, "running_time.png", sep = "/")
 ggsave(file = output_file, chart_runtime)
+
+data$V1 <- factor(data$V1, levels=conditions_order)
 
 chart_cpu <- ggplot(data, aes(x = data[,2], y = data[,4])) +
     geom_line(aes(color = factor(data[,1]))) +

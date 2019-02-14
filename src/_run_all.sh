@@ -15,7 +15,7 @@ working_directory=${root_directory}/log
 # Invoke ecsub and run tasks
 ecsub submit \
     --spot \
-    --script ${root_directory}/ecsub/script-${task_name}.sh \
+    --script ${root_directory}/ecsub/script.sh \
     --tasks ${task_file} \
     --aws-s3-bucket ${aws_s3_bucket} \
     --wdir ${working_directory} \
@@ -80,4 +80,8 @@ EOS
 
 # Output charts 
 output_directory=${root_directory}/output
+if [ ! -d ${output_directory} ]; then
+	mkdir ${output_directory}
+fi
+
 Rscript ${root_directory}/../src/R/plot.R ${metrics_directory} ${output_directory}

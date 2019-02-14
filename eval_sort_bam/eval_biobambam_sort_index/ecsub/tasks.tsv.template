@@ -1,0 +1,5 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam	in=sam(,index=0)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam index=1	in=sam,index=1
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam outputthreads=15	in=sam(,index=0),o_thread=15
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam index=1 outputthreads=15	in=sam,index=1,o_thread=15

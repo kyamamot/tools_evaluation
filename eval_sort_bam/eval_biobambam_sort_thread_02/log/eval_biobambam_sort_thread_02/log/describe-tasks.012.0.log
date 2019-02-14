@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/02/14 17:33:07 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_biobambam_sort_thread",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/02/14 16:55:05 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/b01cee3c-8b7d-4a8b-abc9-b5151e7d5273",
+            "group": "family:eval_biobambam_sort_thread",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_biobambam_sort_thread;stream=ecsub/eval_biobambam_sort_thread_task/b01cee3c-8b7d-4a8b-abc9-b5151e7d5273",
+            "no": 12,
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_biobambam_sort_thread/log/eval_biobambam_sort_thread/log/describe-tasks.012.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/ec08604e-1d7a-42a7-be9b-1f3193466646",
+            "pullStartedAt": "2019/02/14 16:55:07 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/02/14 16:55:05 KST",
+            "startedAt": "2019/02/14 16:55:31 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_biobambam_sort_thread:2",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/14d1a63a-e168-4c9a-8603-a1e8efef4c68",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/b01cee3c-8b7d-4a8b-abc9-b5151e7d5273",
+                    "name": "eval_biobambam_sort_thread_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/02/14 17:33:07 KST",
+            "memory": "62000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 120,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_thread/script/setenv.12.sh"
+                            }
+                        ],
+                        "memory": 62000,
+                        "name": "eval_biobambam_sort_thread_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/02/14 16:55:30 KST",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/02/14 17:33:07 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "288ee7a8-3033-11e9-8a03-2b3927ed624d",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "288ee7a8-3033-11e9-8a03-2b3927ed624d",
+            "date": "Thu, 14 Feb 2019 08:33:08 GMT",
+            "content-length": "1644",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

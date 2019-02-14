@@ -1,0 +1,46 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_biobambam_sort_index",
+    "ClusterName": "eval_biobambam_sort_index",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-14 18:02:19.346981",
+    "Image": "kyamamot/eval-biobambam-0.0.191:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-14 18:02:19.346826",
+            "ExitCode": 0,
+            "InstanceId": "i-06fab91ee168abf79",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.26508333333333334,
+            "Start": "2019-02-14 17:42:41.166475",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.3272723197222222
+        }
+    ],
+    "KeyName": "eval_biobambam_sort_index",
+    "LogGroupName": "ecsub-eval_biobambam_sort_index",
+    "No": 2,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_index/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-14 17:42:39.303794",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_biobambam_sort_index:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_biobambam_sort_index/log/eval_biobambam_sort_index"
+}

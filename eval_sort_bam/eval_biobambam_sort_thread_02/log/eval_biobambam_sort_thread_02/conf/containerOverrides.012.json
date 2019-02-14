@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_thread/script/setenv.12.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_biobambam_sort_thread_task",
+            "memory": 62000
+        }
+    ]
+}

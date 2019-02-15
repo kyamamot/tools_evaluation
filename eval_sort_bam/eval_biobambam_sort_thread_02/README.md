@@ -1,7 +1,7 @@
 # eval_biobambam_sort_thread
 
 ## Description
-bamsort [inputthreads={n} outputthreads={m}] inputformat={sam|bam} outputformat=bam I=input.{sam|bam} O=output.bam --tmpfile=/scratch
+bamsort [inputthreads={n} outputthreads={m}] inputformat={sam|bam} outputformat=bam I=input.{sam|bam} O=output.bam
 
 ## Computing Environment
 aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS

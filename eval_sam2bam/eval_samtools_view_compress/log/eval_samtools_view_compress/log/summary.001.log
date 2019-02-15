@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_compress",
+    "ClusterName": "eval_samtools_view_compress",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-15 17:54:54.371644",
+    "Image": "kyamamot/eval-sambamba-0.6.8:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-15 17:54:54.371553",
+            "ExitCode": 0,
+            "InstanceId": "i-069a161ef8059dc70",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.26566666666666666,
+            "Start": "2019-02-15 17:39:14.393071",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.2611051338888889
+        }
+    ],
+    "KeyName": "eval_samtools_view_compress",
+    "LogGroupName": "ecsub-eval_samtools_view_compress",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_compress/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-15 17:39:13.445516",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sam2bam/eval_samtools_view_compress/log/eval_samtools_view_compress"
+}

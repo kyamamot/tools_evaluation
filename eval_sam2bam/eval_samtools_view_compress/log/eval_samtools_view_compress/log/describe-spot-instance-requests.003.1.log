@@ -4,14 +4,14 @@
             "Status": {
                 "Message": "Your spot request is fulfilled.",
                 "Code": "fulfilled",
-                "UpdateTime": "2019-02-15T09:03:08+00:00Z"
+                "UpdateTime": "2019-02-15T08:39:29+00:00Z"
             },
             "ProductDescription": "Linux/UNIX",
-            "ValidUntil": "2019-02-22T09:03:06+00:00Z",
+            "ValidUntil": "2019-02-22T08:39:27+00:00Z",
             "Tags": [],
-            "InstanceId": "i-0bbe9e139c9cbede0",
+            "InstanceId": "i-0335f7ba060185d4a",
             "InstanceInterruptionBehavior": "terminate",
-            "SpotInstanceRequestId": "sir-v8dr1jbm",
+            "SpotInstanceRequestId": "sir-3h3r3hjq",
             "State": "active",
             "LaunchedAvailabilityZone": "ap-southeast-1a",
             "LaunchSpecification": {
@@ -33,11 +33,11 @@
                         "Ebs": {
                             "DeleteOnTermination": true,
                             "VolumeType": "gp2",
-                            "VolumeSize": 200
+                            "VolumeSize": 120
                         }
                     }
                 ],
-                "KeyName": "eval_biobambam_sort_compress",
+                "KeyName": "eval_samtools_view_compress",
                 "SecurityGroups": [
                     {
                         "GroupName": "default",
@@ -54,18 +54,18 @@
                 "InstanceType": "m5.4xlarge"
             },
             "Type": "one-time",
-            "CreateTime": "2019-02-15T09:03:06+00:00Z",
+            "CreateTime": "2019-02-15T08:39:27+00:00Z",
             "SpotPrice": "0.960000"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "fed24d8f-aa11-43ae-8aa2-5f16cea70908",
+        "RequestId": "946996ab-37b0-4a5d-b4e6-7f8775cf5c42",
         "HTTPHeaders": {
-            "date": "Fri, 15 Feb 2019 09:03:15 GMT",
+            "date": "Fri, 15 Feb 2019 08:53:57 GMT",
             "vary": "Accept-Encoding",
-            "content-length": "2832",
+            "content-length": "2831",
             "content-type": "text/xml;charset=UTF-8",
             "server": "AmazonEC2"
         }

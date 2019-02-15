@@ -13,7 +13,7 @@
             "DeviceName": "/dev/sdb",
             "Ebs": {
                 "DeleteOnTermination": true,
-                "VolumeSize": 120,
+                "VolumeSize": 200,
                 "VolumeType": "gp2"
             }
         }

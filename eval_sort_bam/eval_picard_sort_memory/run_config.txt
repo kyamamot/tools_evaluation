@@ -7,4 +7,4 @@ AWS_EC2_INSTANCE_TYPE=m5.4xlarge
 AWS_DISK_SIZE=120
 AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
 EVAL_DESCRIPTION="java <java_option> -jar picard.jar SortSam I=<sam_file> O=<bam_file> SO=<sort_order> <picard_option>"
-EVAL_ENVIRONMENT="aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"
+EVAL_ENVIRONMENT="m5.4xlarge Amazon EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"

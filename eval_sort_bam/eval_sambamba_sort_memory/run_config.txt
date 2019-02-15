@@ -7,4 +7,4 @@ AWS_EC2_INSTANCE_TYPE=m5.4xlarge
 AWS_DISK_SIZE=120
 AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
 EVAL_DESCRIPTION="sambamba sort [-m {1G|2G|4G|8G|16G|32G|64G}] -t 8 --tmpdir /scratch -o sorted_bam unsorted_bam"
-EVAL_ENVIRONMENT="aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"
+EVAL_ENVIRONMENT="m5.4xlarge Amazon EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"

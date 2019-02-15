@@ -1,0 +1,70 @@
+{
+    "TerminatingInstances": [
+        {
+            "InstanceId": "i-032e688af4dc7e308", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-076437e3354018faf", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-02bf68fc061db016f", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-0d8beaf920d958875", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-0a4874460362b0189", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-09025ca76ece47bce", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/e30f2957-3fbb-459d-9cb4-9580f188c7e0", 
+            "group": "family:eval_samtools_sort_memory", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_memory/script/setenv.2.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_samtools_sort_memory_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/8642aac1-2f45-426f-b08e-bc9aef653d33", 
+            "createdAt": 1550209784.258, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_sort_memory", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_sort_memory:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/b0ac3ab0-f94c-4239-b2bb-1ae53e5fddfa", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/e30f2957-3fbb-459d-9cb4-9580f188c7e0", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_samtools_sort_memory_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	--threads 8	coordinate
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-n --threads 8	read name (-n)

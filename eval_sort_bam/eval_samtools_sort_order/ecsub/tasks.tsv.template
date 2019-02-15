@@ -1,0 +1,3 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	--threads 8	coordinate
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-n --threads 8	read name (-n)

@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_sort_thread",
+    "ClusterName": "eval_samtools_sort_thread",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-15 13:34:54.588425",
+    "Image": "kyamamot/eval-samtools-1.9:20190201",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-15 13:34:54.588329",
+            "ExitCode": 0,
+            "InstanceId": "i-0693acab74f9e0c6c",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.26566666666666666,
+            "Start": "2019-02-15 13:14:45.464381",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.3358677633333333
+        }
+    ],
+    "KeyName": "eval_samtools_sort_thread",
+    "LogGroupName": "ecsub-eval_samtools_sort_thread",
+    "No": 3,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_sort_thread/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-15 13:14:43.391461",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_sort_thread:2",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sort_bam/eval_samtools_sort_thread/log/eval_samtools_sort_thread"
+}

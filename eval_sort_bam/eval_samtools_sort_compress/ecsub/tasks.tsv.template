@@ -1,0 +1,5 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	--threads 8	(default)
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-l 0 --threads 8	-l 0
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-l 1 --threads 8	-l 1
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-l 9 --threads 8	-l 9

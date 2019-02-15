@@ -1,0 +1,32 @@
+coordinate	0	2019/02/15 05:56:00	1	Percent
+coordinate	1	2019/02/15 05:57:00	1	Percent
+coordinate	2	2019/02/15 05:58:00	1	Percent
+coordinate	3	2019/02/15 05:59:00	13	Percent
+coordinate	4	2019/02/15 06:00:00	21	Percent
+coordinate	5	2019/02/15 06:01:00	28	Percent
+coordinate	6	2019/02/15 06:02:00	35	Percent
+coordinate	7	2019/02/15 06:03:00	41	Percent
+coordinate	8	2019/02/15 06:04:00	47	Percent
+coordinate	9	2019/02/15 06:05:00	51	Percent
+coordinate	10	2019/02/15 06:06:00	53	Percent
+coordinate	11	2019/02/15 06:07:00	56	Percent
+coordinate	12	2019/02/15 06:08:00	39	Percent
+coordinate	13	2019/02/15 06:09:00	39	Percent
+coordinate	14	2019/02/15 06:10:00	39	Percent
+read name (-n)	0	2019/02/15 05:56:00	1	Percent
+read name (-n)	1	2019/02/15 05:57:00	1	Percent
+read name (-n)	2	2019/02/15 05:58:00	1	Percent
+read name (-n)	3	2019/02/15 05:59:00	10	Percent
+read name (-n)	4	2019/02/15 06:00:00	20	Percent
+read name (-n)	5	2019/02/15 06:01:00	27	Percent
+read name (-n)	6	2019/02/15 06:02:00	34	Percent
+read name (-n)	7	2019/02/15 06:03:00	39	Percent
+read name (-n)	8	2019/02/15 06:04:00	44	Percent
+read name (-n)	9	2019/02/15 06:05:00	50	Percent
+read name (-n)	10	2019/02/15 06:06:00	53	Percent
+read name (-n)	11	2019/02/15 06:07:00	56	Percent
+read name (-n)	12	2019/02/15 06:08:00	59	Percent
+read name (-n)	13	2019/02/15 06:09:00	58	Percent
+read name (-n)	14	2019/02/15 06:10:00	39	Percent
+read name (-n)	15	2019/02/15 06:11:00	39	Percent
+read name (-n)	16	2019/02/15 06:12:00	39	Percent

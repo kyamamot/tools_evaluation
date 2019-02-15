@@ -1,0 +1,28 @@
+{
+    "CancelledSpotInstanceRequests": [
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-2d5i1dvn"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-hr381rhn"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-5maiis4m"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-fxzi119n"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-9r8g3ijn"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-i3ai1cbm"
+        }
+    ]
+}

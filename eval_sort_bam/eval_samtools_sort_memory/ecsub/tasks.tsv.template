@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	--threads 8	(default:768M)
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-m 1G --threads 8	-m 1G
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-m 2G  --threads 8	-m 2G
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-m 4G --threads 8	-m 4G
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-m 8G --threads 8	-m 8G
+___SAMPLE___	___BAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	-m 16G --threads 8	-m 16G

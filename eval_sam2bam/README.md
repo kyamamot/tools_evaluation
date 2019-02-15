@@ -1,5 +1,53 @@
 # eval_sam2bam
 
+## sambamba view
+```
+sambamba 0.6.8 by Artem Tarasov and Pjotr Prins (C) 2012-2018
+    LDC 1.10.0 / DMD v2.080.1 / LLVM6.0.1 / bootstrap LDC - the LLVM D compiler (0.17.4)
+
+Usage: sambamba-view [options] <input.bam | input.sam> [region1 [...]]
+
+Options: -F, --filter=FILTER
+                    set custom filter for alignments
+         --num-filter=NUMFILTER
+                    filter flag bits; 'i1/i2' corresponds to -f i1 -F i2 samtools arguments;
+                    either of the numbers can be omitted
+         -f, --format=sam|bam|cram|json|unpack
+                    specify which format to use for output (default is SAM);
+                    unpack streams unpacked BAM
+         -h, --with-header
+                    print header before reads (always done for BAM output)
+         -H, --header
+                    output only header to stdout (if format=bam, the header is printed as SAM)
+         -I, --reference-info
+                    output to stdout only reference names and lengths in JSON
+         -L, --regions=FILENAME
+                    output only reads overlapping one of regions from the BED file
+         -c, --count
+                    output to stdout only count of matching records, hHI are ignored
+         -v, --valid
+                    output only valid alignments
+         -S, --sam-input
+                    specify that input is in SAM format
+         -C, --cram-input
+                    specify that input is in CRAM format
+         -T, --ref-filename=FASTA
+                    specify reference for writing CRAM
+         -p, --show-progress
+                    show progressbar in STDERR (works only for BAM files with no regions specified)
+         -l, --compression-level
+                    specify compression level (from 0 to 9, works only for BAM output)
+         -o, --output-filename
+                    specify output filename
+         -t, --nthreads=NTHREADS
+                    maximum number of threads to use
+         -s, --subsample=FRACTION
+                    subsample reads (read pairs)
+         --subsampling-seed=SEED
+                    set seed for subsampling
+```
+
+## samtools view
 ```
 Usage: samtools view [options] <in.bam>|<in.sam>|<in.cram> [region ...]
 

@@ -1,6 +1,6 @@
 # eval_sort_bam
 
-## biobambam
+## biobambam bamsort
 ```
 This is biobambam version 0.0.191.
 biobambam is distributed under version 3 of the GNU General Public License.
@@ -36,7 +36,7 @@ nucltag=<[a-zA-Z][a-zA-Z0-9]> : aux field id for nucleotide tag extraction (addd
 markduplicates=<[0]>          : mark duplicates (only when input name collated and output coordinate sorted, disabled by default)
 ```
 
-## picard
+## picard SortSam
 ```
 USAGE: SortSam [options]
 
@@ -97,7 +97,7 @@ SO=SortOrder                  Sort order of output file.   Required. Possible va
                               } 
 ```
 
-## sambamba
+## sambamba sort
 ```
 sambamba 0.6.8 by Artem Tarasov and Pjotr Prins (C) 2012-2018
     LDC 1.10.0 / DMD v2.080.1 / LLVM6.0.1 / bootstrap LDC - the LLVM D compiler (0.17.4)
@@ -126,7 +126,7 @@ Options: -m, --memory-limit=LIMIT
                keep only reads that satisfy FILTER
 ```
 
-## samtools
+## samtools sort
 ```
 Usage: samtools sort [options...] [in.bam]
 Options:

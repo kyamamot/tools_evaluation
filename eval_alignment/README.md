@@ -1,5 +1,6 @@
 # eval_alignment
 
+## bwa mem
 ```
 Usage: bwa mem [options] <idxbase> <in1.fq> [in2.fq]
 

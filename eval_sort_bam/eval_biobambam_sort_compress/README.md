@@ -1,10 +1,8 @@
 # eval_biobambam_sort_compress
 
-Note: "level=0" has failed with the following error.
-```
-terminate called after throwing an instance of 'libmaus::exception::LibMausException'
-what(): failed to write compressed data to bgzf stream.
-```
+> Note: "level=0" has failed with the following error.
+>> terminate called after throwing an instance of 'libmaus::exception::LibMausException'
+>> what(): failed to write compressed data to bgzf stream.
 
 ## Description
 bamsort [level={-1|0|1|9}] inputformat=sam outputthreads=15 outputformat=bam I=input.sam O=output.bam

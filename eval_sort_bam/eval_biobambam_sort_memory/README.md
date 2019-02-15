@@ -1,6 +1,6 @@
 # eval_biobambam_sort_memory
 
-Note: "blockmb=65536" has failed with the memory allocation error.
+> Note: "blockmb=65536" has failed with the memory allocation error.
 
 ## Description
 bamsort [blockmb={1024|4096|16384|65536}] inputformat=sam outputthreads=15 outputformat=bam I=input.sam O=output.bam

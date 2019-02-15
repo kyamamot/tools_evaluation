@@ -1,6 +1,6 @@
 # eval_biobambam_sort_compress
 
-<font color="red">level=0 has failed with the following error.</font>
+Note: level=0 has failed with the following error.
 ```
 terminate called after throwing an instance of 'libmaus::exception::LibMausException'
 what(): failed to write compressed data to bgzf stream.

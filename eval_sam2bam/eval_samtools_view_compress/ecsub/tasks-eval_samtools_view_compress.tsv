@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env VIEW_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh	(default)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh -u	-u(uncompress)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh -1	-1(fast)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh --threads 16	(default),thread=16
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh -u --threads 16	-u(uncompress),thread=16
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Sbh -1 --threads 16	-1(fast),thread=16

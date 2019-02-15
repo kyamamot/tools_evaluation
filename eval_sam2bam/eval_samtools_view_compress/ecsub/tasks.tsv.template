@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env VIEW_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh	(default)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh -u	-u(uncompress)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh -1	-1(fast)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh --threads 16	(default),thread=16
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh -u --threads 16	-u(uncompress),thread=16
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-Sbh -1 --threads 16	-1(fast),thread=16

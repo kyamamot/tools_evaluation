@@ -1,0 +1,6 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam outputthreads=15	(default)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam level=-1 outputthreads=15	level=-1(zlib default)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam level=0 outputthreads=15	level=0(uncompressed)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam level=1 outputthreads=15	level=1(fast)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam level=9 outputthreads=15	level=9(best)

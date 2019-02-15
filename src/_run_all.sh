@@ -84,4 +84,4 @@ if [ ! -d ${output_directory} ]; then
 	mkdir ${output_directory}
 fi
 
-Rscript ${root_directory}/../src/R/plot.R ${metrics_directory} ${output_directory}
+Rscript ${root_directory}/../../src/R/plot.R ${metrics_directory} ${output_directory}

@@ -1,10 +1,10 @@
 SAMPLE=5929_tumor
-INPUT_FILE=s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam
+SAM_FILE=s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam
 OUTPUT_DIR=s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/
 REFERENCE=s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/
 DOCKER_IMAGE=kyamamot/eval-sambamba-0.6.8:20190204
-AWS_EC2_INSTANCE_TYPE=m5.2xlarge
+AWS_EC2_INSTANCE_TYPE=m5.4xlarge
 AWS_DISK_SIZE=120
 AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
-EVAL_DESCRIPTION="samtools view -@ {thread} -Sbh[u] {sam_file}"
-EVAL_ENVIRONMENT="m5.2xlarge Amazon EC2 spot instance - 8 cpu, 32GiB memory, 120GB EBS"
+EVAL_DESCRIPTION="samtools view [--threads {1|2|4|8|16}] -Sbh {sam_file}"
+EVAL_ENVIRONMENT="m5.4xlarge Amazon EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"

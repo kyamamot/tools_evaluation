@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/579e332b-0a8e-4c01-a1e0-e8bf78599184", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/2d5d783f-9c5f-4aee-ab32-be5c8a8a9243", 
             "group": "family:eval_samtools_view_thread", 
             "attachments": [], 
             "tags": [], 
@@ -15,26 +15,26 @@
                                 "value": "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_thread/script/setenv.2.sh"
                             }
                         ], 
-                        "memory": 30000, 
+                        "memory": 62000, 
                         "name": "eval_samtools_view_thread_task", 
-                        "cpu": 8
+                        "cpu": 16
                     }
                 ]
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/009d93dd-dd9c-489a-8f9f-18861a519b3b", 
-            "createdAt": 1549607244.142, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/091cf30f-e7e2-4570-b2be-800009ef74d7", 
+            "createdAt": 1550219932.69, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_thread", 
-            "memory": "30000", 
+            "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:1", 
-            "cpu": "8", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:6", 
+            "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/c208eaf7-ddac-41b7-8572-c94d61639c5e", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/579e332b-0a8e-4c01-a1e0-e8bf78599184", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/a833635d-07f6-4c9f-af68-0ed512136c4c", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/2d5d783f-9c5f-4aee-ab32-be5c8a8a9243", 
                     "lastStatus": "PENDING", 
                     "name": "eval_samtools_view_thread_task", 
                     "networkInterfaces": []

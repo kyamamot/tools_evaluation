@@ -3,6 +3,5 @@ export S3_INPUT_FILE="s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/592
 export INPUT_FILE="/scratch/AWS_DATA/keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam"
 export S3_OUTPUT_DIR="s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/"
 export OUTPUT_DIR="/scratch/AWS_DATA/keisuke-singapore/sample/exome/5929_tumor_100/bam/"
-export THREAD="2"
-export SAMTOOLS_VIEW_OPTION="-Sbh"
-export EVAL_CONDITION="thread=2,-Sbh"
+export VIEW_OPTION="-Sbh --threads=16"
+export EVAL_CONDITION="-Sbh --threads=16"

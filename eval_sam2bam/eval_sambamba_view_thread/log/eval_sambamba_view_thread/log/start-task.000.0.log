@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/13210606-08f1-44e9-89e1-6d1b07cd26af", 
+            "group": "family:eval_sambamba_view_thread", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_thread/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_sambamba_view_thread_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/8076a594-ce75-4ab2-89c8-2a6763998289", 
+            "createdAt": 1550216283.896, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_view_thread", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_view_thread:2", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/4de6c7a0-8973-491a-b9f6-c22748edeae1", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/13210606-08f1-44e9-89e1-6d1b07cd26af", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_sambamba_view_thread_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

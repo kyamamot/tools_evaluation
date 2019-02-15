@@ -1,0 +1,8 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env VIEW_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 1	default (thread=1)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 1 -l 0	-l 0 (thread=1)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 1 -l 1	-l 1 (thread=1)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 1 -l 9	-l 9 (thread=1)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 16 -l 0	-l 0 (thread=16)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 16 -l 1	-l 1 (thread=16)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-S -h --format=bam -t 16 -l 9	-l 9 (thread=16)

@@ -7,9 +7,9 @@
                     "value": "s3://keisuke-singapore/tools_evaluation/eval_samtools_view_thread/script/setenv.0.sh"
                 }
             ],
-            "cpu": 8,
+            "cpu": 16,
             "name": "eval_samtools_view_thread_task",
-            "memory": 30000
+            "memory": 62000
         }
     ]
 }

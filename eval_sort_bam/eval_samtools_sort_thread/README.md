@@ -1,7 +1,7 @@
 # eval_samtools_sort_thread
 
 ## Description
-
+samtools sort [--threads {1|2|4|8|16}] {input_bam} -o {output_bam}
 
 ## Computing Environment
 aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS

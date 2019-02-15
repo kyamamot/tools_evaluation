@@ -1,0 +1,8 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env VIEW_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 1	default (thread=1)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 1 -l 0	-l 0 (thread=1)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 1 -l 1	-l 1 (thread=1)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 1 -l 9	-l 9 (thread=1)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 16 -l 0	-l 0 (thread=16)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 16 -l 1	-l 1 (thread=16)
+___SAMPLE___	___SAM_FILE___	___OUTPUT_DIR___	-S -h --format=bam -t 16 -l 9	-l 9 (thread=16)

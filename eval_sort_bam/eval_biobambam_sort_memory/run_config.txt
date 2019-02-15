@@ -1,0 +1,11 @@
+SAMPLE=5929_tumor
+SAM_FILE=s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam
+BAM_FILE=s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam
+OUTPUT_DIR=s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/
+REFERENCE=s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/
+DOCKER_IMAGE=kyamamot/eval-biobambam-0.0.191:20190204
+AWS_EC2_INSTANCE_TYPE=m5.4xlarge
+AWS_DISK_SIZE=120
+AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
+EVAL_DESCRIPTION="bamsort [blockmb={1024|4096|16384|65536}] inputformat=sam outputthreads=15 outputformat=bam I=input.sam O=output.bam"
+EVAL_ENVIRONMENT="aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS"

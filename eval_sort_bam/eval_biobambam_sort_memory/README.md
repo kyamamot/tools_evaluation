@@ -1,7 +1,9 @@
-# eval_biobambam_sort_index
+# eval_biobambam_sort_memory
+
+Note: "blockmb=65536" has failed with the memory allocation error.
 
 ## Description
-bamsort [index=1] [outputthreads=15] inputformat=sam outputformat=bam I=input.sam O=output.bam
+bamsort [blockmb={1024|4096|16384|65536}] inputformat=sam outputthreads=15 outputformat=bam I=input.sam O=output.bam
 
 ## Computing Environment
 aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS

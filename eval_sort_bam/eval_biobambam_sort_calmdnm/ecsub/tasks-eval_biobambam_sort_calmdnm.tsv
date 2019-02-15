@@ -1,0 +1,4 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	inputformat=sam outputformat=bam outputthreads=15	(default)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	inputformat=sam outputformat=bam outputthreads=15 calmdnm=1	calmdnm=1
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	inputformat=sam outputformat=bam outputthreads=15 calmdnm=1 calmdnmrecompindetonly=1	calmdnm=1,calmdnmrecompindetonly=1

@@ -1,0 +1,45 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_biobambam_sort_calmdnm",
+    "ClusterName": "eval_biobambam_sort_calmdnm",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-15 12:01:32.696371",
+    "Image": "kyamamot/eval-biobambam-0.0.191:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-15 12:01:32.696279",
+            "ExitCode": 0,
+            "InstanceId": "i-0d41e945766b2e9f9",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.2655363636363636,
+            "Start": "2019-02-15 11:42:41.443625",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.3142368483333333
+        }
+    ],
+    "KeyName": "eval_biobambam_sort_calmdnm",
+    "LogGroupName": "ecsub-eval_biobambam_sort_calmdnm",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/setenv.2.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-15 11:42:39.564505",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_biobambam_sort_calmdnm:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sort_bam/eval_biobambam_sort_calmdnm/log/eval_biobambam_sort_calmdnm"
+}

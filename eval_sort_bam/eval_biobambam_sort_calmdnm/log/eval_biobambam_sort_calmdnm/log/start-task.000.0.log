@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/01603109-102e-435c-9cd9-e85b32b9b9ef", 
+            "group": "family:eval_biobambam_sort_calmdnm", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_calmdnm/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_biobambam_sort_calmdnm_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/b10597ed-3e6e-4804-8ed9-84fd59decc37", 
+            "createdAt": 1550198686.899, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_biobambam_sort_calmdnm", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_biobambam_sort_calmdnm:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/197d80c7-169a-423c-bf24-c8801ccaa388", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/01603109-102e-435c-9cd9-e85b32b9b9ef", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_biobambam_sort_calmdnm_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
-# eval_biobambam_sort_index
+# eval_biobambam_sort_order
 
 ## Description
-bamsort [index=1] [outputthreads=15] inputformat=sam outputformat=bam I=input.sam O=output.bam
+bamsort [SO={coordinate|queryname}] inputformat=sam outputthreads=15 outputformat=bam I=input.sam O=output.bam
 
 ## Computing Environment
 aws m5.4xlarge EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS

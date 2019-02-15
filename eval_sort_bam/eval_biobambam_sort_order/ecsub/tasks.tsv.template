@@ -1,0 +1,4 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam outputthreads=15	(default)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam SO=coordinate outputthreads=15	SO=coordinate(default)
+___SAMPLE___	___SAM_FILE___	___REFERENCE___	___OUTPUT_DIR___	inputformat=sam outputformat=bam SO=queryname outputthreads=15	SO=queryname

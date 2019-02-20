@@ -1,0 +1,2 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env THREAD	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	default	(thread=default)

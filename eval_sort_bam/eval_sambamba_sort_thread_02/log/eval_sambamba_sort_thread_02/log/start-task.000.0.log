@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/b7126958-3d15-460f-b61c-2d51c8a3cab0", 
+            "group": "family:eval_sambamba_sort_thread_02", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_thread_02/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_sambamba_sort_thread_02_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/bd85828e-cc0a-4e40-9d32-c894b81147ca", 
+            "createdAt": 1550665728.445, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_sort_thread_02", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_sort_thread_02:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/57a58560-72a9-4d40-82aa-ed4f1dcf4957", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/b7126958-3d15-460f-b61c-2d51c8a3cab0", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_sambamba_sort_thread_02_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

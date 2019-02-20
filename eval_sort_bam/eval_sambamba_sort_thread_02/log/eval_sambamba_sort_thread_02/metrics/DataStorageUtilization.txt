@@ -1,0 +1,13 @@
+(thread=default)	0	2019/02/20 12:28:00	1	Percent
+(thread=default)	1	2019/02/20 12:29:00	1	Percent
+(thread=default)	2	2019/02/20 12:30:00	1	Percent
+(thread=default)	3	2019/02/20 12:31:00	11	Percent
+(thread=default)	4	2019/02/20 12:32:00	20	Percent
+(thread=default)	5	2019/02/20 12:33:00	27	Percent
+(thread=default)	6	2019/02/20 12:34:00	33	Percent
+(thread=default)	7	2019/02/20 12:35:00	40	Percent
+(thread=default)	8	2019/02/20 12:36:00	44	Percent
+(thread=default)	9	2019/02/20 12:37:00	47	Percent
+(thread=default)	10	2019/02/20 12:38:00	50	Percent
+(thread=default)	11	2019/02/20 12:39:00	31	Percent
+(thread=default)	12	2019/02/20 12:40:00	31	Percent

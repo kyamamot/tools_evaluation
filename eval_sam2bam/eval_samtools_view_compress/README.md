@@ -1,7 +1,7 @@
 # eval_samtools_view_compress
 
 ## Description
-samtools view [--threads {1|2|4|8|16}] -Sbh {sam_file}
+samtools view [--threads {1|16}] -Sbh [-u|-1]
 
 ## Computing Environment
 m5.4xlarge Amazon EC2 spot instance - 16 cpu, 64GiB memory, 120GB EBS

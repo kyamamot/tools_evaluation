@@ -34,7 +34,7 @@ data$V1 <- factor(data$V1, levels=conditions_order)
 
 chart_cpu <- ggplot(data, aes(x = data[,2], y = data[,4])) +
     geom_line(aes(color = factor(data[,1]))) +
-    scale_y_continuous(breaks=seq(0,100,by=10),limits=c(0,100)) +
+    scale_y_continuous(breaks=seq(0,100,by=6.25),limits=c(0,100)) +
     labs(x = "Index (minute)", y = "CPU Utilization (%)", color = "Condition")
 
 output_file <- paste(output_directory, "cpu_utilization.png", sep = "/")

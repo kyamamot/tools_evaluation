@@ -1,0 +1,5 @@
+--env SAMPLE	--input INPUT_FILE	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env SORT_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	--threads 8	(default)
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 0 --threads 8	-l 0
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 1 --threads 8	-l 1
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.uncompressed.bam	s3://keisuke-singapore/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-l 9 --threads 8	-l 9

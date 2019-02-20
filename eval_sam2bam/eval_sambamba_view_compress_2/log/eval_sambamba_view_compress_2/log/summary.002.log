@@ -1,0 +1,46 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_view_compress_2",
+    "ClusterName": "eval_sambamba_view_compress_2",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-20 19:14:22.613784",
+    "Image": "kyamamot/eval-sambamba-0.6.8:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-20 19:14:22.613682",
+            "ExitCode": 0,
+            "InstanceId": "i-05fd2766e43b59f98",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.26681333333333335,
+            "Start": "2019-02-20 19:01:46.527613",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.21002390805555554
+        }
+    ],
+    "KeyName": "eval_sambamba_view_compress_2",
+    "LogGroupName": "ecsub-eval_sambamba_view_compress_2",
+    "No": 2,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_sambamba_view_compress_2/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-20 19:01:45.610839",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_view_compress_2:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sam2bam/eval_sambamba_view_compress_2/log/eval_sambamba_view_compress_2"
+}

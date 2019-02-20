@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/2d5d783f-9c5f-4aee-ab32-be5c8a8a9243", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ed32962c-9afb-4cfe-a0fd-1d295a194564", 
             "group": "family:eval_samtools_view_thread", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/091cf30f-e7e2-4570-b2be-800009ef74d7", 
-            "createdAt": 1550219932.69, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/4258a3a4-2f75-445f-9caa-fb9445d6af65", 
+            "createdAt": 1550626553.304, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_thread", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:6", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:7", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/a833635d-07f6-4c9f-af68-0ed512136c4c", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/2d5d783f-9c5f-4aee-ab32-be5c8a8a9243", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/03be0a64-24c9-4e97-889c-030bcc6d13a9", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ed32962c-9afb-4cfe-a0fd-1d295a194564", 
                     "lastStatus": "PENDING", 
                     "name": "eval_samtools_view_thread_task", 
                     "networkInterfaces": []

@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/05623f15-2a5c-4bf6-b327-43bf6ccfe156", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/e27e9452-662a-48dc-a5fd-9f3728627f29", 
             "group": "family:eval_samtools_view_thread", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/39d65e81-2f8f-4115-bb6d-7b860ca891cd", 
-            "createdAt": 1550219973.065, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/0e98c417-6de2-4706-9803-fe5e58d4e4dc", 
+            "createdAt": 1550626624.364, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_thread", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:6", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_thread:7", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/faebff72-f8dd-40bb-aef4-1647da193b89", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/05623f15-2a5c-4bf6-b327-43bf6ccfe156", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/def24048-fb29-45b5-8f0b-443dc1bd074b", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/e27e9452-662a-48dc-a5fd-9f3728627f29", 
                     "lastStatus": "PENDING", 
                     "name": "eval_samtools_view_thread_task", 
                     "networkInterfaces": []

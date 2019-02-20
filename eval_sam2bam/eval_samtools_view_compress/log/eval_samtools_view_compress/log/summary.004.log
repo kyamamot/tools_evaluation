@@ -6,21 +6,21 @@
     "Ec2InstanceDiskSize": 120,
     "EcsTaskMemory": 0,
     "EcsTaskVcpu": 0,
-    "End": "2019-02-15 17:54:56.078188",
+    "End": "2019-02-20 12:35:29.791021",
     "Image": "kyamamot/eval-sambamba-0.6.8:20190204",
     "Jobs": [
         {
             "Ec2InstanceType": "m5.4xlarge",
-            "End": "2019-02-15 17:54:56.078094",
+            "End": "2019-02-20 12:35:29.790925",
             "ExitCode": 0,
-            "InstanceId": "i-08402c519b3a28adb",
+            "InstanceId": "i-02eededff73a67add",
             "OdPrice": 0.96,
             "Spot": true,
-            "SpotAz": "ap-southeast-1a",
-            "SpotPrice": 0.26566666666666666,
-            "Start": "2019-02-15 17:39:29.634738",
-            "SubnetId": "subnet-84dbd9e3",
-            "WorkHours": 0.2573453766666667
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.2667666666666667,
+            "Start": "2019-02-20 12:20:44.820690",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.24582506527777778
         }
     ],
     "KeyName": "eval_samtools_view_compress",
@@ -40,9 +40,9 @@
     "SecurityGroupId": "sg-b8b110c0",
     "Shell": "/bin/bash",
     "Spot": true,
-    "Start": "2019-02-15 17:39:28.455680",
+    "Start": "2019-02-20 12:20:43.892752",
     "SubnetId": "",
-    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:1",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:2",
     "UseAmazonEcr": false,
     "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sam2bam/eval_samtools_view_compress/log/eval_samtools_view_compress"
 }

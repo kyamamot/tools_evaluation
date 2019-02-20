@@ -4,15 +4,15 @@
             "Status": {
                 "Message": "Your Spot request has been submitted for review, and is pending evaluation.", 
                 "Code": "pending-evaluation", 
-                "UpdateTime": "2019-02-15T08:35:44.000Z"
+                "UpdateTime": "2019-02-20T01:33:31.000Z"
             }, 
             "ProductDescription": "Linux/UNIX", 
             "InstanceInterruptionBehavior": "terminate", 
-            "SpotInstanceRequestId": "sir-x618169q", 
+            "SpotInstanceRequestId": "sir-4xkg1tam", 
             "State": "open", 
             "LaunchSpecification": {
                 "Placement": {
-                    "AvailabilityZone": "ap-southeast-1a"
+                    "AvailabilityZone": "ap-southeast-1c"
                 }, 
                 "ImageId": "ami-00ae2723e3c86c93e", 
                 "BlockDeviceMappings": [
@@ -40,7 +40,7 @@
                         "GroupId": "sg-b8b110c0"
                     }
                 ], 
-                "SubnetId": "subnet-84dbd9e3", 
+                "SubnetId": "subnet-86d42ddf", 
                 "Monitoring": {
                     "Enabled": false
                 }, 
@@ -50,7 +50,7 @@
                 "InstanceType": "m5.4xlarge"
             }, 
             "Type": "one-time", 
-            "CreateTime": "2019-02-15T08:35:44.000Z", 
+            "CreateTime": "2019-02-20T01:33:31.000Z", 
             "SpotPrice": "0.960000"
         }
     ]

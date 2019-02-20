@@ -1,0 +1,47 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-00ae2723e3c86c93e",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_biobambam_sort_compress",
+    "ClusterName": "eval_biobambam_sort_compress",
+    "Ec2InstanceDiskSize": 200,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-20 10:42:26.412337",
+    "Image": "kyamamot/eval-biobambam-0.0.191:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-20 10:42:26.412245",
+            "ExitCode": 0,
+            "InstanceId": "i-053ff5a5dd1c85a8c",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.2667666666666667,
+            "Start": "2019-02-20 10:25:42.976810",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.2787320652777778
+        }
+    ],
+    "KeyName": "eval_biobambam_sort_compress",
+    "LogGroupName": "ecsub-eval_biobambam_sort_compress",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_biobambam_sort_compress/script/setenv.4.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-20 10:25:41.047681",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_biobambam_sort_compress:5",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_sort_bam/eval_biobambam_sort_compress/log/eval_biobambam_sort_compress"
+}

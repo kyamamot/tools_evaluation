@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/bef2d527-b961-4e4d-9085-1ec627275c22", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/7e482545-bafd-44f3-8fdc-102a8a2563cb", 
             "group": "family:eval_samtools_view_compress", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/614b17bd-e1fa-42e9-8711-1951adf4ce8f", 
-            "createdAt": 1550220150.42, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/ea9f8428-7f56-4350-ae5a-710761ac71af", 
+            "createdAt": 1550632980.911, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_compress", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:1", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:2", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/5513ee0b-2d95-4796-98e3-b38d81a55f2f", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/bef2d527-b961-4e4d-9085-1ec627275c22", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/df388b69-87be-489a-876d-fc52ff8c43be", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/7e482545-bafd-44f3-8fdc-102a8a2563cb", 
                     "lastStatus": "PENDING", 
                     "name": "eval_samtools_view_compress_task", 
                     "networkInterfaces": []

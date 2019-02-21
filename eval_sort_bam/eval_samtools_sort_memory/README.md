@@ -1,5 +1,7 @@
 # eval_samtools_sort_memory
 
+> Note: "-m 8G and -m 16G" failed with the memory allocation error.
+
 ## Description
 samtools sort -@ 8 [-m {1G|2G|4G|8G|16G}] {input_bam} -o {output_bam} <BR>Note: "-m" is maximum memory per thread; suffix K/M/G recognized. [768M]
 

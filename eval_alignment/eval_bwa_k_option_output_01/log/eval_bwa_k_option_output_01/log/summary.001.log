@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-05bdc52e8913188a1",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_bwa_k_option_output_01",
+    "ClusterName": "eval_bwa_k_option_output_01",
+    "Ec2InstanceDiskSize": 80,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-25 13:31:28.885031",
+    "Image": "kyamamot/eval-bwa-0.7.17:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-25 13:31:28.884935",
+            "ExitCode": 0,
+            "InstanceId": "i-092611519caa1b79a",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.26807857142857133,
+            "Start": "2019-02-25 13:21:38.802206",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.16391186916666667
+        }
+    ],
+    "KeyName": "eval_bwa_k_option_output_01",
+    "LogGroupName": "ecsub-eval_bwa_k_option_output_01",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_01/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-25 13:21:35.317128",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_bwa_k_option_output_01:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment/eval_bwa_k_option_output_01/log/eval_bwa_k_option_output_01"
+}

@@ -1,0 +1,5 @@
+Index	Timestamp	Maximum	Unit
+0	2019/02/25 04:41:00	0	Percent
+1	2019/02/25 04:42:00	1	Percent
+2	2019/02/25 04:43:00	1	Percent
+3	2019/02/25 04:44:00	9	Percent

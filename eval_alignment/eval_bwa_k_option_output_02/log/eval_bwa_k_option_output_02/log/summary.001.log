@@ -1,0 +1,46 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-05bdc52e8913188a1",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_bwa_k_option_output_02",
+    "ClusterName": "eval_bwa_k_option_output_02",
+    "Ec2InstanceDiskSize": 80,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-25 13:48:03.871152",
+    "Image": "kyamamot/eval-bwa-0.7.17:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-25 13:48:03.871053",
+            "ExitCode": 0,
+            "InstanceId": "i-04b06d7c7452428a0",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.26807857142857133,
+            "Start": "2019-02-25 13:39:33.374310",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.14180465083333332
+        }
+    ],
+    "KeyName": "eval_bwa_k_option_output_02",
+    "LogGroupName": "ecsub-eval_bwa_k_option_output_02",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_02/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-25 13:39:27.117635",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_bwa_k_option_output_02:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment/eval_bwa_k_option_output_02/log/eval_bwa_k_option_output_02"
+}

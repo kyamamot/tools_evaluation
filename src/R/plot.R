@@ -3,6 +3,7 @@
 library(ggplot2)
 library(ggsci)
 library(plyr)
+library(stringr)
 
 metrics_directory <- commandArgs(trailingOnly = TRUE)[1]
 output_directory <- commandArgs(trailingOnly = TRUE)[2]
@@ -19,11 +20,12 @@ data$V1 <- factor(data$V1, levels=rev(conditions_order))
 
 count_data <- count(data, "V1")
 
-chart_runtime <- ggplot(count_data, aes(x = V1, y = freq, fill = factor(V1))) +
+chart_runtime <- ggplot(count_data, aes(x = str_wrap(V1, width = 30), y = freq, fill = factor(V1))) +
     geom_bar(stat = "identity") +
+    geom_text(aes(label = freq), hjust = 1.5, colour = "white") +
     scale_fill_nejm() +
     labs(x = "", y = "Index (minute)", fill = "Condition") +
-    theme(legend.position = 'none') +
+    theme(legend.position = 'none', axis.text.y = element_text(size = 11)) +
     coord_flip()
 
 output_file <- paste(output_directory, "running_time.png", sep = "/")

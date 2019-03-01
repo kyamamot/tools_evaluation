@@ -6,21 +6,21 @@
     "Ec2InstanceDiskSize": 120,
     "EcsTaskMemory": 0,
     "EcsTaskVcpu": 0,
-    "End": "2019-03-01 13:05:26.497222",
+    "End": "2019-03-01 15:11:31.566350",
     "Image": "kyamamot/eval-alignment:20190228",
     "Jobs": [
         {
             "Ec2InstanceType": "m5.4xlarge",
-            "End": "2019-03-01 13:05:26.497138",
+            "End": "2019-03-01 15:11:31.566251",
             "ExitCode": 0,
-            "InstanceId": "i-04d37b26a325cd952",
+            "InstanceId": "i-039523bea129a8eb7",
             "OdPrice": 0.96,
             "Spot": true,
             "SpotAz": "ap-southeast-1c",
-            "SpotPrice": 0.2673230769230769,
-            "Start": "2019-03-01 12:12:27.658536",
+            "SpotPrice": 0.2673357142857143,
+            "Start": "2019-03-01 14:19:30.972244",
             "SubnetId": "subnet-86d42ddf",
-            "WorkHours": 0.8830107227777777
+            "WorkHours": 0.8668316686111112
         }
     ],
     "KeyName": "eval_combination_01",
@@ -39,9 +39,9 @@
     "SecurityGroupId": "sg-b8b110c0",
     "Shell": "/bin/bash",
     "Spot": true,
-    "Start": "2019-03-01 12:12:24.766851",
+    "Start": "2019-03-01 14:19:28.071026",
     "SubnetId": "",
-    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_01:9",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_01:10",
     "UseAmazonEcr": false,
     "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment_combination/eval_combination_01/log/eval_combination_01"
 }

@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/44aa75ca-08b4-4362-a12c-451ecd812d65", 
+            "group": "family:eval_bwa_y_option_output", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_bwa_y_option_output/script/setenv.1.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_bwa_y_option_output_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/6103c8d8-cf12-4b08-be25-83bad2ef951a", 
+            "createdAt": 1551084629.414, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_bwa_y_option_output", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_bwa_y_option_output:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/e0a6c6df-b98e-4bcd-ad7a-256e7e2d166c", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/44aa75ca-08b4-4362-a12c-451ecd812d65", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_bwa_y_option_output_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-05bdc52e8913188a1",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_bwa_y_option_output",
+    "ClusterName": "eval_bwa_y_option_output",
+    "Ec2InstanceDiskSize": 80,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-02-25 17:54:51.756536",
+    "Image": "kyamamot/eval-bwa-0.7.17:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-02-25 17:54:51.756442",
+            "ExitCode": 0,
+            "InstanceId": "i-0885509ba6f6ab399",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.2680461538461538,
+            "Start": "2019-02-25 17:47:36.983442",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.12077027777777778
+        }
+    ],
+    "KeyName": "eval_bwa_y_option_output",
+    "LogGroupName": "ecsub-eval_bwa_y_option_output",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_bwa_y_option_output/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_bwa_y_option_output/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_y_option_output/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_y_option_output/script/setenv.1.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-02-25 17:47:33.809192",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_bwa_y_option_output:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment/eval_bwa_y_option_output/log/eval_bwa_y_option_output"
+}

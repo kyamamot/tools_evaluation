@@ -1,0 +1,57 @@
+{
+    "SpotInstanceRequests": [
+        {
+            "Status": {
+                "Message": "Your Spot request has been submitted for review, and is pending evaluation.", 
+                "Code": "pending-evaluation", 
+                "UpdateTime": "2019-02-25T08:47:40.000Z"
+            }, 
+            "ProductDescription": "Linux/UNIX", 
+            "InstanceInterruptionBehavior": "terminate", 
+            "SpotInstanceRequestId": "sir-sfkr32cn", 
+            "State": "open", 
+            "LaunchSpecification": {
+                "Placement": {
+                    "AvailabilityZone": "ap-southeast-1c"
+                }, 
+                "ImageId": "ami-05bdc52e8913188a1", 
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvdcz", 
+                        "Ebs": {
+                            "DeleteOnTermination": true, 
+                            "VolumeType": "gp2", 
+                            "VolumeSize": 22
+                        }
+                    }, 
+                    {
+                        "DeviceName": "/dev/sdb", 
+                        "Ebs": {
+                            "DeleteOnTermination": true, 
+                            "VolumeType": "gp2", 
+                            "VolumeSize": 80
+                        }
+                    }
+                ], 
+                "KeyName": "eval_bwa_y_option_output", 
+                "SecurityGroups": [
+                    {
+                        "GroupName": "default", 
+                        "GroupId": "sg-b8b110c0"
+                    }
+                ], 
+                "SubnetId": "subnet-86d42ddf", 
+                "Monitoring": {
+                    "Enabled": false
+                }, 
+                "IamInstanceProfile": {
+                    "Name": "ecsInstanceRole"
+                }, 
+                "InstanceType": "m5.4xlarge"
+            }, 
+            "Type": "one-time", 
+            "CreateTime": "2019-02-25T08:47:40.000Z", 
+            "SpotPrice": "0.960000"
+        }
+    ]
+}

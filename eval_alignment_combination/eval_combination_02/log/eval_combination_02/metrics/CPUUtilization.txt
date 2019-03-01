@@ -1,0 +1,252 @@
+bwa mem (t=8)	0	2019/03/01 01:57:00	1	Percent
+bwa mem (t=8)	1	2019/03/01 01:58:00	2	Percent
+bwa mem (t=8)	2	2019/03/01 01:59:00	3	Percent
+bwa mem (t=8)	3	2019/03/01 02:00:00	5	Percent
+bwa mem (t=8)	4	2019/03/01 02:01:00	12	Percent
+bwa mem (t=8)	5	2019/03/01 02:02:00	18	Percent
+bwa mem (t=8)	6	2019/03/01 02:03:00	23	Percent
+bwa mem (t=8)	7	2019/03/01 02:04:00	26	Percent
+bwa mem (t=8)	8	2019/03/01 02:05:00	28	Percent
+bwa mem (t=8)	9	2019/03/01 02:06:00	31	Percent
+bwa mem (t=8)	10	2019/03/01 02:07:00	33	Percent
+bwa mem (t=8)	11	2019/03/01 02:08:00	34	Percent
+bwa mem (t=8)	12	2019/03/01 02:09:00	35	Percent
+bwa mem (t=8)	13	2019/03/01 02:10:00	37	Percent
+bwa mem (t=8)	14	2019/03/01 02:11:00	38	Percent
+bwa mem (t=8)	15	2019/03/01 02:12:00	38	Percent
+bwa mem (t=8)	16	2019/03/01 02:13:00	39	Percent
+bwa mem (t=8)	17	2019/03/01 02:14:00	40	Percent
+bwa mem (t=8)	18	2019/03/01 02:15:00	40	Percent
+bwa mem (t=8)	19	2019/03/01 02:16:00	41	Percent
+bwa mem (t=8)	20	2019/03/01 02:17:00	41	Percent
+bwa mem (t=8)	21	2019/03/01 02:18:00	42	Percent
+bwa mem (t=8)	22	2019/03/01 02:19:00	42	Percent
+bwa mem (t=8)	23	2019/03/01 02:20:00	43	Percent
+bwa mem (t=8)	24	2019/03/01 02:21:00	43	Percent
+bwa mem (t=8)	25	2019/03/01 02:22:00	43	Percent
+bwa mem (t=8)	26	2019/03/01 02:23:00	44	Percent
+bwa mem (t=8)	27	2019/03/01 02:24:00	44	Percent
+bwa mem (t=8)	28	2019/03/01 02:25:00	44	Percent
+bwa mem (t=8)	29	2019/03/01 02:26:00	44	Percent
+bwa mem (t=8)	30	2019/03/01 02:27:00	45	Percent
+bwa mem (t=8)	31	2019/03/01 02:28:00	45	Percent
+bwa mem (t=8)	32	2019/03/01 02:29:00	45	Percent
+bwa mem (t=8)	33	2019/03/01 02:30:00	45	Percent
+bwa mem (t=8)	34	2019/03/01 02:31:00	45	Percent
+bwa mem (t=8)	35	2019/03/01 02:32:00	46	Percent
+bwa mem (t=8)	36	2019/03/01 02:33:00	46	Percent
+bwa mem (t=8)	37	2019/03/01 02:34:00	46	Percent
+bwa mem (t=8)	38	2019/03/01 02:35:00	46	Percent
+bwa mem (t=8)	39	2019/03/01 02:36:00	46	Percent
+bwa mem (t=8)	40	2019/03/01 02:37:00	46	Percent
+bwa mem (t=8)	41	2019/03/01 02:38:00	46	Percent
+bwa mem (t=8)	42	2019/03/01 02:39:00	47	Percent
+bwa mem (t=8)	43	2019/03/01 02:40:00	47	Percent
+bwa mem (t=8)	44	2019/03/01 02:41:00	46	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	0	2019/03/01 01:57:00	1	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	1	2019/03/01 01:58:00	2	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	2	2019/03/01 01:59:00	3	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	3	2019/03/01 02:00:00	5	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	4	2019/03/01 02:01:00	11	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	5	2019/03/01 02:02:00	18	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	6	2019/03/01 02:03:00	23	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	7	2019/03/01 02:04:00	27	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	8	2019/03/01 02:05:00	28	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	9	2019/03/01 02:06:00	31	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	10	2019/03/01 02:07:00	34	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	11	2019/03/01 02:08:00	36	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	12	2019/03/01 02:09:00	37	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	13	2019/03/01 02:10:00	38	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	14	2019/03/01 02:11:00	39	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	15	2019/03/01 02:12:00	40	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	16	2019/03/01 02:13:00	41	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	17	2019/03/01 02:14:00	42	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	18	2019/03/01 02:15:00	43	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	19	2019/03/01 02:16:00	43	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	20	2019/03/01 02:17:00	44	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	21	2019/03/01 02:18:00	44	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	22	2019/03/01 02:19:00	44	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	23	2019/03/01 02:20:00	45	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	24	2019/03/01 02:21:00	46	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	25	2019/03/01 02:22:00	46	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	26	2019/03/01 02:23:00	46	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	27	2019/03/01 02:24:00	47	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	28	2019/03/01 02:25:00	47	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	29	2019/03/01 02:26:00	47	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	30	2019/03/01 02:27:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	31	2019/03/01 02:28:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	32	2019/03/01 02:29:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	33	2019/03/01 02:30:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	34	2019/03/01 02:31:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	35	2019/03/01 02:32:00	48	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	36	2019/03/01 02:33:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	37	2019/03/01 02:34:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	38	2019/03/01 02:35:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	39	2019/03/01 02:36:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	40	2019/03/01 02:37:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	41	2019/03/01 02:38:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	42	2019/03/01 02:39:00	49	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	43	2019/03/01 02:40:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	44	2019/03/01 02:41:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	45	2019/03/01 02:42:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	46	2019/03/01 02:43:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	47	2019/03/01 02:44:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	48	2019/03/01 02:45:00	50	Percent
+bwa mem | samtools view | samtools sort (t=8,8,8) (comp=yes)	49	2019/03/01 02:46:00	50	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	0	2019/03/01 01:57:00	1	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	1	2019/03/01 01:58:00	1	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	2	2019/03/01 01:59:00	2	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	3	2019/03/01 02:00:00	4	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	4	2019/03/01 02:01:00	9	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	5	2019/03/01 02:02:00	17	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	6	2019/03/01 02:03:00	23	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	7	2019/03/01 02:04:00	27	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	8	2019/03/01 02:05:00	31	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	9	2019/03/01 02:06:00	34	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	10	2019/03/01 02:07:00	36	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	11	2019/03/01 02:08:00	38	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	12	2019/03/01 02:09:00	39	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	13	2019/03/01 02:10:00	41	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	14	2019/03/01 02:11:00	42	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	15	2019/03/01 02:12:00	43	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	16	2019/03/01 02:13:00	44	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	17	2019/03/01 02:14:00	45	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	18	2019/03/01 02:15:00	46	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	19	2019/03/01 02:16:00	47	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	20	2019/03/01 02:17:00	47	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	21	2019/03/01 02:18:00	48	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	22	2019/03/01 02:19:00	48	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	23	2019/03/01 02:20:00	49	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	24	2019/03/01 02:21:00	49	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	25	2019/03/01 02:22:00	50	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	26	2019/03/01 02:23:00	50	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	27	2019/03/01 02:24:00	50	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	28	2019/03/01 02:25:00	51	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	29	2019/03/01 02:26:00	51	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	30	2019/03/01 02:27:00	51	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	31	2019/03/01 02:28:00	52	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	32	2019/03/01 02:29:00	52	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	33	2019/03/01 02:30:00	52	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	34	2019/03/01 02:31:00	52	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	35	2019/03/01 02:32:00	52	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	36	2019/03/01 02:33:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	37	2019/03/01 02:34:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	38	2019/03/01 02:35:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	39	2019/03/01 02:36:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	40	2019/03/01 02:37:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	41	2019/03/01 02:38:00	53	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	42	2019/03/01 02:39:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	43	2019/03/01 02:40:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	44	2019/03/01 02:41:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	45	2019/03/01 02:42:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	46	2019/03/01 02:43:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	47	2019/03/01 02:44:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	48	2019/03/01 02:45:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	49	2019/03/01 02:46:00	54	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	50	2019/03/01 02:47:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	51	2019/03/01 02:48:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	52	2019/03/01 02:49:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	53	2019/03/01 02:50:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	54	2019/03/01 02:51:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	55	2019/03/01 02:52:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	56	2019/03/01 02:53:00	55	Percent
+bwa mem | Sambamba view | Sambamba sort (t=8,8,8) (comp=yes)	57	2019/03/01 02:54:00	55	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	0	2019/03/01 01:57:00	2	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	1	2019/03/01 01:58:00	2	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	2	2019/03/01 01:59:00	3	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	3	2019/03/01 02:00:00	5	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	4	2019/03/01 02:01:00	11	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	5	2019/03/01 02:02:00	18	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	6	2019/03/01 02:03:00	23	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	7	2019/03/01 02:04:00	27	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	8	2019/03/01 02:05:00	29	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	9	2019/03/01 02:06:00	32	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	10	2019/03/01 02:07:00	34	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	11	2019/03/01 02:08:00	36	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	12	2019/03/01 02:09:00	37	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	13	2019/03/01 02:10:00	38	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	14	2019/03/01 02:11:00	40	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	15	2019/03/01 02:12:00	41	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	16	2019/03/01 02:13:00	41	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	17	2019/03/01 02:14:00	42	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	18	2019/03/01 02:15:00	43	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	19	2019/03/01 02:16:00	43	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	20	2019/03/01 02:17:00	44	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	21	2019/03/01 02:18:00	44	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	22	2019/03/01 02:19:00	45	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	23	2019/03/01 02:20:00	45	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	24	2019/03/01 02:21:00	46	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	25	2019/03/01 02:22:00	46	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	26	2019/03/01 02:23:00	46	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	27	2019/03/01 02:24:00	47	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	28	2019/03/01 02:25:00	47	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	29	2019/03/01 02:26:00	47	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	30	2019/03/01 02:27:00	47	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	31	2019/03/01 02:28:00	48	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	32	2019/03/01 02:29:00	48	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	33	2019/03/01 02:30:00	48	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	34	2019/03/01 02:31:00	48	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	35	2019/03/01 02:32:00	48	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	36	2019/03/01 02:33:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	37	2019/03/01 02:34:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	38	2019/03/01 02:35:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	39	2019/03/01 02:36:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	40	2019/03/01 02:37:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	41	2019/03/01 02:38:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	42	2019/03/01 02:39:00	49	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	43	2019/03/01 02:40:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	44	2019/03/01 02:41:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	45	2019/03/01 02:42:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	46	2019/03/01 02:43:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	47	2019/03/01 02:44:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	48	2019/03/01 02:45:00	50	Percent
+bwa mem | samtools view | Sambamba sort (t=8,8,8) (comp=yes)	49	2019/03/01 02:46:00	50	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	0	2019/03/01 01:57:00	2	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	1	2019/03/01 01:58:00	1	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	2	2019/03/01 01:59:00	1	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	3	2019/03/01 02:00:00	3	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	4	2019/03/01 02:01:00	5	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	5	2019/03/01 02:02:00	12	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	6	2019/03/01 02:03:00	18	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	7	2019/03/01 02:04:00	22	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	8	2019/03/01 02:05:00	25	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	9	2019/03/01 02:06:00	28	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	10	2019/03/01 02:07:00	30	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	11	2019/03/01 02:08:00	32	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	12	2019/03/01 02:09:00	34	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	13	2019/03/01 02:10:00	35	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	14	2019/03/01 02:11:00	36	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	15	2019/03/01 02:12:00	37	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	16	2019/03/01 02:13:00	38	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	17	2019/03/01 02:14:00	39	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	18	2019/03/01 02:15:00	40	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	19	2019/03/01 02:16:00	41	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	20	2019/03/01 02:17:00	41	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	21	2019/03/01 02:18:00	42	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	22	2019/03/01 02:19:00	42	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	23	2019/03/01 02:20:00	43	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	24	2019/03/01 02:21:00	43	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	25	2019/03/01 02:22:00	43	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	26	2019/03/01 02:23:00	44	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	27	2019/03/01 02:24:00	44	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	28	2019/03/01 02:25:00	44	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	29	2019/03/01 02:26:00	45	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	30	2019/03/01 02:27:00	45	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	31	2019/03/01 02:28:00	45	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	32	2019/03/01 02:29:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	33	2019/03/01 02:30:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	34	2019/03/01 02:31:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	35	2019/03/01 02:32:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	36	2019/03/01 02:33:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	37	2019/03/01 02:34:00	46	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	38	2019/03/01 02:35:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	39	2019/03/01 02:36:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	40	2019/03/01 02:37:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	41	2019/03/01 02:38:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	42	2019/03/01 02:39:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	43	2019/03/01 02:40:00	47	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	44	2019/03/01 02:41:00	48	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	45	2019/03/01 02:42:00	48	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	46	2019/03/01 02:43:00	48	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	47	2019/03/01 02:44:00	48	Percent
+bwa mem | biobambam/bamsort (t=8,8) (comp=yes)	48	2019/03/01 02:45:00	48	Percent

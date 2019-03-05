@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/03/05 11:53:45 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_05",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/03/05 10:59:40 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/1b6e80e3-f619-4744-96fc-0f24d772d7e5",
+            "group": "family:eval_combination_05",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_combination_05;stream=ecsub/eval_combination_05_task/1b6e80e3-f619-4744-96fc-0f24d772d7e5",
+            "no": 5,
+            "log_local": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment_combination/eval_combination_05/log/eval_combination_05/log/describe-tasks.005.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/4ba672e7-33cd-4a7e-9c5c-b0b2e0ec7bcb",
+            "pullStartedAt": "2019/03/05 10:59:42 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/03/05 10:59:40 KST",
+            "startedAt": "2019/03/05 11:00:05 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_05:2",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/025ba6fe-9a4b-4eb2-b8b4-2545d96e5aa6",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/1b6e80e3-f619-4744-96fc-0f24d772d7e5",
+                    "name": "eval_combination_05_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/03/05 11:53:45 KST",
+            "memory": "62000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 120,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_combination_05/script/setenv.5.sh"
+                            }
+                        ],
+                        "memory": 62000,
+                        "name": "eval_combination_05_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/03/05 11:00:05 KST",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/03/05 11:53:45 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "e878c587-3ef1-11e9-a1e2-8377c5791123",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "e878c587-3ef1-11e9-a1e2-8377c5791123",
+            "date": "Tue, 05 Mar 2019 02:53:52 GMT",
+            "content-length": "1601",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

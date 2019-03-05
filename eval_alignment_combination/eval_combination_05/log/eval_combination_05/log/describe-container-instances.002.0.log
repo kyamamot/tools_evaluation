@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1551434039.183, 
+            "registeredAt": 1551751085.856, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-0390562b43dff9f62", 
+            "ec2InstanceId": "i-0444a05ce76bfb0dd", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/60e1cad8-2f8c-4076-8d88-0656b229b78b", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/26aab214-46d0-4d52-b6c7-13cb22bfa607", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -177,30 +177,30 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.27"
                 }, 
                 {
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
+                }, 
+                {
                     "name": "com.amazonaws.ecs.capability.privileged-container"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
                 }, 
                 {
                     "name": "ecs.cpu-architecture", 
                     "value": "x86_64"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
-                }, 
-                {
                     "name": "ecs.capability.cni-plugin-version", 
                     "value": "93f43776-2018.10.0"
-                }, 
-                {
-                    "name": "ecs.capability.pid-ipc-namespace-sharing"
                 }, 
                 {
                     "name": "ecs.capability.secrets.ssm.environment-variables"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.ecr-auth"
+                }, 
+                {
+                    "name": "ecs.capability.pid-ipc-namespace-sharing"
                 }, 
                 {
                     "name": "ecs.os-type", 
@@ -216,13 +216,13 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.22"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.task-iam-role"
-                }, 
-                {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.23"
                 }, 
                 {
                     "name": "ecs.capability.task-eia"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.task-iam-role"
                 }, 
                 {
                     "name": "ecs.capability.private-registry-authentication.secretsmanager"

@@ -4,14 +4,14 @@
             "Status": {
                 "Message": "Your spot request is fulfilled.",
                 "Code": "fulfilled",
-                "UpdateTime": "2019-03-01T09:53:14+00:00Z"
+                "UpdateTime": "2019-03-05T01:56:53+00:00Z"
             },
             "ProductDescription": "Linux/UNIX",
-            "ValidUntil": "2019-03-08T09:53:13+00:00Z",
+            "ValidUntil": "2019-03-12T01:56:51+00:00Z",
             "Tags": [],
-            "InstanceId": "i-0fb5fc02fa595d1ad",
+            "InstanceId": "i-09f272f6ce7ab8f05",
             "InstanceInterruptionBehavior": "terminate",
-            "SpotInstanceRequestId": "sir-y9782m2m",
+            "SpotInstanceRequestId": "sir-2sfi2i8p",
             "State": "active",
             "LaunchedAvailabilityZone": "ap-southeast-1c",
             "LaunchSpecification": {
@@ -54,16 +54,16 @@
                 "InstanceType": "m5.4xlarge"
             },
             "Type": "one-time",
-            "CreateTime": "2019-03-01T09:53:13+00:00Z",
+            "CreateTime": "2019-03-05T01:56:51+00:00Z",
             "SpotPrice": "0.960000"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "2fd0cfe5-6811-4247-8be2-ca9a9b1703e2",
+        "RequestId": "909545e3-5365-4a21-950d-52250f4e515c",
         "HTTPHeaders": {
-            "date": "Fri, 01 Mar 2019 09:53:23 GMT",
+            "date": "Tue, 05 Mar 2019 01:57:02 GMT",
             "vary": "Accept-Encoding",
             "content-length": "2823",
             "content-type": "text/xml;charset=UTF-8",

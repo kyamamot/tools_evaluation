@@ -1,0 +1,13 @@
+{
+    "cluster": {
+        "status": "INACTIVE", 
+        "statistics": [], 
+        "tags": [], 
+        "clusterName": "eval_combination_05", 
+        "registeredContainerInstancesCount": 0, 
+        "pendingTasksCount": 0, 
+        "runningTasksCount": 0, 
+        "activeServicesCount": 0, 
+        "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_05"
+    }
+}

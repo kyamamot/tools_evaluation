@@ -1,0 +1,7 @@
+SAMPLE=5929_tumor
+DOCKER_IMAGE=kyamamot/eval-bwa-0.7.17:20190204
+AWS_EC2_INSTANCE_TYPE=m5.2xlarge
+AWS_DISK_SIZE=80
+AWS_S3_BUCKET=s3://keisuke-singapore/tools_evaluation/
+EVAL_DESCRIPTION="bwa mem -K {10000|100000|1000000|10000000|100000000|1000000000} -t 8 -T 0"
+EVAL_ENVIRONMENT="m5.2xlarge Amazon EC2 spot instance - 8 cpu, 32GiB memory, 80GB EBS"

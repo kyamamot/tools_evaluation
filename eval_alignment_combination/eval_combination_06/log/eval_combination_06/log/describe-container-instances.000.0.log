@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1551938421.345, 
+            "registeredAt": 1552447739.581, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-0d26c68aa75fc469f", 
+            "ec2InstanceId": "i-00762cfdc31a3cdff", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/01908c64-1d9b-4deb-8313-838480eac0aa", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/42ef60db-1eb7-412e-8e46-135cd1ca9942", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -95,7 +95,7 @@
                 }, 
                 {
                     "name": "ecs.ami-id", 
-                    "value": "ami-05bdc52e8913188a1"
+                    "value": "ami-0eb4239fe0f64fe58"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.logging-driver.none"
@@ -107,11 +107,11 @@
                     "name": "com.amazonaws.ecs.capability.logging-driver.json-file"
                 }, 
                 {
-                    "name": "ecs.capability.execution-role-awslogs"
-                }, 
-                {
                     "name": "ecs.vpc-id", 
                     "value": "vpc-9f144bf8"
+                }, 
+                {
+                    "name": "ecs.capability.execution-role-awslogs"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.17"
@@ -162,6 +162,9 @@
                     "name": "com.amazonaws.ecs.capability.task-iam-role-network-host"
                 }, 
                 {
+                    "name": "ecs.capability.aws-appmesh"
+                }, 
+                {
                     "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
                 }, 
                 {
@@ -177,17 +180,20 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.27"
                 }, 
                 {
+                    "name": "com.amazonaws.ecs.capability.privileged-container"
+                }, 
+                {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.privileged-container"
+                    "name": "ecs.capability.container-ordering"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
                 }, 
                 {
                     "name": "ecs.cpu-architecture", 
                     "value": "x86_64"
-                }, 
-                {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
                 }, 
                 {
                     "name": "ecs.capability.cni-plugin-version", 
@@ -216,6 +222,9 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.22"
                 }, 
                 {
+                    "name": "com.amazonaws.ecs.capability.task-iam-role"
+                }, 
+                {
                     "name": "ecs.capability.private-registry-authentication.secretsmanager"
                 }, 
                 {
@@ -223,14 +232,11 @@
                 }, 
                 {
                     "name": "ecs.capability.task-eia"
-                }, 
-                {
-                    "name": "com.amazonaws.ecs.capability.task-iam-role"
                 }
             ], 
             "versionInfo": {
-                "agentVersion": "1.25.3", 
-                "agentHash": "a906f150", 
+                "agentVersion": "1.26.0", 
+                "agentHash": "ebac2200", 
                 "dockerVersion": "DockerVersion: 18.06.1-ce"
             }, 
             "runningTasksCount": 0, 

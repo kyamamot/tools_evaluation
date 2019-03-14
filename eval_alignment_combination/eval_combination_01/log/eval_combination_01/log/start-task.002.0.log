@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/8dad535b-52c3-4f95-ab77-aec67dff2619", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/a596531f-2d70-4e64-baa5-3f27ee467507", 
             "group": "family:eval_combination_01", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/2ed18cfb-25de-4dc5-acd8-ece9a66fccb4", 
-            "createdAt": 1551417696.663, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/94242c04-ad4b-4391-9da0-7c7b18acc176", 
+            "createdAt": 1551938302.971, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_01", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_01:10", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_01:11", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/87c225f6-d23c-49e7-968e-db1cc8030835", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/8dad535b-52c3-4f95-ab77-aec67dff2619", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/f6c2b69a-6792-41c7-bb5c-a207f8f0451a", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/a596531f-2d70-4e64-baa5-3f27ee467507", 
                     "lastStatus": "PENDING", 
                     "name": "eval_combination_01_task", 
                     "networkInterfaces": []

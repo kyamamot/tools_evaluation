@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/a24fb96e-69ad-4380-b1c1-bd7d7359e56f", 
+            "group": "family:eval_sambamba_sort_compress_02", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_sambamba_sort_compress_02/script/setenv.1.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_sambamba_sort_compress_02_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/d7d19598-a087-452e-a3f0-84aebb04f6e7", 
+            "createdAt": 1551935820.867, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_sambamba_sort_compress_02", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_sambamba_sort_compress_02:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/1446efd0-41d5-4569-acac-2177bfaad9d6", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/a24fb96e-69ad-4380-b1c1-bd7d7359e56f", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_sambamba_sort_compress_02_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

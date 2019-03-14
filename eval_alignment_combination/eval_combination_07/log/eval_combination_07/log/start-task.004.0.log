@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/257a2691-f9d4-4f01-a98f-348401568660", 
+            "group": "family:eval_combination_07", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.4.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_combination_07_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/38b329f8-4917-4653-acf9-d70723938034", 
+            "createdAt": 1551945933.299, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_07", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_07:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/9f9c0a8e-0215-4f4b-9e10-cd7641ba797c", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/257a2691-f9d4-4f01-a98f-348401568660", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_combination_07_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1551417635.751, 
+            "registeredAt": 1551938236.761, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-039523bea129a8eb7", 
+            "ec2InstanceId": "i-0fc5ef6ee7a367ef0", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/2ed18cfb-25de-4dc5-acd8-ece9a66fccb4", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/94242c04-ad4b-4391-9da0-7c7b18acc176", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -194,13 +194,13 @@
                     "value": "93f43776-2018.10.0"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.ecr-auth"
-                }, 
-                {
                     "name": "ecs.capability.secrets.ssm.environment-variables"
                 }, 
                 {
                     "name": "ecs.capability.pid-ipc-namespace-sharing"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.ecr-auth"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.20"
@@ -216,6 +216,9 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.22"
                 }, 
                 {
+                    "name": "ecs.capability.task-eia"
+                }, 
+                {
                     "name": "com.amazonaws.ecs.capability.task-iam-role"
                 }, 
                 {
@@ -223,9 +226,6 @@
                 }, 
                 {
                     "name": "ecs.capability.private-registry-authentication.secretsmanager"
-                }, 
-                {
-                    "name": "ecs.capability.task-eia"
                 }
             ], 
             "versionInfo": {

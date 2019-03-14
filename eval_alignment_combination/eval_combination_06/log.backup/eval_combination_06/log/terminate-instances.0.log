@@ -1,0 +1,48 @@
+{
+    "TerminatingInstances": [
+        {
+            "InstanceId": "i-022219d9dbd66fa8f", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-0d26c68aa75fc469f", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-01c75d2aba6817ef0", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-01a9f356d604e3863", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }
+    ]
+}

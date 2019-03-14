@@ -1,0 +1,46 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-05bdc52e8913188a1",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_06",
+    "ClusterName": "eval_combination_06",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-07 15:54:44.341950",
+    "Image": "kyamamot/eval-alignment:20190228",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-03-07 15:54:44.341854",
+            "ExitCode": 0,
+            "InstanceId": "i-01a9f356d604e3863",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.2693166666666667,
+            "Start": "2019-03-07 14:59:09.812741",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.9262580869444444
+        }
+    ],
+    "KeyName": "eval_combination_06",
+    "LogGroupName": "ecsub-eval_combination_06",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_06/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-07 14:59:06.923939",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_06:2",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment_combination/eval_combination_06/log/eval_combination_06"
+}

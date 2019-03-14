@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_FILE	--output-recursive OUTPUT_DIR	--env COMPRESS_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___		(default)
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-l 0	-l 0
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-l 1	-l 1
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-l 9	-l 9
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-u	-u
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-u -l 0	-u -l 0
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-u -l 1	-u -l 1
+___SAMPLE___	___INPUT_FILE___	___OUTPUT_DIR___	-u -l 9	-u -l 9

@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/49552177-8351-4df6-a954-1e35cbac0064", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/0f21e3db-16cf-4dda-a699-b3a3ac69a481", 
             "group": "family:eval_samtools_view_compress", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/0e5e8bc5-c541-4cd3-badb-7d45b67d667d", 
-            "createdAt": 1550633066.489, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/073c82e1-9027-4a66-8c0d-8005eab74be8", 
+            "createdAt": 1552547036.896, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_view_compress", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:2", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_view_compress:3", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/3fb70654-a0d8-4c9b-add1-8054432ac8e2", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/49552177-8351-4df6-a954-1e35cbac0064", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/5e955704-19eb-4172-a53b-61881c12ed19", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/0f21e3db-16cf-4dda-a699-b3a3ac69a481", 
                     "lastStatus": "PENDING", 
                     "name": "eval_samtools_view_compress_task", 
                     "networkInterfaces": []

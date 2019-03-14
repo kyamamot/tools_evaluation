@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1551417639.561, 
+            "registeredAt": 1551938242.232, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-08d94d3adcc43cfe6", 
+            "ec2InstanceId": "i-008083a4d0c46a0e8", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/3dcd8557-8e61-4a55-b35e-2300d5f023d3", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/ae963e1e-9dbd-482d-a68b-ecf1a98dcf9b", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -107,11 +107,11 @@
                     "name": "com.amazonaws.ecs.capability.logging-driver.json-file"
                 }, 
                 {
-                    "name": "ecs.capability.execution-role-awslogs"
-                }, 
-                {
                     "name": "ecs.vpc-id", 
                     "value": "vpc-9f144bf8"
+                }, 
+                {
+                    "name": "ecs.capability.execution-role-awslogs"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.17"
@@ -126,10 +126,10 @@
                     "name": "ecs.capability.docker-plugin.local"
                 }, 
                 {
-                    "name": "ecs.capability.task-cpu-mem-limit"
+                    "name": "ecs.capability.task-eni"
                 }, 
                 {
-                    "name": "ecs.capability.task-eni"
+                    "name": "ecs.capability.task-cpu-mem-limit"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.30"
@@ -177,17 +177,17 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.27"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.privileged-container"
-                }, 
-                {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+                    "name": "com.amazonaws.ecs.capability.privileged-container"
                 }, 
                 {
                     "name": "ecs.cpu-architecture", 
                     "value": "x86_64"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
                 }, 
                 {
                     "name": "ecs.capability.cni-plugin-version", 
@@ -203,11 +203,11 @@
                     "name": "ecs.capability.secrets.ssm.environment-variables"
                 }, 
                 {
-                    "name": "ecs.os-type", 
-                    "value": "linux"
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.20"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.20"
+                    "name": "ecs.os-type", 
+                    "value": "linux"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.21"
@@ -216,10 +216,10 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.22"
                 }, 
                 {
-                    "name": "ecs.capability.private-registry-authentication.secretsmanager"
+                    "name": "com.amazonaws.ecs.capability.task-iam-role"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.task-iam-role"
+                    "name": "ecs.capability.private-registry-authentication.secretsmanager"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.23"

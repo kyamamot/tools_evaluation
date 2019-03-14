@@ -29,7 +29,7 @@
             }
         ], 
         "taskRoleArn": "arn:aws:iam::047717877309:role/ecsInstanceRole", 
-        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_06:2", 
+        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_06:3", 
         "containerDefinitions": [
             {
                 "environment": [
@@ -73,6 +73,6 @@
                 "volumesFrom": []
             }
         ], 
-        "revision": 2
+        "revision": 3
     }
 }

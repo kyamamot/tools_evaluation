@@ -4,26 +4,26 @@
         {
             "launchType": "EC2",
             "attachments": [],
-            "stoppingAt": "2019/03/07 15:51:29 KST",
+            "stoppingAt": "2019/03/13 13:22:22 KST",
             "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_06",
             "desiredStatus": "STOPPED",
-            "createdAt": "2019/03/07 15:01:40 KST",
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/27258d75-b463-4226-973e-38443f728a14",
+            "createdAt": "2019/03/13 12:31:22 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/849feb83-9e26-425a-80b2-2b5e2205364e",
             "group": "family:eval_combination_06",
-            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_combination_06;stream=ecsub/eval_combination_06_task/27258d75-b463-4226-973e-38443f728a14",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_combination_06;stream=ecsub/eval_combination_06_task/849feb83-9e26-425a-80b2-2b5e2205364e",
             "no": 3,
             "log_local": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment_combination/eval_combination_06/log/eval_combination_06/log/describe-tasks.003.0.log",
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/b9792d4c-ac81-4534-90ec-c70e825e94f2",
-            "pullStartedAt": "2019/03/07 15:01:41 KST",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/67bfde70-f15c-4db4-bb86-b5ca86cf3ad7",
+            "pullStartedAt": "2019/03/13 12:31:22 KST",
             "version": 3,
             "stopCode": "EssentialContainerExited",
-            "connectivityAt": "2019/03/07 15:01:40 KST",
-            "startedAt": "2019/03/07 15:02:03 KST",
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_06:2",
+            "connectivityAt": "2019/03/13 12:31:22 KST",
+            "startedAt": "2019/03/13 12:31:44 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_06:3",
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/69bf2e67-9355-4e2a-a6e5-b90f4b5a3736",
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/27258d75-b463-4226-973e-38443f728a14",
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/f0a25a58-9ff6-4cd9-b0c8-6ad1e94ad58e",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/849feb83-9e26-425a-80b2-2b5e2205364e",
                     "name": "eval_combination_06_task",
                     "networkBindings": [],
                     "lastStatus": "STOPPED",
@@ -33,7 +33,7 @@
                 }
             ],
             "tags": [],
-            "executionStoppedAt": "2019/03/07 15:51:29 KST",
+            "executionStoppedAt": "2019/03/13 13:22:22 KST",
             "memory": "62000",
             "lastStatus": "STOPPED",
             "connectivity": "CONNECTED",
@@ -54,9 +54,9 @@
                     }
                 ]
             },
-            "pullStoppedAt": "2019/03/07 15:02:02 KST",
+            "pullStoppedAt": "2019/03/13 12:31:44 KST",
             "instance_type": "m5.4xlarge",
-            "stoppedAt": "2019/03/07 15:51:29 KST",
+            "stoppedAt": "2019/03/13 13:22:22 KST",
             "stoppedReason": "Essential container in task exited",
             "cpu": "16"
         }
@@ -64,10 +64,10 @@
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "7231f9ce-40a5-11e9-8d18-23cffa23421f",
+        "RequestId": "9bebb115-4547-11e9-b7f3-49ee6451f9ed",
         "HTTPHeaders": {
-            "x-amzn-requestid": "7231f9ce-40a5-11e9-8d18-23cffa23421f",
-            "date": "Thu, 07 Mar 2019 06:51:33 GMT",
+            "x-amzn-requestid": "9bebb115-4547-11e9-b7f3-49ee6451f9ed",
+            "date": "Wed, 13 Mar 2019 04:22:26 GMT",
             "content-length": "1601",
             "content-type": "application/x-amz-json-1.1"
         }

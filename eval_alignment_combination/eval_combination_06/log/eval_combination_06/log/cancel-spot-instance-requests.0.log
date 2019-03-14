@@ -2,19 +2,19 @@
     "CancelledSpotInstanceRequests": [
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-vzmi2h5p"
+            "SpotInstanceRequestId": "sir-kdx83cdm"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-ajngik6p"
+            "SpotInstanceRequestId": "sir-p8xr264m"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-kdc8irxn"
+            "SpotInstanceRequestId": "sir-5tzg36nm"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-8zyg2rsm"
+            "SpotInstanceRequestId": "sir-7ds8itnq"
         }
     ]
 }

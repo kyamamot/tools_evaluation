@@ -1,5 +1,5 @@
 {
-    "ImageId": "ami-05bdc52e8913188a1",
+    "ImageId": "ami-0eb4239fe0f64fe58",
     "BlockDeviceMappings": [
         {
             "DeviceName": "/dev/xvdcz",

@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1551417626.06, 
+            "registeredAt": 1551938228.877, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-091d4aec54f64043e", 
+            "ec2InstanceId": "i-01a24f63683bbe562", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/037ca30a-ed17-49a7-ac3c-f6f5c472a90d", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/57b8cadd-a551-43a9-98f6-c1f33e900198", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -219,13 +219,13 @@
                     "name": "com.amazonaws.ecs.capability.task-iam-role"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.23"
-                }, 
-                {
                     "name": "ecs.capability.task-eia"
                 }, 
                 {
                     "name": "ecs.capability.private-registry-authentication.secretsmanager"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.23"
                 }
             ], 
             "versionInfo": {

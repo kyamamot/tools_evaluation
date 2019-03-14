@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.4.sh"
+                }
+            ],
+            "cpu": 8,
+            "name": "eval_bwa_k_option_output_03_task",
+            "memory": 30000
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-05bdc52e8913188a1",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_combination_07",
+    "ClusterName": "eval_combination_07",
+    "Ec2InstanceDiskSize": 120,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-07 17:57:15.136200",
+    "Image": "kyamamot/eval-alignment:20190228",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-03-07 17:57:15.136111",
+            "ExitCode": 0,
+            "InstanceId": "i-06b5113db9d177d2b",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.26944545454545454,
+            "Start": "2019-03-07 17:02:41.164379",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.9094365922222222
+        }
+    ],
+    "KeyName": "eval_combination_07",
+    "LogGroupName": "ecsub-eval_combination_07",
+    "No": 4,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_combination_07/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-07 17:02:38.066332",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_combination_07:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment_combination/eval_combination_07/log/eval_combination_07"
+}

@@ -1,0 +1,24 @@
+{
+    "CancelledSpotInstanceRequests": [
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-7bhi2ydm"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-bb2rit8m"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-3i2rivim"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-na6i11wn"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-xzfi3xkq"
+        }
+    ]
+}

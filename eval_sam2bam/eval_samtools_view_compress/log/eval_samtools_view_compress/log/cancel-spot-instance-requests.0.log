@@ -2,27 +2,27 @@
     "CancelledSpotInstanceRequests": [
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-gmzriexq"
+            "SpotInstanceRequestId": "sir-r2b812nm"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-sb7i2h2m"
+            "SpotInstanceRequestId": "sir-1phg1xbm"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-a3ni1b9m"
+            "SpotInstanceRequestId": "sir-87fi373n"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-sxw8ikpp"
+            "SpotInstanceRequestId": "sir-cweg1vfp"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-iieg31vn"
+            "SpotInstanceRequestId": "sir-1i8iii9q"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-tp2i1dyq"
+            "SpotInstanceRequestId": "sir-gfxg24yq"
         }
     ]
 }

@@ -1,0 +1,47 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_bwa_k_option_output_03",
+    "ClusterName": "eval_bwa_k_option_output_03",
+    "Ec2InstanceDiskSize": 80,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-14 15:15:35.766044",
+    "Image": "kyamamot/eval-bwa-0.7.17:20190204",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-03-14 15:15:35.765839",
+            "ExitCode": 0,
+            "InstanceId": "i-0a7a714f163e05bfa",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.1308,
+            "Start": "2019-03-14 14:09:26.117000",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 1.1026802330555556
+        }
+    ],
+    "KeyName": "eval_bwa_k_option_output_03",
+    "LogGroupName": "ecsub-eval_bwa_k_option_output_03",
+    "No": 2,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_bwa_k_option_output_03/script/setenv.4.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-14 14:09:22.539396",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_bwa_k_option_output_03:3",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_alignment/eval_bwa_k_option_output_03/log/eval_bwa_k_option_output_03"
+}

@@ -1,0 +1,43 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_gatk_quantize_test",
+    "ClusterName": "eval_gatk_quantize_test",
+    "Ec2InstanceDiskSize": 50,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-29 11:42:17.732775",
+    "Image": "kyamamot/eval-gatk:20190329",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-03-29 11:42:17.732553",
+            "ExitCode": 0,
+            "InstanceId": "i-0c4aba8c692113df3",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.31268,
+            "Start": "2019-03-29 11:35:31.334078",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.11288846527777778
+        }
+    ],
+    "KeyName": "eval_gatk_quantize_test",
+    "LogGroupName": "ecsub-eval_gatk_quantize_test",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_test/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_test/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_test/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-29 11:35:26.544307",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_gatk_quantize_test:5",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_reduce_bam_size/eval_gatk_quantize_test/log/eval_gatk_quantize_test"
+}

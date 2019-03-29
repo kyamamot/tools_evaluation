@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/d5cdf88c-8ef4-44a1-bf43-4ec86c8634d8", 
+            "group": "family:eval_gatk_quantize_test", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_test/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_gatk_quantize_test_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/4d6d3d8c-8e65-46a7-919f-add7beeba391", 
+            "createdAt": 1553827075.761, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_gatk_quantize_test", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_gatk_quantize_test:5", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/423bd92f-2d46-479c-ad40-004f0832c8d2", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/d5cdf88c-8ef4-44a1-bf43-4ec86c8634d8", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_gatk_quantize_test_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

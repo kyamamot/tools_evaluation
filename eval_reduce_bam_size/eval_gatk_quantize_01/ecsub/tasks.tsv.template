@@ -1,0 +1,2 @@
+--env SAMPLE	--input-recursive INPUT_DIR	--input-recursive DATABASE_DIR	--input-recursive REFERENCE_DIR	--output-recursive OUTPUT_DIR	--env EVAL_CONDITION
+COLO829	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/COLO829/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	COLO829

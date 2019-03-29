@@ -1,0 +1,53 @@
+{
+    "volumes": [
+        {
+            "host": {
+                "sourcePath": "/external"
+            },
+            "name": "scratch"
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::047717877309:role/ecsInstanceRole",
+    "containerDefinitions": [
+        {
+            "image": "kyamamot/eval-gatk:20190329",
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-stream-prefix": "ecsub",
+                    "awslogs-group": "ecsub-eval_gatk_quantize_01",
+                    "awslogs-region": "ap-southeast-1"
+                }
+            },
+            "entryPoint": [
+                "/bin/bash",
+                "-c"
+            ],
+            "mountPoints": [
+                {
+                    "sourceVolume": "scratch",
+                    "containerPath": "/scratch"
+                }
+            ],
+            "name": "eval_gatk_quantize_01_task",
+            "workingDirectory": "/scratch",
+            "essential": true,
+            "environment": [
+                {
+                    "name": "SCRIPT_EXEC_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_01/script/script.sh"
+                },
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": ""
+                }
+            ],
+            "command": [
+                "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_01/script/run.sh /exec.sh; /bin/bash /exec.sh"
+            ],
+            "memory": 300,
+            "cpu": 1
+        }
+    ],
+    "family": "eval_gatk_quantize_01"
+}

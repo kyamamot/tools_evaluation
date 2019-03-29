@@ -1,0 +1,2 @@
+--env SAMPLE	--input-recursive INPUT_DIR	--input-recursive DATABASE_DIR	--input-recursive REFERENCE_DIR	--output-recursive OUTPUT_DIR	--env EVAL_CONDITION
+5929_tumor	s3://chibaken-ana-tokyo/ecsub/output/5929_small/bam/5929_tumor/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	5929_tumor_small

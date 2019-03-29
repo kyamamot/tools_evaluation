@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/7ef058ca-81f7-483a-aa02-304053c8a2a4", 
+            "group": "family:eval_general_compress_01", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_general_compress_01/script/setenv.6.sh"
+                            }
+                        ], 
+                        "memory": 15800, 
+                        "name": "eval_general_compress_01_task", 
+                        "cpu": 4
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/9cc683e4-a3c9-44f2-90a2-2ba80b85ad86", 
+            "createdAt": 1553853652.856, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_general_compress_01", 
+            "memory": "15800", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_general_compress_01:6", 
+            "cpu": "4", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/8c233445-9a7a-4caa-8eb5-437fd6c46720", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/7ef058ca-81f7-483a-aa02-304053c8a2a4", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_general_compress_01_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

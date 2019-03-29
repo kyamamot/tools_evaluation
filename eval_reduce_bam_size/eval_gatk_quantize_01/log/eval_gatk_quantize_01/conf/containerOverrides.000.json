@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_01/script/setenv.0.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_gatk_quantize_01_task",
+            "memory": 62000
+        }
+    ]
+}

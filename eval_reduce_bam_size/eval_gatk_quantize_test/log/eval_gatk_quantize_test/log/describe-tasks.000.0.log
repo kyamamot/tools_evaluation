@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/03/29 11:41:04 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_gatk_quantize_test",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/03/29 11:37:55 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/d5cdf88c-8ef4-44a1-bf43-4ec86c8634d8",
+            "group": "family:eval_gatk_quantize_test",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_gatk_quantize_test;stream=ecsub/eval_gatk_quantize_test_task/d5cdf88c-8ef4-44a1-bf43-4ec86c8634d8",
+            "no": 0,
+            "log_local": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_reduce_bam_size/eval_gatk_quantize_test/log/eval_gatk_quantize_test/log/describe-tasks.000.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/4d6d3d8c-8e65-46a7-919f-add7beeba391",
+            "pullStartedAt": "2019/03/29 11:37:56 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/03/29 11:37:55 KST",
+            "startedAt": "2019/03/29 11:38:29 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_gatk_quantize_test:5",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/423bd92f-2d46-479c-ad40-004f0832c8d2",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/d5cdf88c-8ef4-44a1-bf43-4ec86c8634d8",
+                    "name": "eval_gatk_quantize_test_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/03/29 11:41:04 KST",
+            "memory": "62000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 50,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_gatk_quantize_test/script/setenv.0.sh"
+                            }
+                        ],
+                        "memory": 62000,
+                        "name": "eval_gatk_quantize_test_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/03/29 11:38:29 KST",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/03/29 11:41:04 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "1cf187c0-51cc-11e9-8299-09be76128722",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "1cf187c0-51cc-11e9-8299-09be76128722",
+            "date": "Fri, 29 Mar 2019 02:41:10 GMT",
+            "content-length": "1622",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

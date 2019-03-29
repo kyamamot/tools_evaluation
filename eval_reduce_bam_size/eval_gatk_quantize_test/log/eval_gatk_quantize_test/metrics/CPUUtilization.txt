@@ -1,0 +1,5 @@
+5929_tumor_small	0	2019/03/29 02:37:00	4	Percent
+5929_tumor_small	1	2019/03/29 02:38:00	2	Percent
+5929_tumor_small	2	2019/03/29 02:39:00	4	Percent
+5929_tumor_small	3	2019/03/29 02:40:00	4	Percent
+5929_tumor_small	4	2019/03/29 02:41:00	6	Percent

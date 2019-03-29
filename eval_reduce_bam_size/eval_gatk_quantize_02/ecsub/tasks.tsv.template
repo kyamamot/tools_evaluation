@@ -1,0 +1,11 @@
+--env SAMPLE	--input-recursive INPUT_DIR	--input-recursive DATABASE_DIR	--input-recursive REFERENCE_DIR	--output-recursive OUTPUT_DIR	--env EVAL_CONDITION
+COLO829	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/COLO829/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	COLO829
+COLO829BL	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/COLO829BL/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	COLO829BL
+HCC1954	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/HCC1954/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	HCC1954
+HCC1954BL	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/HCC1954BL/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	HCC1954BL
+NCI-BL2009	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-BL2009/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-BL2009
+NCI-BL2052	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-BL2052/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-BL2052
+NCI-BL209	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-BL209/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-BL209
+NCI-H2009	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-H2009/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-H2009
+NCI-H2052	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-H2052/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-H2052
+NCI-H209	s3://chibaken-ana-tokyo/ecsub/output/PG2778_novaseq_WGS/bam/NCI-H209/	s3://keisuke-singapore/database/gatk_resource_bundle/	___REFERENCE___	___OUTPUT_DIR___	NCI-H209

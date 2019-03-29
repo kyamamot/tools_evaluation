@@ -1,0 +1,73 @@
+{
+    "SpotInstanceRequests": [
+        {
+            "Status": {
+                "Message": "Your spot request is fulfilled.",
+                "Code": "fulfilled",
+                "UpdateTime": "2019-03-29T09:58:31+00:00Z"
+            },
+            "ProductDescription": "Linux/UNIX",
+            "ValidUntil": "2019-04-05T09:58:29+00:00Z",
+            "Tags": [],
+            "InstanceId": "i-03c57493c8333aee7",
+            "InstanceInterruptionBehavior": "terminate",
+            "SpotInstanceRequestId": "sir-pqzr1vwn",
+            "State": "active",
+            "LaunchedAvailabilityZone": "ap-southeast-1a",
+            "LaunchSpecification": {
+                "Placement": {
+                    "AvailabilityZone": "ap-southeast-1a"
+                },
+                "ImageId": "ami-0eb4239fe0f64fe58",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvdcz",
+                        "Ebs": {
+                            "DeleteOnTermination": true,
+                            "VolumeType": "gp2",
+                            "VolumeSize": 22
+                        }
+                    },
+                    {
+                        "DeviceName": "/dev/sdb",
+                        "Ebs": {
+                            "DeleteOnTermination": true,
+                            "VolumeType": "gp2",
+                            "VolumeSize": 700
+                        }
+                    }
+                ],
+                "KeyName": "eval_general_compress_01",
+                "SecurityGroups": [
+                    {
+                        "GroupName": "default",
+                        "GroupId": "sg-b8b110c0"
+                    }
+                ],
+                "SubnetId": "subnet-84dbd9e3",
+                "Monitoring": {
+                    "Enabled": false
+                },
+                "IamInstanceProfile": {
+                    "Name": "ecsInstanceRole"
+                },
+                "InstanceType": "t3.xlarge"
+            },
+            "Type": "one-time",
+            "CreateTime": "2019-03-29T09:58:29+00:00Z",
+            "SpotPrice": "0.210200"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "8241e154-7508-45e2-bac3-611e9acd9307",
+        "HTTPHeaders": {
+            "date": "Fri, 29 Mar 2019 09:58:39 GMT",
+            "vary": "Accept-Encoding",
+            "content-length": "2827",
+            "content-type": "text/xml;charset=UTF-8",
+            "server": "AmazonEC2"
+        }
+    }
+}

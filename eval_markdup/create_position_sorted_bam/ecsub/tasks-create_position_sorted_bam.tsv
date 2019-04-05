@@ -1,0 +1,2 @@
+--env SAMPLE	--input INPUT_SAM	--output-recursive OUTPUT_DIR	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/sam/5929_tumor.sam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	n/a

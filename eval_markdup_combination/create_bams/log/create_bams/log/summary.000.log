@@ -1,0 +1,43 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/create_bams",
+    "ClusterName": "create_bams",
+    "Ec2InstanceDiskSize": 200,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-02 20:24:29.410150",
+    "Image": "kyamamot/eval-alignment-markdup:20190402",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-02 20:24:29.409990",
+            "ExitCode": 0,
+            "InstanceId": "i-0a97eaa694db626b1",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-02 18:18:04.639637",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 2.106880653611111
+        }
+    ],
+    "KeyName": "create_bams",
+    "LogGroupName": "ecsub-create_bams",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/create_bams/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/create_bams/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/create_bams/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-02 18:18:01.271291",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/create_bams:7",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup_combination/create_bams/log/create_bams"
+}

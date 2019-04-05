@@ -1,0 +1,43 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination",
+    "ClusterName": "eval_markdup_combination",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-05 18:58:54.108308",
+    "Image": "kyamamot/eval-alignment-markdup:20190402",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-05 18:58:54.108047",
+            "ExitCode": 0,
+            "InstanceId": "i-0079e2dd38860032a",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-05 18:49:14.503753",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.16100119277777777
+        }
+    ],
+    "KeyName": "eval_markdup_combination",
+    "LogGroupName": "ecsub-eval_markdup_combination",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-05 18:49:11.088256",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:4",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup_combination/eval_markdup_combination/log/eval_markdup_combination"
+}

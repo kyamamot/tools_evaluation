@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/c1623ad4-ff9e-4ecf-a72b-068b4d89825b", 
+            "group": "family:eval_picard_markdup_spark_02", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_02/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 30000, 
+                        "name": "eval_picard_markdup_spark_02_task", 
+                        "cpu": 8
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/98e19298-e13f-47e3-bed0-03af3d804951", 
+            "createdAt": 1554435178.43, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_spark_02", 
+            "memory": "30000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_spark_02:1", 
+            "cpu": "8", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/d2cddead-7cc5-4c63-a3ef-c77cc3d2fbc7", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/c1623ad4-ff9e-4ecf-a72b-068b4d89825b", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_picard_markdup_spark_02_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/d0bcbca8-a0d5-459d-bcd8-08b2c8a182d8", 
+            "group": "family:eval_samtools_markdup", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.4.sh"
+                            }
+                        ], 
+                        "memory": 30000, 
+                        "name": "eval_samtools_markdup_task", 
+                        "cpu": 8
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/2219683e-085e-4243-a1da-693ca9d674f3", 
+            "createdAt": 1554268624.642, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_samtools_markdup", 
+            "memory": "30000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_samtools_markdup:3", 
+            "cpu": "8", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/30add999-5964-4672-a106-5aa0596dbe70", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/d0bcbca8-a0d5-459d-bcd8-08b2c8a182d8", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_samtools_markdup_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

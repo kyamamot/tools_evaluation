@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx1g	-Xmx1g
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx2g	-Xmx2g
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx4g	-Xmx4g
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx1g -XX:+UseParallelGC	-Xmx1g,-XX:PGC
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx2g -XX:+UseParallelGC	-Xmx2g,-XX:PGC
+5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx4g -XX:+UseParallelGC	-Xmx4g,-XX:PGC

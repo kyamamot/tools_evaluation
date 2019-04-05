@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___		(default)(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g	-Xmx1g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx2g	-Xmx2g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx4g	-Xmx4g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx8g	-Xmx8g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx16g	-Xmx16g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx32g	-Xmx32g(incl. MCMQ)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx48g	-Xmx48g(incl. MCMQ)

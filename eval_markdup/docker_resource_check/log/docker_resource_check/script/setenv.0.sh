@@ -1,0 +1,7 @@
+export SAMPLE="5929_tumor"
+export S3_INPUT_BAM="s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/100percent_5929_2M_reads_extract.name-sorted.fixmate.sorted.markdup.bam"
+export INPUT_BAM="/scratch/AWS_DATA/keisuke-singapore/sample/exome/5929_tumor_100/bam/100percent_5929_2M_reads_extract.name-sorted.fixmate.sorted.markdup.bam"
+export S3_OUTPUT_DIR="s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/"
+export OUTPUT_DIR="/scratch/AWS_DATA/keisuke-singapore/sample/exome/5929_tumor_100/bam/"
+export GATK_OPTION=""
+export EVAL_CONDITION="(default)"

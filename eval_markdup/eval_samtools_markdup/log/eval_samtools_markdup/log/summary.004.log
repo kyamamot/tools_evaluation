@@ -1,0 +1,48 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_samtools_markdup",
+    "ClusterName": "eval_samtools_markdup",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-03 14:25:43.424437",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-03 14:25:43.424297",
+            "ExitCode": 0,
+            "InstanceId": "i-0d998e20c98db0b02",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-03 14:13:41.016188",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.20066891916666665
+        }
+    ],
+    "KeyName": "eval_samtools_markdup",
+    "LogGroupName": "ecsub-eval_samtools_markdup",
+    "No": 4,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.0.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.1.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.2.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.3.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.4.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-03 14:13:39.890218",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_samtools_markdup:3",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_samtools_markdup/log/eval_samtools_markdup"
+}

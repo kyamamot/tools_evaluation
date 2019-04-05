@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/59737fef-933b-47b8-8568-6dde65cf6f74", 
+            "group": "family:create_name_sorted_bam", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/create_name_sorted_bam/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 30000, 
+                        "name": "create_name_sorted_bam_task", 
+                        "cpu": 8
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/f6009399-888f-4ab4-bf8a-fa5d8a5abfa1", 
+            "createdAt": 1553071686.411, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/create_name_sorted_bam", 
+            "memory": "30000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/create_name_sorted_bam:2", 
+            "cpu": "8", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/f3d564db-7957-4dca-9f72-2a429f452318", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/59737fef-933b-47b8-8568-6dde65cf6f74", 
+                    "lastStatus": "PENDING", 
+                    "name": "create_name_sorted_bam_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq",
+    "ClusterName": "eval_picard_markdup_memory_mc_mq",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-25 14:05:12.445845",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-03-25 14:05:12.445692",
+            "ExitCode": 0,
+            "InstanceId": "i-0bbe2d9c5b519d844",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.3055461538461538,
+            "Start": "2019-03-25 13:27:40.900796",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.6254291377777778
+        }
+    ],
+    "KeyName": "eval_picard_markdup_memory_mc_mq",
+    "LogGroupName": "ecsub-eval_picard_markdup_memory_mc_mq",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.5.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.6.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.7.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-25 13:27:34.481473",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_markdup_memory_mc_mq:3",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/eval_picard_markdup_memory_mc_mq/log/eval_picard_markdup_memory_mc_mq"
+}

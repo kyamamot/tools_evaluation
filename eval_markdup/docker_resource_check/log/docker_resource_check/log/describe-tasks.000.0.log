@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/04/01 16:40:07 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/docker_resource_check",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/04/01 16:38:47 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+            "group": "family:docker_resource_check",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-docker_resource_check;stream=ecsub/docker_resource_check_task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+            "no": 0,
+            "log_local": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/docker_resource_check/log/docker_resource_check/log/describe-tasks.000.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/90b05ce3-1136-432a-8e4a-6006bbdbd875",
+            "pullStartedAt": "2019/04/01 16:38:48 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/04/01 16:38:47 KST",
+            "startedAt": "2019/04/01 16:39:26 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/docker_resource_check:2",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/981c9e78-3f79-4465-be78-87938fe5db47",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+                    "name": "docker_resource_check_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/04/01 16:40:07 KST",
+            "memory": "62000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 500,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                            }
+                        ],
+                        "memory": 62000,
+                        "name": "docker_resource_check_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/04/01 16:39:25 KST",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/04/01 16:40:07 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "608a6fab-5451-11e9-ac91-d1b2f0a504f1",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "608a6fab-5451-11e9-ac91-d1b2f0a504f1",
+            "date": "Mon, 01 Apr 2019 07:40:09 GMT",
+            "content-length": "1613",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

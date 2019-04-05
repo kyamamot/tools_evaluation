@@ -1,0 +1,46 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq_pgc_thread",
+    "ClusterName": "eval_picard_markdup_memory_mc_mq_pgc_thread",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-03-25 15:04:57.898940",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-03-25 15:04:57.898764",
+            "ExitCode": 0,
+            "InstanceId": "i-080b702fab90a50d7",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.3057928571428571,
+            "Start": "2019-03-25 14:26:08.868483",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.6469528558333333
+        }
+    ],
+    "KeyName": "eval_picard_markdup_memory_mc_mq_pgc_thread",
+    "LogGroupName": "ecsub-eval_picard_markdup_memory_mc_mq_pgc_thread",
+    "No": 1,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-03-25 14:26:07.538276",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_markdup_memory_mc_mq_pgc_thread:2",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/eval_picard_markdup_memory_mc_mq_pgc_thread/log/eval_picard_markdup_memory_mc_mq_pgc_thread"
+}

@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/04/03 14:24:48 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_samtools_markdup",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/04/03 14:17:04 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/d0bcbca8-a0d5-459d-bcd8-08b2c8a182d8",
+            "group": "family:eval_samtools_markdup",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_samtools_markdup;stream=ecsub/eval_samtools_markdup_task/d0bcbca8-a0d5-459d-bcd8-08b2c8a182d8",
+            "no": 4,
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_samtools_markdup/log/eval_samtools_markdup/log/describe-tasks.004.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/2219683e-085e-4243-a1da-693ca9d674f3",
+            "pullStartedAt": "2019/04/03 14:17:04 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/04/03 14:17:04 KST",
+            "startedAt": "2019/04/03 14:17:36 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_samtools_markdup:3",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/30add999-5964-4672-a106-5aa0596dbe70",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/d0bcbca8-a0d5-459d-bcd8-08b2c8a182d8",
+                    "name": "eval_samtools_markdup_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/04/03 14:24:48 KST",
+            "memory": "30000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 100,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_samtools_markdup/script/setenv.4.sh"
+                            }
+                        ],
+                        "memory": 30000,
+                        "name": "eval_samtools_markdup_task",
+                        "cpu": 8
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/04/03 14:17:35 KST",
+            "instance_type": "m5.2xlarge",
+            "stoppedAt": "2019/04/03 14:24:48 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "8"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "cee344f9-55d0-11e9-87ca-9d0b16cf8d74",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "cee344f9-55d0-11e9-87ca-9d0b16cf8d74",
+            "date": "Wed, 03 Apr 2019 05:24:52 GMT",
+            "content-length": "1609",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

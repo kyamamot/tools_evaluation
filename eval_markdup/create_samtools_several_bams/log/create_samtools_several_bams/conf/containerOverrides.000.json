@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/create_samtools_several_bams/script/setenv.0.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "create_samtools_several_bams_task",
+            "memory": 62000
+        }
+    ]
+}

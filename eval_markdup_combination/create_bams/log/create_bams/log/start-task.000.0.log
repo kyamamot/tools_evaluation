@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/ea78ef38-8946-4e8b-b8d9-57dd8c1b29f9", 
+            "group": "family:create_bams", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/create_bams/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 30000, 
+                        "name": "create_bams_task", 
+                        "cpu": 8
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/72fe8f16-b544-438c-9489-06d919d1d35b", 
+            "createdAt": 1554196858.058, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/create_bams", 
+            "memory": "30000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/create_bams:7", 
+            "cpu": "8", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/4b82ffb6-c155-49d5-b6f5-da4e4795050f", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/ea78ef38-8946-4e8b-b8d9-57dd8c1b29f9", 
+                    "lastStatus": "PENDING", 
+                    "name": "create_bams_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

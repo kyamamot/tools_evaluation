@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/04/05 13:26:16 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_spark_02",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/04/05 12:32:35 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dd6b7b5c-ffba-40c3-906e-fcfa1d21f105",
+            "group": "family:eval_picard_markdup_spark_02",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_picard_markdup_spark_02;stream=ecsub/eval_picard_markdup_spark_02_task/dd6b7b5c-ffba-40c3-906e-fcfa1d21f105",
+            "no": 1,
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_spark_02/log/eval_picard_markdup_spark_02/log/describe-tasks.001.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/7ec4978b-9f1e-4a74-a5e9-392e8d835cc4",
+            "pullStartedAt": "2019/04/05 12:32:36 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/04/05 12:32:35 KST",
+            "startedAt": "2019/04/05 12:33:11 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_spark_02:1",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/f03536ee-e887-490d-a754-796513995bf5",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dd6b7b5c-ffba-40c3-906e-fcfa1d21f105",
+                    "name": "eval_picard_markdup_spark_02_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 1
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/04/05 13:26:16 KST",
+            "memory": "30000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 200,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_02/script/setenv.1.sh"
+                            }
+                        ],
+                        "memory": 30000,
+                        "name": "eval_picard_markdup_spark_02_task",
+                        "cpu": 8
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/04/05 12:33:10 KST",
+            "instance_type": "m5.2xlarge",
+            "stoppedAt": "2019/04/05 13:26:16 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "8"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "f5a5fd08-575a-11e9-87ca-9d0b16cf8d74",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "f5a5fd08-575a-11e9-87ca-9d0b16cf8d74",
+            "date": "Fri, 05 Apr 2019 04:26:18 GMT",
+            "content-length": "1658",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

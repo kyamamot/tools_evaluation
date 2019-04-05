@@ -1,0 +1,43 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/create_position_sorted_bam",
+    "ClusterName": "create_position_sorted_bam",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-01 17:36:12.692727",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-01 17:36:12.692554",
+            "ExitCode": 0,
+            "InstanceId": "i-014baea73cfbb8742",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-01 17:06:11.829140",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.5002398372222222
+        }
+    ],
+    "KeyName": "create_position_sorted_bam",
+    "LogGroupName": "ecsub-create_position_sorted_bam",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/create_position_sorted_bam/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/create_position_sorted_bam/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/create_position_sorted_bam/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-01 17:06:10.647903",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/create_position_sorted_bam:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/create_position_sorted_bam/log/create_position_sorted_bam"
+}

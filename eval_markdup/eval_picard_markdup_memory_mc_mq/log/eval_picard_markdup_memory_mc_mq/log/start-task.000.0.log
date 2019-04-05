@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/0c9bf5eb-1309-41ce-9968-6ffbbda45148", 
+            "group": "family:eval_picard_markdup_memory_mc_mq", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_picard_markdup_memory_mc_mq_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/b448f9ea-8f63-4068-84b0-dc6771bd18be", 
+            "createdAt": 1553488217.311, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_markdup_memory_mc_mq:3", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/9c26cbc7-98bd-49e5-8b6c-65189ea1764f", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/0c9bf5eb-1309-41ce-9968-6ffbbda45148", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_picard_markdup_memory_mc_mq_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

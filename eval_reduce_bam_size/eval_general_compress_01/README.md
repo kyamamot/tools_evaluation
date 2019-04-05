@@ -4,7 +4,7 @@
 
 
 ## Computing Environment
-t3.xlarge Amazon EC2 spot instance - 4 cpu, 16GiB memory, 600GB EBS
+t3.xlarge Amazon EC2 spot instance - 4 cpu, 16GiB memory, 700GB EBS
 
 ## Running Time
 ![Running Time](output/running_time.png)

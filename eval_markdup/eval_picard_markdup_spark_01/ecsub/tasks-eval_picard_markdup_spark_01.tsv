@@ -1,0 +1,2 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/		(default)

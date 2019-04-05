@@ -1,0 +1,78 @@
+{
+    "taskDefinition": {
+        "status": "ACTIVE", 
+        "family": "eval_picard_markdup_spark", 
+        "placementConstraints": [], 
+        "requiresAttributes": [
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.17"
+            }, 
+            {
+                "name": "com.amazonaws.ecs.capability.task-iam-role"
+            }, 
+            {
+                "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+            }, 
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+            }
+        ], 
+        "compatibilities": [
+            "EC2"
+        ], 
+        "volumes": [
+            {
+                "host": {
+                    "sourcePath": "/external"
+                }, 
+                "name": "scratch"
+            }
+        ], 
+        "taskRoleArn": "arn:aws:iam::183726612847:role/ecsInstanceRole", 
+        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_spark:6", 
+        "containerDefinitions": [
+            {
+                "environment": [
+                    {
+                        "name": "SCRIPT_EXEC_PATH", 
+                        "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark/script/script.sh"
+                    }, 
+                    {
+                        "name": "SCRIPT_ENVM_PATH", 
+                        "value": ""
+                    }
+                ], 
+                "name": "eval_picard_markdup_spark_task", 
+                "workingDirectory": "/scratch", 
+                "mountPoints": [
+                    {
+                        "sourceVolume": "scratch", 
+                        "containerPath": "/scratch"
+                    }
+                ], 
+                "image": "kyamamot/eval-alignment-markdup:20190402", 
+                "logConfiguration": {
+                    "logDriver": "awslogs", 
+                    "options": {
+                        "awslogs-region": "ap-southeast-1", 
+                        "awslogs-stream-prefix": "ecsub", 
+                        "awslogs-group": "ecsub-eval_picard_markdup_spark"
+                    }
+                }, 
+                "cpu": 8192, 
+                "portMappings": [], 
+                "entryPoint": [
+                    "/bin/bash", 
+                    "-c"
+                ], 
+                "memory": 300, 
+                "command": [
+                    "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark/script/run.sh /exec.sh; /bin/bash /exec.sh"
+                ], 
+                "essential": true, 
+                "volumesFrom": []
+            }
+        ], 
+        "revision": 6
+    }
+}

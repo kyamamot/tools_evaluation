@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.1.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_picard_markdup_memory_mc_mq_pgc_thread_task",
+            "memory": 62000
+        }
+    ]
+}

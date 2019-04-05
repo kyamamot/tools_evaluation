@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env SAMTOOLS_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___		(default)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--threads 1	-@ 1
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--threads 2	-@ 2
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--threads 4	-@ 4
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--threads 8	-@ 8
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--threads 16	-@ 16

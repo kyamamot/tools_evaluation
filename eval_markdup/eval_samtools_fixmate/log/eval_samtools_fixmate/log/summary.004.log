@@ -1,0 +1,48 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_samtools_fixmate",
+    "ClusterName": "eval_samtools_fixmate",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-01 12:04:52.489571",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-01 12:04:52.489415",
+            "ExitCode": 0,
+            "InstanceId": "i-075aabd3c376a13c8",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1a",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-01 11:50:47.173235",
+            "SubnetId": "subnet-84dbd9e3",
+            "WorkHours": 0.23481005000000002
+        }
+    ],
+    "KeyName": "eval_samtools_fixmate",
+    "LogGroupName": "ecsub-eval_samtools_fixmate",
+    "No": 4,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.0.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.1.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.2.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.3.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.4.sh",
+        "s3://keisuke-singapore/tools_evaluation/eval_samtools_fixmate/script/setenv.5.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-01 11:50:46.071496",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_samtools_fixmate:3",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/eval_samtools_fixmate/log/eval_samtools_fixmate"
+}

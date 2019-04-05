@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5480351e-c34c-472e-b0d9-1af9700b98cc", 
+            "group": "family:eval_picard_markdup_memory", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory/script/setenv.5.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_picard_markdup_memory_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/47d2d7fd-bb7a-46d4-a631-e65f375e28b2", 
+            "createdAt": 1554443764.094, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/51050727-1c7a-44fe-9765-91d17b6c42dc", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5480351e-c34c-472e-b0d9-1af9700b98cc", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_picard_markdup_memory_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

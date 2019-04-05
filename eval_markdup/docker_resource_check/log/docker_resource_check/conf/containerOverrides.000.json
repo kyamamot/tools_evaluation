@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "docker_resource_check_task",
+            "memory": 62000
+        }
+    ]
+}

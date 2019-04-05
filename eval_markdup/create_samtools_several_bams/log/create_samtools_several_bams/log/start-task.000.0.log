@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dc71e415-1305-48ab-8b09-73b39cad3168", 
+            "group": "family:create_samtools_several_bams", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/create_samtools_several_bams/script/setenv.0.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "create_samtools_several_bams_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/555eb811-7342-478d-96b9-d892e315b997", 
+            "createdAt": 1554263489.83, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/create_samtools_several_bams", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/create_samtools_several_bams:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/e3548b5d-57a4-4a20-84e4-ec0b92aebb1e", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dc71e415-1305-48ab-8b09-73b39cad3168", 
+                    "lastStatus": "PENDING", 
+                    "name": "create_samtools_several_bams_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

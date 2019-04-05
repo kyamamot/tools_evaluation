@@ -1,0 +1,43 @@
+{
+    "AccountId": "047717877309",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/docker_resource_check",
+    "ClusterName": "docker_resource_check",
+    "Ec2InstanceDiskSize": 500,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-01 16:41:47.566463",
+    "Image": "kyamamot/eval-gatk-spark:20190401",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-04-01 16:41:47.566325",
+            "ExitCode": 0,
+            "InstanceId": "i-0953a9ab1de353be9",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.3049571428571429,
+            "Start": "2019-04-01 16:36:08.849329",
+            "SubnetId": "subnet-86d42ddf",
+            "WorkHours": 0.09408805444444444
+        }
+    ],
+    "KeyName": "docker_resource_check",
+    "LogGroupName": "ecsub-docker_resource_check",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/run.sh",
+    "S3Script": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-b8b110c0",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-01 16:36:07.769757",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/docker_resource_check:2",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/docker_resource_check/log/docker_resource_check"
+}

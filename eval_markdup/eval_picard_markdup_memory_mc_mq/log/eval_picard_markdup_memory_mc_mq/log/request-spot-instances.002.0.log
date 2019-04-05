@@ -1,0 +1,57 @@
+{
+    "SpotInstanceRequests": [
+        {
+            "Status": {
+                "Message": "Your Spot request has been submitted for review, and is pending evaluation.", 
+                "Code": "pending-evaluation", 
+                "UpdateTime": "2019-03-25T04:27:46.000Z"
+            }, 
+            "ProductDescription": "Linux/UNIX", 
+            "InstanceInterruptionBehavior": "terminate", 
+            "SpotInstanceRequestId": "sir-35781wjm", 
+            "State": "open", 
+            "LaunchSpecification": {
+                "Placement": {
+                    "AvailabilityZone": "ap-southeast-1c"
+                }, 
+                "ImageId": "ami-0eb4239fe0f64fe58", 
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvdcz", 
+                        "Ebs": {
+                            "DeleteOnTermination": true, 
+                            "VolumeType": "gp2", 
+                            "VolumeSize": 22
+                        }
+                    }, 
+                    {
+                        "DeviceName": "/dev/sdb", 
+                        "Ebs": {
+                            "DeleteOnTermination": true, 
+                            "VolumeType": "gp2", 
+                            "VolumeSize": 100
+                        }
+                    }
+                ], 
+                "KeyName": "eval_picard_markdup_memory_mc_mq", 
+                "SecurityGroups": [
+                    {
+                        "GroupName": "default", 
+                        "GroupId": "sg-b8b110c0"
+                    }
+                ], 
+                "SubnetId": "subnet-86d42ddf", 
+                "Monitoring": {
+                    "Enabled": false
+                }, 
+                "IamInstanceProfile": {
+                    "Name": "ecsInstanceRole"
+                }, 
+                "InstanceType": "m5.4xlarge"
+            }, 
+            "Type": "one-time", 
+            "CreateTime": "2019-03-25T04:27:46.000Z", 
+            "SpotPrice": "0.960000"
+        }
+    ]
+}

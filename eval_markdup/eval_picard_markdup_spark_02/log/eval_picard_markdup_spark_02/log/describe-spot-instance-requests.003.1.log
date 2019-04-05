@@ -1,0 +1,73 @@
+{
+    "SpotInstanceRequests": [
+        {
+            "Status": {
+                "Message": "Your spot request is fulfilled.",
+                "Code": "fulfilled",
+                "UpdateTime": "2019-04-05T03:30:41+00:00Z"
+            },
+            "ProductDescription": "Linux/UNIX",
+            "ValidUntil": "2019-04-12T03:30:39+00:00Z",
+            "Tags": [],
+            "InstanceId": "i-09c62a435638bd818",
+            "InstanceInterruptionBehavior": "terminate",
+            "SpotInstanceRequestId": "sir-whgi34xq",
+            "State": "active",
+            "LaunchedAvailabilityZone": "ap-southeast-1c",
+            "LaunchSpecification": {
+                "Placement": {
+                    "AvailabilityZone": "ap-southeast-1c"
+                },
+                "ImageId": "ami-0eb4239fe0f64fe58",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvdcz",
+                        "Ebs": {
+                            "DeleteOnTermination": true,
+                            "VolumeType": "gp2",
+                            "VolumeSize": 22
+                        }
+                    },
+                    {
+                        "DeviceName": "/dev/sdb",
+                        "Ebs": {
+                            "DeleteOnTermination": true,
+                            "VolumeType": "gp2",
+                            "VolumeSize": 200
+                        }
+                    }
+                ],
+                "KeyName": "eval_picard_markdup_spark_02",
+                "SecurityGroups": [
+                    {
+                        "GroupName": "default",
+                        "GroupId": "sg-40e8073b"
+                    }
+                ],
+                "SubnetId": "subnet-bb9a59e2",
+                "Monitoring": {
+                    "Enabled": false
+                },
+                "IamInstanceProfile": {
+                    "Name": "ecsInstanceRole"
+                },
+                "InstanceType": "m5.2xlarge"
+            },
+            "Type": "one-time",
+            "CreateTime": "2019-04-05T03:30:39+00:00Z",
+            "SpotPrice": "0.480000"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "9110650c-ac16-4fbc-beac-04fd996db5d0",
+        "HTTPHeaders": {
+            "date": "Fri, 05 Apr 2019 04:20:07 GMT",
+            "vary": "accept-encoding",
+            "content-length": "2832",
+            "content-type": "text/xml;charset=UTF-8",
+            "server": "AmazonEC2"
+        }
+    }
+}

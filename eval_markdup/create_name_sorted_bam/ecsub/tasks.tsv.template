@@ -1,0 +1,4 @@
+--env SAMPLE	--input INPUT_FASTQ1	--input INPUT_FASTQ2	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env TOOL_COMBINATION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	0	bwa
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	1	bwa|samtools-view|sambamba-sort
+___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	2	bwa|samblaster|samtools-view|sambamba-sort

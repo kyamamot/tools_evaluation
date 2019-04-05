@@ -1,0 +1,43 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/create_samtools_several_bams",
+    "ClusterName": "create_samtools_several_bams",
+    "Ec2InstanceDiskSize": 200,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-03 13:56:15.153579",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-04-03 13:56:15.153439",
+            "ExitCode": 0,
+            "InstanceId": "i-0aa8d14a41477615d",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.30165,
+            "Start": "2019-04-03 12:49:04.144355",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 1.1197247455555555
+        }
+    ],
+    "KeyName": "create_samtools_several_bams",
+    "LogGroupName": "ecsub-create_samtools_several_bams",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/create_samtools_several_bams/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/create_samtools_several_bams/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/create_samtools_several_bams/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-03 12:49:00.568252",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/create_samtools_several_bams:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/create_samtools_several_bams/log/create_samtools_several_bams"
+}

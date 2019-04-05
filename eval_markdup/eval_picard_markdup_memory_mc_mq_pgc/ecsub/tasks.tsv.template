@@ -1,0 +1,7 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g	-Xmx1g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx2g	-Xmx2g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx4g	-Xmx4g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g -XX:+UseParallelGC	-Xmx1g,-XX:PGC
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx2g -XX:+UseParallelGC	-Xmx2g,-XX:PGC
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx4g -XX:+UseParallelGC	-Xmx4g,-XX:PGC

@@ -1,0 +1,9 @@
+--env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport	(default)
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms1g -Xmx1g	-Xms1g -Xmx1g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms2g -Xmx2g	-Xms2g -Xmx2g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms4g -Xmx4g	-Xms4g -Xmx4g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms8g -Xmx8g	-Xms8g -Xmx8g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms16g -Xmx16g	-Xms16g -Xmx16g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms32g -Xmx32g	-Xms32g -Xmx32g
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xms48g -Xmx48g	-Xms48g -Xmx48g

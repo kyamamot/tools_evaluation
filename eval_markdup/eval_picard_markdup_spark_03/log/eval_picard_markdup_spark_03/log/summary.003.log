@@ -1,0 +1,46 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_spark_03",
+    "ClusterName": "eval_picard_markdup_spark_03",
+    "Ec2InstanceDiskSize": 200,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-05 14:23:26.739280",
+    "Image": "kyamamot/eval-alignment-markdup:20190402",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-05 14:23:26.739128",
+            "ExitCode": 1,
+            "InstanceId": "i-05745633af7ec489d",
+            "OdPrice": 0.48,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-05 14:14:49.500534",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.14367738722222223
+        }
+    ],
+    "KeyName": "eval_picard_markdup_spark_03",
+    "LogGroupName": "ecsub-eval_picard_markdup_spark_03",
+    "No": 3,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/setenv.0.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/setenv.1.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/setenv.2.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_03/script/setenv.3.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-05 14:14:48.216295",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_spark_03:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_spark_03/log/eval_picard_markdup_spark_03"
+}

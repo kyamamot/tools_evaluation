@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-singapore/tools_evaluation/create_position_sorted_bam/script/setenv.0.sh"
+                }
+            ],
+            "cpu": 8,
+            "name": "create_position_sorted_bam_task",
+            "memory": 30000
+        }
+    ]
+}

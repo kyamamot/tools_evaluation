@@ -1,0 +1,377 @@
+samtools-1.9 (16cpu)	0	2019/04/12 05:41:00	4	Percent
+samtools-1.9 (16cpu)	1	2019/04/12 05:42:00	2	Percent
+samtools-1.9 (16cpu)	2	2019/04/12 05:43:00	2	Percent
+samtools-1.9 (16cpu)	3	2019/04/12 05:44:00	3	Percent
+samtools-1.9 (16cpu)	4	2019/04/12 05:45:00	5	Percent
+samtools-1.9 (16cpu)	5	2019/04/12 05:46:00	14	Percent
+samtools-1.9 (16cpu)	6	2019/04/12 05:47:00	26	Percent
+samtools-1.9 (16cpu)	7	2019/04/12 05:48:00	35	Percent
+samtools-1.9 (16cpu)	8	2019/04/12 05:49:00	41	Percent
+samtools-1.9 (16cpu)	9	2019/04/12 05:50:00	46	Percent
+samtools-1.9 (16cpu)	10	2019/04/12 05:51:00	51	Percent
+samtools-1.9 (16cpu)	11	2019/04/12 05:52:00	55	Percent
+samtools-1.9 (16cpu)	12	2019/04/12 05:53:00	58	Percent
+samtools-1.9 (16cpu)	13	2019/04/12 05:54:00	61	Percent
+samtools-1.9 (16cpu)	14	2019/04/12 05:55:00	63	Percent
+samtools-1.9 (16cpu)	15	2019/04/12 05:56:00	65	Percent
+samtools-1.9 (16cpu)	16	2019/04/12 05:57:00	67	Percent
+samtools-1.9 (16cpu)	17	2019/04/12 05:58:00	69	Percent
+samtools-1.9 (16cpu)	18	2019/04/12 05:59:00	71	Percent
+samtools-1.9 (16cpu)	19	2019/04/12 06:00:00	72	Percent
+samtools-1.9 (16cpu)	20	2019/04/12 06:01:00	73	Percent
+samtools-1.9 (16cpu)	21	2019/04/12 06:02:00	74	Percent
+samtools-1.9 (16cpu)	22	2019/04/12 06:03:00	75	Percent
+samtools-1.9 (16cpu)	23	2019/04/12 06:04:00	76	Percent
+samtools-1.9 (16cpu)	24	2019/04/12 06:05:00	77	Percent
+samtools-1.9 (16cpu)	25	2019/04/12 06:06:00	78	Percent
+samtools-1.9 (16cpu)	26	2019/04/12 06:07:00	78	Percent
+samtools-1.9 (16cpu)	27	2019/04/12 06:08:00	79	Percent
+samtools-1.9 (16cpu)	28	2019/04/12 06:09:00	80	Percent
+samtools-1.9 (16cpu)	29	2019/04/12 06:10:00	80	Percent
+samtools-1.9 (16cpu)	30	2019/04/12 06:11:00	81	Percent
+samtools-1.9 (16cpu)	31	2019/04/12 06:12:00	82	Percent
+samtools-1.9 (16cpu)	32	2019/04/12 06:13:00	82	Percent
+samtools-1.9 (16cpu)	33	2019/04/12 06:14:00	82	Percent
+samtools-1.9 (16cpu)	34	2019/04/12 06:15:00	83	Percent
+samtools-1.9 (16cpu)	35	2019/04/12 06:16:00	83	Percent
+samtools-1.9 (16cpu)	36	2019/04/12 06:17:00	84	Percent
+samtools-1.9 (16cpu)	37	2019/04/12 06:18:00	83	Percent
+samtools-1.9 (16cpu)	38	2019/04/12 06:19:00	82	Percent
+samtools-1.9 (16cpu)	39	2019/04/12 06:20:00	82	Percent
+samtools-1.9 (16cpu)	40	2019/04/12 06:21:00	81	Percent
+samtools-1.9 (16cpu)	41	2019/04/12 06:22:00	81	Percent
+samtools-1.9 (16cpu)	42	2019/04/12 06:23:00	81	Percent
+samtools-1.9 (16cpu)	43	2019/04/12 06:24:00	80	Percent
+samtools-1.9 (16cpu)	44	2019/04/12 06:25:00	80	Percent
+samtools-1.9 (16cpu)	45	2019/04/12 06:26:00	79	Percent
+picard-2.19.0 (16cpu)	0	2019/04/12 05:41:00	5	Percent
+picard-2.19.0 (16cpu)	1	2019/04/12 05:42:00	2	Percent
+picard-2.19.0 (16cpu)	2	2019/04/12 05:43:00	2	Percent
+picard-2.19.0 (16cpu)	3	2019/04/12 05:44:00	3	Percent
+picard-2.19.0 (16cpu)	4	2019/04/12 05:45:00	4	Percent
+picard-2.19.0 (16cpu)	5	2019/04/12 05:46:00	11	Percent
+picard-2.19.0 (16cpu)	6	2019/04/12 05:47:00	24	Percent
+picard-2.19.0 (16cpu)	7	2019/04/12 05:48:00	33	Percent
+picard-2.19.0 (16cpu)	8	2019/04/12 05:49:00	40	Percent
+picard-2.19.0 (16cpu)	9	2019/04/12 05:50:00	46	Percent
+picard-2.19.0 (16cpu)	10	2019/04/12 05:51:00	51	Percent
+picard-2.19.0 (16cpu)	11	2019/04/12 05:52:00	55	Percent
+picard-2.19.0 (16cpu)	12	2019/04/12 05:53:00	58	Percent
+picard-2.19.0 (16cpu)	13	2019/04/12 05:54:00	61	Percent
+picard-2.19.0 (16cpu)	14	2019/04/12 05:55:00	63	Percent
+picard-2.19.0 (16cpu)	15	2019/04/12 05:56:00	65	Percent
+picard-2.19.0 (16cpu)	16	2019/04/12 05:57:00	66	Percent
+picard-2.19.0 (16cpu)	17	2019/04/12 05:58:00	68	Percent
+picard-2.19.0 (16cpu)	18	2019/04/12 05:59:00	69	Percent
+picard-2.19.0 (16cpu)	19	2019/04/12 06:00:00	71	Percent
+picard-2.19.0 (16cpu)	20	2019/04/12 06:01:00	72	Percent
+picard-2.19.0 (16cpu)	21	2019/04/12 06:02:00	73	Percent
+picard-2.19.0 (16cpu)	22	2019/04/12 06:03:00	74	Percent
+picard-2.19.0 (16cpu)	23	2019/04/12 06:04:00	75	Percent
+picard-2.19.0 (16cpu)	24	2019/04/12 06:05:00	76	Percent
+picard-2.19.0 (16cpu)	25	2019/04/12 06:06:00	77	Percent
+picard-2.19.0 (16cpu)	26	2019/04/12 06:07:00	78	Percent
+picard-2.19.0 (16cpu)	27	2019/04/12 06:08:00	78	Percent
+picard-2.19.0 (16cpu)	28	2019/04/12 06:09:00	79	Percent
+picard-2.19.0 (16cpu)	29	2019/04/12 06:10:00	79	Percent
+picard-2.19.0 (16cpu)	30	2019/04/12 06:11:00	80	Percent
+picard-2.19.0 (16cpu)	31	2019/04/12 06:12:00	81	Percent
+picard-2.19.0 (16cpu)	32	2019/04/12 06:13:00	81	Percent
+picard-2.19.0 (16cpu)	33	2019/04/12 06:14:00	82	Percent
+picard-2.19.0 (16cpu)	34	2019/04/12 06:15:00	82	Percent
+picard-2.19.0 (16cpu)	35	2019/04/12 06:16:00	82	Percent
+picard-2.19.0 (16cpu)	36	2019/04/12 06:17:00	83	Percent
+picard-2.19.0 (16cpu)	37	2019/04/12 06:18:00	83	Percent
+picard-2.19.0 (16cpu)	38	2019/04/12 06:19:00	83	Percent
+picard-2.19.0 (16cpu)	39	2019/04/12 06:20:00	85	Percent
+picard-2.19.0 (16cpu)	40	2019/04/12 06:21:00	85	Percent
+picard-2.19.0 (16cpu)	41	2019/04/12 06:22:00	83	Percent
+picard-2.19.0 (16cpu)	42	2019/04/12 06:23:00	82	Percent
+picard-2.19.0 (16cpu)	43	2019/04/12 06:24:00	80	Percent
+picard-2.19.0 (16cpu)	44	2019/04/12 06:25:00	79	Percent
+picard-2.19.0 (16cpu)	45	2019/04/12 06:26:00	77	Percent
+picard-2.19.0 (16cpu)	46	2019/04/12 06:27:00	76	Percent
+picard-2.19.0 (16cpu)	47	2019/04/12 06:28:00	75	Percent
+picard-2.19.0 (16cpu)	48	2019/04/12 06:29:00	74	Percent
+picard-2.19.0 (16cpu)	49	2019/04/12 06:30:00	73	Percent
+picard-2.19.0 (16cpu)	50	2019/04/12 06:31:00	71	Percent
+picard-2.19.0 (16cpu)	51	2019/04/12 06:32:00	70	Percent
+picard-2.19.0 (16cpu)	52	2019/04/12 06:33:00	69	Percent
+picard-2.19.0 (16cpu)	53	2019/04/12 06:34:00	68	Percent
+picard-2.19.0 (16cpu)	54	2019/04/12 06:35:00	67	Percent
+picard-2.19.0 (16cpu)	55	2019/04/12 06:36:00	66	Percent
+picard-2.19.0 (16cpu)	56	2019/04/12 06:37:00	65	Percent
+picard-2.19.0 (16cpu)	57	2019/04/12 06:38:00	64	Percent
+picard-2.19.0 (16cpu)	58	2019/04/12 06:39:00	63	Percent
+picard-2.19.0 (16cpu)	59	2019/04/12 06:40:00	62	Percent
+picard-2.19.0 (16cpu)	60	2019/04/12 06:41:00	61	Percent
+picard-2.19.0 (16cpu)	61	2019/04/12 06:42:00	61	Percent
+picard-2.19.0 (16cpu)	62	2019/04/12 06:43:00	60	Percent
+picard-2.19.0 (16cpu)	63	2019/04/12 06:44:00	59	Percent
+picard-2.19.0 (16cpu)	64	2019/04/12 06:45:00	58	Percent
+picard-2.19.0 (16cpu)	65	2019/04/12 06:46:00	58	Percent
+picard-2.19.0 (16cpu)	66	2019/04/12 06:47:00	57	Percent
+picard-2.19.0 (16cpu)	67	2019/04/12 06:48:00	56	Percent
+picard-2.19.0 (16cpu)	68	2019/04/12 06:49:00	56	Percent
+picard-2.19.0 (16cpu)	69	2019/04/12 06:50:00	55	Percent
+picard-2.19.0 (16cpu)	70	2019/04/12 06:51:00	55	Percent
+picard-2.19.0 (16cpu)	71	2019/04/12 06:52:00	54	Percent
+picard-2.19.0 (16cpu)	72	2019/04/12 06:53:00	53	Percent
+picard-2.19.0 (16cpu)	73	2019/04/12 06:54:00	54	Percent
+picard-2.19.0 (16cpu)	74	2019/04/12 06:55:00	55	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	0	2019/04/12 05:41:00	5	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	1	2019/04/12 05:42:00	2	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	2	2019/04/12 05:43:00	2	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	3	2019/04/12 05:44:00	3	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	4	2019/04/12 05:45:00	4	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	5	2019/04/12 05:46:00	11	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	6	2019/04/12 05:47:00	24	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	7	2019/04/12 05:48:00	33	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	8	2019/04/12 05:49:00	40	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	9	2019/04/12 05:50:00	46	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	10	2019/04/12 05:51:00	50	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	11	2019/04/12 05:52:00	54	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	12	2019/04/12 05:53:00	57	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	13	2019/04/12 05:54:00	60	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	14	2019/04/12 05:55:00	63	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	15	2019/04/12 05:56:00	65	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	16	2019/04/12 05:57:00	67	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	17	2019/04/12 05:58:00	69	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	18	2019/04/12 05:59:00	70	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	19	2019/04/12 06:00:00	72	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	20	2019/04/12 06:01:00	73	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	21	2019/04/12 06:02:00	74	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	22	2019/04/12 06:03:00	75	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	23	2019/04/12 06:04:00	76	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	24	2019/04/12 06:05:00	77	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	25	2019/04/12 06:06:00	78	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	26	2019/04/12 06:07:00	78	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	27	2019/04/12 06:08:00	79	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	28	2019/04/12 06:09:00	80	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	29	2019/04/12 06:10:00	80	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	30	2019/04/12 06:11:00	81	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	31	2019/04/12 06:12:00	81	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	32	2019/04/12 06:13:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	33	2019/04/12 06:14:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	34	2019/04/12 06:15:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	35	2019/04/12 06:16:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	36	2019/04/12 06:17:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	37	2019/04/12 06:18:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	38	2019/04/12 06:19:00	81	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	39	2019/04/12 06:20:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	40	2019/04/12 06:21:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	41	2019/04/12 06:22:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	42	2019/04/12 06:23:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	43	2019/04/12 06:24:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	44	2019/04/12 06:25:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	45	2019/04/12 06:26:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	46	2019/04/12 06:27:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	47	2019/04/12 06:28:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	48	2019/04/12 06:29:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	49	2019/04/12 06:30:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	50	2019/04/12 06:31:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	51	2019/04/12 06:32:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	52	2019/04/12 06:33:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	53	2019/04/12 06:34:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	54	2019/04/12 06:35:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	55	2019/04/12 06:36:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,uncomp BAM)(16cpu)	56	2019/04/12 06:37:00	81	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	0	2019/04/12 05:41:00	5	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	1	2019/04/12 05:42:00	3	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	2	2019/04/12 05:43:00	3	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	3	2019/04/12 05:44:00	3	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	4	2019/04/12 05:45:00	5	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	5	2019/04/12 05:46:00	17	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	6	2019/04/12 05:47:00	29	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	7	2019/04/12 05:48:00	38	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	8	2019/04/12 05:49:00	45	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	9	2019/04/12 05:50:00	50	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	10	2019/04/12 05:51:00	55	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	11	2019/04/12 05:52:00	59	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	12	2019/04/12 05:53:00	61	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	13	2019/04/12 05:54:00	64	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	14	2019/04/12 05:55:00	66	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	15	2019/04/12 05:56:00	68	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	16	2019/04/12 05:57:00	70	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	17	2019/04/12 05:58:00	71	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	18	2019/04/12 05:59:00	73	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	19	2019/04/12 06:00:00	74	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	20	2019/04/12 06:01:00	75	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	21	2019/04/12 06:02:00	76	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	22	2019/04/12 06:03:00	77	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	23	2019/04/12 06:04:00	78	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	24	2019/04/12 06:05:00	79	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	25	2019/04/12 06:06:00	80	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	26	2019/04/12 06:07:00	80	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	27	2019/04/12 06:08:00	81	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	28	2019/04/12 06:09:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	29	2019/04/12 06:10:00	82	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	30	2019/04/12 06:11:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	31	2019/04/12 06:12:00	83	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	32	2019/04/12 06:13:00	84	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	33	2019/04/12 06:14:00	84	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	34	2019/04/12 06:15:00	84	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	35	2019/04/12 06:16:00	85	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	36	2019/04/12 06:17:00	85	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	37	2019/04/12 06:18:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	38	2019/04/12 06:19:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	39	2019/04/12 06:20:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	40	2019/04/12 06:21:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	41	2019/04/12 06:22:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	42	2019/04/12 06:23:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	43	2019/04/12 06:24:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	44	2019/04/12 06:25:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	45	2019/04/12 06:26:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	46	2019/04/12 06:27:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	47	2019/04/12 06:28:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	48	2019/04/12 06:29:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	49	2019/04/12 06:30:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	50	2019/04/12 06:31:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	51	2019/04/12 06:32:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	52	2019/04/12 06:33:00	86	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	53	2019/04/12 06:34:00	85	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	54	2019/04/12 06:35:00	84	Percent
+gatk-spark-4.1.1.0 (unsort,comp BAM)(16cpu)	55	2019/04/12 06:36:00	83	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	0	2019/04/12 05:41:00	6	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	1	2019/04/12 05:42:00	3	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	2	2019/04/12 05:43:00	1	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	3	2019/04/12 05:44:00	3	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	4	2019/04/12 05:45:00	4	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	5	2019/04/12 05:46:00	11	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	6	2019/04/12 05:47:00	24	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	7	2019/04/12 05:48:00	33	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	8	2019/04/12 05:49:00	41	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	9	2019/04/12 05:50:00	47	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	10	2019/04/12 05:51:00	51	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	11	2019/04/12 05:52:00	55	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	12	2019/04/12 05:53:00	59	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	13	2019/04/12 05:54:00	61	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	14	2019/04/12 05:55:00	64	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	15	2019/04/12 05:56:00	66	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	16	2019/04/12 05:57:00	67	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	17	2019/04/12 05:58:00	69	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	18	2019/04/12 05:59:00	70	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	19	2019/04/12 06:00:00	71	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	20	2019/04/12 06:01:00	73	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	21	2019/04/12 06:02:00	74	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	22	2019/04/12 06:03:00	75	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	23	2019/04/12 06:04:00	76	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	24	2019/04/12 06:05:00	77	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	25	2019/04/12 06:06:00	77	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	26	2019/04/12 06:07:00	78	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	27	2019/04/12 06:08:00	79	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	28	2019/04/12 06:09:00	79	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	29	2019/04/12 06:10:00	80	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	30	2019/04/12 06:11:00	81	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	31	2019/04/12 06:12:00	81	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	32	2019/04/12 06:13:00	82	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	33	2019/04/12 06:14:00	82	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	34	2019/04/12 06:15:00	82	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	35	2019/04/12 06:16:00	83	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	36	2019/04/12 06:17:00	83	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	37	2019/04/12 06:18:00	83	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	38	2019/04/12 06:19:00	84	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	39	2019/04/12 06:20:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	40	2019/04/12 06:21:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	41	2019/04/12 06:22:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	42	2019/04/12 06:23:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	43	2019/04/12 06:24:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	44	2019/04/12 06:25:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	45	2019/04/12 06:26:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	46	2019/04/12 06:27:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	47	2019/04/12 06:28:00	86	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	48	2019/04/12 06:29:00	85	Percent
+gatk-spark-4.1.1.0 (namesort,comp BAM)(16cpu)	49	2019/04/12 06:30:00	84	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	0	2019/04/12 05:41:00	6	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	1	2019/04/12 05:42:00	3	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	2	2019/04/12 05:43:00	3	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	3	2019/04/12 05:44:00	4	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	4	2019/04/12 05:45:00	5	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	5	2019/04/12 05:46:00	22	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	6	2019/04/12 05:47:00	33	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	7	2019/04/12 05:48:00	42	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	8	2019/04/12 05:49:00	48	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	9	2019/04/12 05:50:00	52	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	10	2019/04/12 05:51:00	57	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	11	2019/04/12 05:52:00	60	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	12	2019/04/12 05:53:00	63	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	13	2019/04/12 05:54:00	66	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	14	2019/04/12 05:55:00	68	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	15	2019/04/12 05:56:00	70	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	16	2019/04/12 05:57:00	71	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	17	2019/04/12 05:58:00	73	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	18	2019/04/12 05:59:00	74	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	19	2019/04/12 06:00:00	75	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	20	2019/04/12 06:01:00	77	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	21	2019/04/12 06:02:00	78	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	22	2019/04/12 06:03:00	78	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	23	2019/04/12 06:04:00	79	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	24	2019/04/12 06:05:00	80	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	25	2019/04/12 06:06:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	26	2019/04/12 06:07:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	27	2019/04/12 06:08:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	28	2019/04/12 06:09:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	29	2019/04/12 06:10:00	83	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	30	2019/04/12 06:11:00	83	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	31	2019/04/12 06:12:00	84	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	32	2019/04/12 06:13:00	84	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	33	2019/04/12 06:14:00	84	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	34	2019/04/12 06:15:00	85	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	35	2019/04/12 06:16:00	84	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	36	2019/04/12 06:17:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	37	2019/04/12 06:18:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	38	2019/04/12 06:19:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	39	2019/04/12 06:20:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	40	2019/04/12 06:21:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	41	2019/04/12 06:22:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	42	2019/04/12 06:23:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	43	2019/04/12 06:24:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	44	2019/04/12 06:25:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	45	2019/04/12 06:26:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	46	2019/04/12 06:27:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	47	2019/04/12 06:28:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	48	2019/04/12 06:29:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	49	2019/04/12 06:30:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	50	2019/04/12 06:31:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	51	2019/04/12 06:32:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	52	2019/04/12 06:33:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	53	2019/04/12 06:34:00	83	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	54	2019/04/12 06:35:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	55	2019/04/12 06:36:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	56	2019/04/12 06:37:00	82	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	57	2019/04/12 06:38:00	81	Percent
+gatk-spark-4.1.1.0 (SAM)(16cpu)	58	2019/04/12 06:39:00	80	Percent
+bwa only(16cpu)	0	2019/04/12 05:41:00	4	Percent
+bwa only(16cpu)	1	2019/04/12 05:42:00	2	Percent
+bwa only(16cpu)	2	2019/04/12 05:43:00	1	Percent
+bwa only(16cpu)	3	2019/04/12 05:44:00	3	Percent
+bwa only(16cpu)	4	2019/04/12 05:45:00	3	Percent
+bwa only(16cpu)	5	2019/04/12 05:46:00	11	Percent
+bwa only(16cpu)	6	2019/04/12 05:47:00	24	Percent
+bwa only(16cpu)	7	2019/04/12 05:48:00	33	Percent
+bwa only(16cpu)	8	2019/04/12 05:49:00	39	Percent
+bwa only(16cpu)	9	2019/04/12 05:50:00	45	Percent
+bwa only(16cpu)	10	2019/04/12 05:51:00	50	Percent
+bwa only(16cpu)	11	2019/04/12 05:52:00	54	Percent
+bwa only(16cpu)	12	2019/04/12 05:53:00	57	Percent
+bwa only(16cpu)	13	2019/04/12 05:54:00	60	Percent
+bwa only(16cpu)	14	2019/04/12 05:55:00	63	Percent
+bwa only(16cpu)	15	2019/04/12 05:56:00	65	Percent
+bwa only(16cpu)	16	2019/04/12 05:57:00	67	Percent
+bwa only(16cpu)	17	2019/04/12 05:58:00	68	Percent
+bwa only(16cpu)	18	2019/04/12 05:59:00	70	Percent
+bwa only(16cpu)	19	2019/04/12 06:00:00	71	Percent
+bwa only(16cpu)	20	2019/04/12 06:01:00	73	Percent
+bwa only(16cpu)	21	2019/04/12 06:02:00	74	Percent
+bwa only(16cpu)	22	2019/04/12 06:03:00	75	Percent
+bwa only(16cpu)	23	2019/04/12 06:04:00	76	Percent
+bwa only(16cpu)	24	2019/04/12 06:05:00	77	Percent
+bwa only(16cpu)	25	2019/04/12 06:06:00	78	Percent
+bwa only(16cpu)	26	2019/04/12 06:07:00	78	Percent
+bwa only(16cpu)	27	2019/04/12 06:08:00	79	Percent
+bwa only(16cpu)	28	2019/04/12 06:09:00	80	Percent
+bwa only(16cpu)	29	2019/04/12 06:10:00	80	Percent
+bwa only(16cpu)	30	2019/04/12 06:11:00	81	Percent
+bwa only(16cpu)	31	2019/04/12 06:12:00	81	Percent
+bwa only(16cpu)	32	2019/04/12 06:13:00	82	Percent
+bwa only(16cpu)	33	2019/04/12 06:14:00	82	Percent

@@ -6,21 +6,21 @@
     "Ec2InstanceDiskSize": 100,
     "EcsTaskMemory": 0,
     "EcsTaskVcpu": 0,
-    "End": "2019-04-05 15:31:49.438984",
+    "End": "2019-04-09 13:23:06.617372",
     "Image": "kyamamot/eval-alignment-markdup:20190402",
     "Jobs": [
         {
             "Ec2InstanceType": "m5.4xlarge",
-            "End": "2019-04-05 15:31:49.438862",
+            "End": "2019-04-09 13:23:06.617225",
             "ExitCode": 0,
-            "InstanceId": "i-066a3b9e02e6c07de",
+            "InstanceId": "i-00a6253172ba5a7a1",
             "OdPrice": 0.96,
             "Spot": true,
             "SpotAz": "ap-southeast-1c",
-            "SpotPrice": 0.29899333333333333,
-            "Start": "2019-04-05 14:52:45.680311",
+            "SpotPrice": 0.2963733333333333,
+            "Start": "2019-04-09 12:44:10.284577",
             "SubnetId": "subnet-bb9a59e2",
-            "WorkHours": 0.6510440419444444
+            "WorkHours": 0.6489812911111111
         }
     ],
     "KeyName": "eval_picard_markdup_memory",
@@ -42,9 +42,9 @@
     "SecurityGroupId": "sg-40e8073b",
     "Shell": "/bin/bash",
     "Spot": true,
-    "Start": "2019-04-05 14:52:44.608686",
+    "Start": "2019-04-09 12:44:08.945847",
     "SubnetId": "",
-    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:1",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:3",
     "UseAmazonEcr": false,
     "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_memory/log/eval_picard_markdup_memory"
 }

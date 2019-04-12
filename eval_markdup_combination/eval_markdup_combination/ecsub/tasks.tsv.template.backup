@@ -1,4 +1,0 @@
---env SAMPLE	--input INPUT_FASTQ1	--input INPUT_FASTQ2	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env EVAL_PATTERN	--env EVAL_CONDITION
-___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	samtools	samtools-1.9
-___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	picard	picard-2.19.0
-___SAMPLE___	___INPUT_FASTQ1___	___INPUT_FASTQ2___	___REFERENCE___	___OUTPUT_DIR___	gatk-spark	gatk-spark-4.1.1.0

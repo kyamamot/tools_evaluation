@@ -1,5 +1,0 @@
---env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env GATK_OPTION	--env EVAL_CONDITION
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--spark-master local[32]	local[32]
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--spark-master local[64]	local[64]
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--spark-master local[128]	local[128]
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	--spark-master local[*]	local[*]

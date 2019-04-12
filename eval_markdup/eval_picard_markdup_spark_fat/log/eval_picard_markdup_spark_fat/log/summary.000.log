@@ -1,0 +1,43 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_spark_fat",
+    "ClusterName": "eval_picard_markdup_spark_fat",
+    "Ec2InstanceDiskSize": 100,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-10 18:48:03.507977",
+    "Image": "kyamamot/eval-alignment-markdup:20190402",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-04-10 18:48:03.507805",
+            "ExitCode": 0,
+            "InstanceId": "i-0d9bacc4b7fb1f620",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.29727857142857145,
+            "Start": "2019-04-10 18:30:21.737694",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.29493614194444445
+        }
+    ],
+    "KeyName": "eval_picard_markdup_spark_fat",
+    "LogGroupName": "ecsub-eval_picard_markdup_spark_fat",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_fat/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_fat/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_spark_fat/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-10 18:30:20.342338",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_spark_fat:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_spark_fat/log/eval_picard_markdup_spark_fat"
+}

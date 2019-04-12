@@ -1,5 +1,0 @@
---env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env GATK_OPTION	--env EVAL_CONDITION
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	--spark-master local[32]	local[32]
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	--spark-master local[64]	local[64]
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	--spark-master local[128]	local[128]
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	--spark-master local[*]	local[*]

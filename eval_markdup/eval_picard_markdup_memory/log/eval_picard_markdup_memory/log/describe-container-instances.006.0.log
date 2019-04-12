@@ -3,7 +3,7 @@
     "containerInstances": [
         {
             "status": "ACTIVE", 
-            "registeredAt": 1554443654.374, 
+            "registeredAt": 1554781536.958, 
             "registeredResources": [
                 {
                     "integerValue": 16384, 
@@ -42,10 +42,10 @@
                     "integerValue": 0
                 }
             ], 
-            "ec2InstanceId": "i-066a3b9e02e6c07de", 
+            "ec2InstanceId": "i-00a6253172ba5a7a1", 
             "tags": [], 
             "agentConnected": true, 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/14b77deb-8bd7-4f84-bd93-f54f10c76a65", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/98d63197-07ad-46b5-8e8b-daed83d11ef6", 
             "pendingTasksCount": 1, 
             "remainingResources": [
                 {
@@ -98,6 +98,9 @@
                     "value": "ami-0eb4239fe0f64fe58"
                 }, 
                 {
+                    "name": "ecs.capability.secrets.asm.bootstrap.log-driver"
+                }, 
+                {
                     "name": "com.amazonaws.ecs.capability.logging-driver.none"
                 }, 
                 {
@@ -107,11 +110,11 @@
                     "name": "com.amazonaws.ecs.capability.logging-driver.json-file"
                 }, 
                 {
-                    "name": "ecs.vpc-id", 
-                    "value": "vpc-abae8ecc"
+                    "name": "ecs.capability.execution-role-awslogs"
                 }, 
                 {
-                    "name": "ecs.capability.execution-role-awslogs"
+                    "name": "ecs.vpc-id", 
+                    "value": "vpc-abae8ecc"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.17"
@@ -126,10 +129,13 @@
                     "name": "ecs.capability.docker-plugin.local"
                 }, 
                 {
+                    "name": "ecs.capability.task-eni"
+                }, 
+                {
                     "name": "ecs.capability.task-cpu-mem-limit"
                 }, 
                 {
-                    "name": "ecs.capability.task-eni"
+                    "name": "ecs.capability.secrets.ssm.bootstrap.log-driver"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.30"
@@ -180,27 +186,24 @@
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.27"
                 }, 
                 {
-                    "name": "ecs.capability.container-ordering"
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.privileged-container"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
+                    "name": "ecs.capability.container-ordering"
+                }, 
+                {
+                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
                 }, 
                 {
                     "name": "ecs.cpu-architecture", 
                     "value": "x86_64"
                 }, 
                 {
-                    "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
-                }, 
-                {
                     "name": "ecs.capability.cni-plugin-version", 
                     "value": "93f43776-2018.10.0"
-                }, 
-                {
-                    "name": "ecs.capability.secrets.ssm.environment-variables"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.ecr-auth"
@@ -209,11 +212,14 @@
                     "name": "ecs.capability.pid-ipc-namespace-sharing"
                 }, 
                 {
-                    "name": "ecs.os-type", 
-                    "value": "linux"
+                    "name": "ecs.capability.secrets.ssm.environment-variables"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.20"
+                }, 
+                {
+                    "name": "ecs.os-type", 
+                    "value": "linux"
                 }, 
                 {
                     "name": "com.amazonaws.ecs.capability.docker-remote-api.1.21"
@@ -235,8 +241,8 @@
                 }
             ], 
             "versionInfo": {
-                "agentVersion": "1.26.0", 
-                "agentHash": "ebac2200", 
+                "agentVersion": "1.27.0", 
+                "agentHash": "aabe65ee", 
                 "dockerVersion": "DockerVersion: 18.06.1-ce"
             }, 
             "runningTasksCount": 0, 

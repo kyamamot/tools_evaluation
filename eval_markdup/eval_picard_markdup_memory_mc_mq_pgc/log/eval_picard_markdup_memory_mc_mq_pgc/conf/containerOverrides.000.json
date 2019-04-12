@@ -4,12 +4,12 @@
             "environment": [
                 {
                     "name": "SCRIPT_ENVM_PATH",
-                    "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc/script/setenv.0.sh"
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc/script/setenv.0.sh"
                 }
             ],
-            "cpu": 16,
+            "cpu": 8,
             "name": "eval_picard_markdup_memory_mc_mq_pgc_task",
-            "memory": 62000
+            "memory": 30000
         }
     ]
 }

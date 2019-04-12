@@ -8,6 +8,6 @@
         "pendingTasksCount": 0, 
         "runningTasksCount": 0, 
         "activeServicesCount": 0, 
-        "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq_pgc"
+        "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory_mc_mq_pgc"
     }
 }

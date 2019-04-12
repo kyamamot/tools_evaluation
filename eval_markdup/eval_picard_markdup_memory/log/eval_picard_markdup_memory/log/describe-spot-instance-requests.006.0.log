@@ -4,14 +4,14 @@
             "Status": {
                 "Message": "Your spot request is fulfilled.",
                 "Code": "fulfilled",
-                "UpdateTime": "2019-04-05T05:52:51+00:00Z"
+                "UpdateTime": "2019-04-09T03:44:16+00:00Z"
             },
             "ProductDescription": "Linux/UNIX",
-            "ValidUntil": "2019-04-12T05:52:49+00:00Z",
+            "ValidUntil": "2019-04-16T03:44:13+00:00Z",
             "Tags": [],
-            "InstanceId": "i-066a3b9e02e6c07de",
+            "InstanceId": "i-00a6253172ba5a7a1",
             "InstanceInterruptionBehavior": "terminate",
-            "SpotInstanceRequestId": "sir-ic7g2nsn",
+            "SpotInstanceRequestId": "sir-fwer22rn",
             "State": "active",
             "LaunchedAvailabilityZone": "ap-southeast-1c",
             "LaunchSpecification": {
@@ -54,17 +54,17 @@
                 "InstanceType": "m5.4xlarge"
             },
             "Type": "one-time",
-            "CreateTime": "2019-04-05T05:52:49+00:00Z",
+            "CreateTime": "2019-04-09T03:44:13+00:00Z",
             "SpotPrice": "0.960000"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "277403e4-a540-4dbd-bd99-4e3b75c851d6",
+        "RequestId": "a60ab4b3-a146-49ff-ae99-ded473857f4c",
         "HTTPHeaders": {
-            "date": "Fri, 05 Apr 2019 05:52:59 GMT",
-            "vary": "Accept-Encoding",
+            "date": "Tue, 09 Apr 2019 03:44:24 GMT",
+            "vary": "accept-encoding",
             "content-length": "2830",
             "content-type": "text/xml;charset=UTF-8",
             "server": "AmazonEC2"

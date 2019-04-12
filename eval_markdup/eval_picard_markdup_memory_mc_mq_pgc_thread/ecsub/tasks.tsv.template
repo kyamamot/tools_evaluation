@@ -1,5 +1,5 @@
 --env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=1	-Xmx1g,-XX:PGC,-XX:PGCThread=1
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=2	-Xmx1g,-XX:PGC,-XX:PGCThread=2
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=4	-Xmx1g,-XX:PGC,-XX:PGCThread=4
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=8	-Xmx1g,-XX:PGC,-XX:PGCThread=8
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=1	-Xmx1g,-XX:PGC,-XX:PGCThread=1
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=2	-Xmx1g,-XX:PGC,-XX:PGCThread=2
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=4	-Xmx1g,-XX:PGC,-XX:PGCThread=4
+___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___	-XX:-UseContainerSupport -Xmx1g -XX:+UseParallelGC -XX:ParallelGCThreads=8	-Xmx1g,-XX:PGC,-XX:PGCThread=8

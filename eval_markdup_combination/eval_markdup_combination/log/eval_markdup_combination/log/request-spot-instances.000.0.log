@@ -4,11 +4,11 @@
             "Status": {
                 "Message": "Your Spot request has been submitted for review, and is pending evaluation.", 
                 "Code": "pending-evaluation", 
-                "UpdateTime": "2019-04-05T09:49:18.000Z"
+                "UpdateTime": "2019-04-12T05:42:27.000Z"
             }, 
             "ProductDescription": "Linux/UNIX", 
             "InstanceInterruptionBehavior": "terminate", 
-            "SpotInstanceRequestId": "sir-ge883q9q", 
+            "SpotInstanceRequestId": "sir-6ptiifsp", 
             "State": "open", 
             "LaunchSpecification": {
                 "Placement": {
@@ -29,7 +29,7 @@
                         "Ebs": {
                             "DeleteOnTermination": true, 
                             "VolumeType": "gp2", 
-                            "VolumeSize": 100
+                            "VolumeSize": 200
                         }
                     }
                 ], 
@@ -50,7 +50,7 @@
                 "InstanceType": "m5.2xlarge"
             }, 
             "Type": "one-time", 
-            "CreateTime": "2019-04-05T09:49:18.000Z", 
+            "CreateTime": "2019-04-12T05:42:27.000Z", 
             "SpotPrice": "0.480000"
         }
     ]

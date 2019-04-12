@@ -2,27 +2,35 @@
     "CancelledSpotInstanceRequests": [
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-sxjr279m"
+            "SpotInstanceRequestId": "sir-rkxi1i7q"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-4cyr36wq"
+            "SpotInstanceRequestId": "sir-3yb82kin"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-apy8161n"
+            "SpotInstanceRequestId": "sir-ffa83q6q"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-7yegif7p"
+            "SpotInstanceRequestId": "sir-2csiibtp"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-tinr37em"
+            "SpotInstanceRequestId": "sir-1cpi2z1q"
         }, 
         {
             "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-eh3g28dq"
+            "SpotInstanceRequestId": "sir-brxg32pq"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-2xwi1ahq"
+        }, 
+        {
+            "State": "cancelled", 
+            "SpotInstanceRequestId": "sir-ve9i2zim"
         }
     ]
 }

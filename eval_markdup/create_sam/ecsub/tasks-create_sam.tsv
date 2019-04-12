@@ -1,0 +1,2 @@
+--env SAMPLE	--input INPUT_FASTQ1	--input INPUT_FASTQ2	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR	--env EVAL_CONDITION
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/fastq/100percent_5929_R1.fastq.gz	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/fastq/100percent_5929_R2.fastq.gz	s3://keisuke-nccj-otsuka/genome/_GRCh38/reference/GRCh38.d1.vd1/	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/sam/	(n/a)

@@ -1,46 +1,46 @@
 {
-    "AccountId": "047717877309",
+    "AccountId": "183726612847",
     "AmiId": "ami-0eb4239fe0f64fe58",
-    "ClusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq_pgc_thread",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory_mc_mq_pgc_thread",
     "ClusterName": "eval_picard_markdup_memory_mc_mq_pgc_thread",
     "Ec2InstanceDiskSize": 100,
     "EcsTaskMemory": 0,
     "EcsTaskVcpu": 0,
-    "End": "2019-03-25 15:06:00.731617",
-    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "End": "2019-04-09 15:49:52.353827",
+    "Image": "kyamamot/eval-alignment-markdup:20190402",
     "Jobs": [
         {
-            "Ec2InstanceType": "m5.4xlarge",
-            "End": "2019-03-25 15:06:00.731466",
+            "Ec2InstanceType": "m5.2xlarge",
+            "End": "2019-04-09 15:49:52.353665",
             "ExitCode": 0,
-            "InstanceId": "i-0c9a4ec5cb5c12fd9",
-            "OdPrice": 0.96,
+            "InstanceId": "i-0c8cb611069d407a3",
+            "OdPrice": 0.48,
             "Spot": true,
             "SpotAz": "ap-southeast-1c",
-            "SpotPrice": 0.3057928571428571,
-            "Start": "2019-03-25 14:26:18.752269",
-            "SubnetId": "subnet-86d42ddf",
-            "WorkHours": 0.6616608880555556
+            "SpotPrice": 0.1308,
+            "Start": "2019-04-09 15:12:43.708159",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.6190681961111111
         }
     ],
     "KeyName": "eval_picard_markdup_memory_mc_mq_pgc_thread",
     "LogGroupName": "ecsub-eval_picard_markdup_memory_mc_mq_pgc_thread",
     "No": 3,
     "Region": "ap-southeast-1",
-    "S3RunSh": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/run.sh",
-    "S3Script": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/script.sh",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/script.sh",
     "S3Setenv": [
-        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.0.sh",
-        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.1.sh",
-        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.2.sh",
-        "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.3.sh"
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.0.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.1.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.2.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/setenv.3.sh"
     ],
-    "SecurityGroupId": "sg-b8b110c0",
+    "SecurityGroupId": "sg-40e8073b",
     "Shell": "/bin/bash",
     "Spot": true,
-    "Start": "2019-03-25 14:26:17.548584",
+    "Start": "2019-04-09 15:12:42.425546",
     "SubnetId": "",
-    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_markdup_memory_mc_mq_pgc_thread:2",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory_mc_mq_pgc_thread:2",
     "UseAmazonEcr": false,
-    "Wdir": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/eval_picard_markdup_memory_mc_mq_pgc_thread/log/eval_picard_markdup_memory_mc_mq_pgc_thread"
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_memory_mc_mq_pgc_thread/log/eval_picard_markdup_memory_mc_mq_pgc_thread"
 }

@@ -4,26 +4,26 @@
         {
             "launchType": "EC2",
             "attachments": [],
-            "stoppingAt": "2019/04/05 18:58:01 KST",
+            "stoppingAt": "2019/04/12 15:49:32 KST",
             "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination",
             "desiredStatus": "STOPPED",
-            "createdAt": "2019/04/05 18:52:40 KST",
-            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/502a231d-7e44-47ec-b525-23092da51c2c",
+            "createdAt": "2019/04/12 14:45:31 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/2eb8fa41-8d22-4f26-a3ef-5abbdccaa5c2",
             "group": "family:eval_markdup_combination",
-            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_markdup_combination;stream=ecsub/eval_markdup_combination_task/502a231d-7e44-47ec-b525-23092da51c2c",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_markdup_combination;stream=ecsub/eval_markdup_combination_task/2eb8fa41-8d22-4f26-a3ef-5abbdccaa5c2",
             "no": 0,
             "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup_combination/eval_markdup_combination/log/eval_markdup_combination/log/describe-tasks.000.0.log",
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/6b663d7e-6087-41c6-8b3e-549f27b99038",
-            "pullStartedAt": "2019/04/05 18:52:43 KST",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/4829755d-21a9-4100-b87c-75954f778fdf",
+            "pullStartedAt": "2019/04/12 14:45:33 KST",
             "version": 3,
             "stopCode": "EssentialContainerExited",
-            "connectivityAt": "2019/04/05 18:52:40 KST",
-            "startedAt": "2019/04/05 18:53:20 KST",
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:4",
+            "connectivityAt": "2019/04/12 14:45:31 KST",
+            "startedAt": "2019/04/12 14:46:10 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:12",
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/9ae53314-838a-43f7-8781-e7977487127b",
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/502a231d-7e44-47ec-b525-23092da51c2c",
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/42b49fc1-ca75-494b-8867-7a6c0b834c5f",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/2eb8fa41-8d22-4f26-a3ef-5abbdccaa5c2",
                     "name": "eval_markdup_combination_task",
                     "networkBindings": [],
                     "lastStatus": "STOPPED",
@@ -33,12 +33,12 @@
                 }
             ],
             "tags": [],
-            "executionStoppedAt": "2019/04/05 18:58:01 KST",
+            "executionStoppedAt": "2019/04/12 15:49:32 KST",
             "memory": "30000",
             "lastStatus": "STOPPED",
             "connectivity": "CONNECTED",
             "healthStatus": "UNKNOWN",
-            "disk_size": 100,
+            "disk_size": 200,
             "overrides": {
                 "containerOverrides": [
                     {
@@ -54,9 +54,9 @@
                     }
                 ]
             },
-            "pullStoppedAt": "2019/04/05 18:53:20 KST",
+            "pullStoppedAt": "2019/04/12 14:46:10 KST",
             "instance_type": "m5.2xlarge",
-            "stoppedAt": "2019/04/05 18:58:01 KST",
+            "stoppedAt": "2019/04/12 15:49:32 KST",
             "stoppedReason": "Essential container in task exited",
             "cpu": "8"
         }
@@ -64,11 +64,11 @@
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "4d3166ac-5789-11e9-98fd-1b7c016ea224",
+        "RequestId": "22a2bb88-5cef-11e9-aadc-c38e91df00b3",
         "HTTPHeaders": {
-            "x-amzn-requestid": "4d3166ac-5789-11e9-98fd-1b7c016ea224",
-            "date": "Fri, 05 Apr 2019 09:58:02 GMT",
-            "content-length": "1634",
+            "x-amzn-requestid": "22a2bb88-5cef-11e9-aadc-c38e91df00b3",
+            "date": "Fri, 12 Apr 2019 06:49:35 GMT",
+            "content-length": "1632",
             "content-type": "application/x-amz-json-1.1"
         }
     }

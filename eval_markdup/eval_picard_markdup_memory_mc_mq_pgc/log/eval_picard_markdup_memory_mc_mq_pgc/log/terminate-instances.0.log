@@ -1,7 +1,7 @@
 {
     "TerminatingInstances": [
         {
-            "InstanceId": "i-04d3958647740df44", 
+            "InstanceId": "i-0f3e6891a8123c06d", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"
@@ -12,7 +12,7 @@
             }
         }, 
         {
-            "InstanceId": "i-06b0b4f3b60ec6d23", 
+            "InstanceId": "i-0698bed2a6c3d4b83", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"
@@ -23,7 +23,7 @@
             }
         }, 
         {
-            "InstanceId": "i-0ed39933a62072b86", 
+            "InstanceId": "i-01a555e81c3c64069", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"
@@ -34,7 +34,7 @@
             }
         }, 
         {
-            "InstanceId": "i-0e42c8e014f046b18", 
+            "InstanceId": "i-07bd6e2fe43d87ec9", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"
@@ -45,7 +45,7 @@
             }
         }, 
         {
-            "InstanceId": "i-08a13e7d48a5de508", 
+            "InstanceId": "i-072d7f8ae60188eca", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"
@@ -56,7 +56,29 @@
             }
         }, 
         {
-            "InstanceId": "i-04e2ce54eb0626858", 
+            "InstanceId": "i-03336767359cfc27d", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-00ffde1ff30078dd8", 
+            "CurrentState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }, 
+            "PreviousState": {
+                "Code": 48, 
+                "Name": "terminated"
+            }
+        }, 
+        {
+            "InstanceId": "i-0a173f77f4ff3191f", 
             "CurrentState": {
                 "Code": 48, 
                 "Name": "terminated"

@@ -4,14 +4,14 @@
             "Status": {
                 "Message": "Your spot request is fulfilled.",
                 "Code": "fulfilled",
-                "UpdateTime": "2019-03-25T05:22:07+00:00Z"
+                "UpdateTime": "2019-04-09T04:56:26+00:00Z"
             },
             "ProductDescription": "Linux/UNIX",
-            "ValidUntil": "2019-04-01T05:22:06+00:00Z",
+            "ValidUntil": "2019-04-16T04:56:24+00:00Z",
             "Tags": [],
-            "InstanceId": "i-06b0b4f3b60ec6d23",
+            "InstanceId": "i-00ffde1ff30078dd8",
             "InstanceInterruptionBehavior": "terminate",
-            "SpotInstanceRequestId": "sir-4cyr36wq",
+            "SpotInstanceRequestId": "sir-3yb82kin",
             "State": "active",
             "LaunchedAvailabilityZone": "ap-southeast-1c",
             "LaunchSpecification": {
@@ -41,30 +41,30 @@
                 "SecurityGroups": [
                     {
                         "GroupName": "default",
-                        "GroupId": "sg-b8b110c0"
+                        "GroupId": "sg-40e8073b"
                     }
                 ],
-                "SubnetId": "subnet-86d42ddf",
+                "SubnetId": "subnet-bb9a59e2",
                 "Monitoring": {
                     "Enabled": false
                 },
                 "IamInstanceProfile": {
                     "Name": "ecsInstanceRole"
                 },
-                "InstanceType": "m5.4xlarge"
+                "InstanceType": "m5.2xlarge"
             },
             "Type": "one-time",
-            "CreateTime": "2019-03-25T05:22:06+00:00Z",
-            "SpotPrice": "0.960000"
+            "CreateTime": "2019-04-09T04:56:24+00:00Z",
+            "SpotPrice": "0.480000"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "6bb5f351-0314-4196-901a-02e2e2ff2a6e",
+        "RequestId": "d73455c9-bf7f-4f85-b0f4-5b37e9d32932",
         "HTTPHeaders": {
-            "date": "Mon, 25 Mar 2019 05:22:16 GMT",
-            "vary": "Accept-Encoding",
+            "date": "Tue, 09 Apr 2019 04:56:35 GMT",
+            "vary": "accept-encoding",
             "content-length": "2840",
             "content-type": "text/xml;charset=UTF-8",
             "server": "AmazonEC2"

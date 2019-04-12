@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/502a231d-7e44-47ec-b525-23092da51c2c", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/2eb8fa41-8d22-4f26-a3ef-5abbdccaa5c2", 
             "group": "family:eval_markdup_combination", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/6b663d7e-6087-41c6-8b3e-549f27b99038", 
-            "createdAt": 1554457960.573, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/4829755d-21a9-4100-b87c-75954f778fdf", 
+            "createdAt": 1555047931.751, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination", 
             "memory": "30000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:4", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:12", 
             "cpu": "8", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/9ae53314-838a-43f7-8781-e7977487127b", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/502a231d-7e44-47ec-b525-23092da51c2c", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/42b49fc1-ca75-494b-8867-7a6c0b834c5f", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/2eb8fa41-8d22-4f26-a3ef-5abbdccaa5c2", 
                     "lastStatus": "PENDING", 
                     "name": "eval_markdup_combination_task", 
                     "networkInterfaces": []

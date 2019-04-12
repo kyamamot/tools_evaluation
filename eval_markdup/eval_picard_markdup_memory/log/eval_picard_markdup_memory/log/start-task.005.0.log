@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5480351e-c34c-472e-b0d9-1af9700b98cc", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/4f173321-51de-4fec-bdd4-ea017dee6216", 
             "group": "family:eval_picard_markdup_memory", 
             "attachments": [], 
             "tags": [], 
@@ -23,18 +23,18 @@
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/47d2d7fd-bb7a-46d4-a631-e65f375e28b2", 
-            "createdAt": 1554443764.094, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/1bb29283-0bd8-4b37-a369-d345ffc48a20", 
+            "createdAt": 1554781680.573, 
             "version": 1, 
             "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory", 
             "memory": "62000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:1", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:3", 
             "cpu": "16", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/51050727-1c7a-44fe-9765-91d17b6c42dc", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5480351e-c34c-472e-b0d9-1af9700b98cc", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/956f4490-5766-400c-877a-d7e72743d536", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/4f173321-51de-4fec-bdd4-ea017dee6216", 
                     "lastStatus": "PENDING", 
                     "name": "eval_picard_markdup_memory_task", 
                     "networkInterfaces": []

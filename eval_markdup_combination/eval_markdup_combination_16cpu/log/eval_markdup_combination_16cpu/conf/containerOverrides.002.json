@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination_16cpu/script/setenv.2.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_markdup_combination_16cpu_task",
+            "memory": 62000
+        }
+    ]
+}

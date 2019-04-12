@@ -46,7 +46,7 @@
                 "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/run.sh /exec.sh; /bin/bash /exec.sh"
             ],
             "memory": 300,
-            "cpu": 8192
+            "cpu": 1
         }
     ],
     "family": "eval_markdup_combination"

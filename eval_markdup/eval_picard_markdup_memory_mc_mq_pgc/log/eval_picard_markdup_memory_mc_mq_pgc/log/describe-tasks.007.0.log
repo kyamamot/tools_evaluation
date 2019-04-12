@@ -1,0 +1,75 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/04/09 14:34:10 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory_mc_mq_pgc",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/04/09 13:59:28 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/80076521-2429-4eb7-8fd5-34db2c995506",
+            "group": "family:eval_picard_markdup_memory_mc_mq_pgc",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_picard_markdup_memory_mc_mq_pgc;stream=ecsub/eval_picard_markdup_memory_mc_mq_pgc_task/80076521-2429-4eb7-8fd5-34db2c995506",
+            "no": 7,
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/eval_picard_markdup_memory_mc_mq_pgc/log/eval_picard_markdup_memory_mc_mq_pgc/log/describe-tasks.007.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/ad20c209-e108-4fae-b6c1-8de9390fc6b1",
+            "pullStartedAt": "2019/04/09 13:59:30 KST",
+            "version": 3,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/04/09 13:59:28 KST",
+            "startedAt": "2019/04/09 14:00:06 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory_mc_mq_pgc:2",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/7bbb75b2-5f72-4853-99ae-8fc1e4224ed2",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/80076521-2429-4eb7-8fd5-34db2c995506",
+                    "name": "eval_picard_markdup_memory_mc_mq_pgc_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "networkInterfaces": [],
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/04/09 14:34:10 KST",
+            "memory": "30000",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 100,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc/script/setenv.7.sh"
+                            }
+                        ],
+                        "memory": 30000,
+                        "name": "eval_picard_markdup_memory_mc_mq_pgc_task",
+                        "cpu": 8
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/04/09 14:00:05 KST",
+            "instance_type": "m5.2xlarge",
+            "stoppedAt": "2019/04/09 14:34:10 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "8"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "1bb6ba15-5a89-11e9-9c41-21cc3566c9cd",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "1bb6ba15-5a89-11e9-9c41-21cc3566c9cd",
+            "date": "Tue, 09 Apr 2019 05:34:13 GMT",
+            "content-length": "1702",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

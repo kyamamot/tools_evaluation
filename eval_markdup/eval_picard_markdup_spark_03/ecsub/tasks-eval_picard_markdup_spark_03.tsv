@@ -1,5 +1,0 @@
---env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-Xms8g -Xmx8g -XX:-UseContainerSupport	-Xms8g -Xmx8g -XX:-UseContainerSupport
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-Xms16g -Xmx16g -XX:-UseContainerSupport	-Xms16g -Xmx16g -XX:-UseContainerSupport
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-Xms32g -Xmx32g -XX:-UseContainerSupport	-Xms32g -Xmx32g -XX:-UseContainerSupport
-5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.uncompress.unsort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-Xms48g -Xmx48g -XX:-UseContainerSupport	-Xms48g -Xmx48g -XX:-UseContainerSupport

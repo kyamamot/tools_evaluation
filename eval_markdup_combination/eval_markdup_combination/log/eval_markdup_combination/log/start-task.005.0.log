@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/78e22aab-71ea-4df7-bf9f-f1ea14ac76df", 
+            "group": "family:eval_markdup_combination", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.5.sh"
+                            }
+                        ], 
+                        "memory": 30000, 
+                        "name": "eval_markdup_combination_task", 
+                        "cpu": 8
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/20264a72-27b0-4f8b-9361-4ce68c5fb375", 
+            "createdAt": 1555047987.771, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination", 
+            "memory": "30000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:12", 
+            "cpu": "8", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/577da327-98c2-45af-970c-18028a80060a", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/78e22aab-71ea-4df7-bf9f-f1ea14ac76df", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_markdup_combination_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

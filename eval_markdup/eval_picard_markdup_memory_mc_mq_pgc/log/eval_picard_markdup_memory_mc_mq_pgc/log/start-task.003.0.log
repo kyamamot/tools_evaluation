@@ -2,7 +2,7 @@
     "failures": [], 
     "tasks": [
         {
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/5a5868ff-7d90-4b4d-9575-fdd61a93a861", 
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/388bd174-5971-4b64-b91d-b8cae7544d8a", 
             "group": "family:eval_picard_markdup_memory_mc_mq_pgc", 
             "attachments": [], 
             "tags": [], 
@@ -12,29 +12,29 @@
                         "environment": [
                             {
                                 "name": "SCRIPT_ENVM_PATH", 
-                                "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc/script/setenv.3.sh"
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc/script/setenv.3.sh"
                             }
                         ], 
-                        "memory": 62000, 
+                        "memory": 30000, 
                         "name": "eval_picard_markdup_memory_mc_mq_pgc_task", 
-                        "cpu": 16
+                        "cpu": 8
                     }
                 ]
             }, 
             "launchType": "EC2", 
             "lastStatus": "PENDING", 
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/5f883510-287e-41af-873a-b3abd7dfdf19", 
-            "createdAt": 1553491475.663, 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/fef275ca-19c5-4648-9544-11aa6d202636", 
+            "createdAt": 1554785903.724, 
             "version": 1, 
-            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/eval_picard_markdup_memory_mc_mq_pgc", 
-            "memory": "62000", 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_picard_markdup_memory_mc_mq_pgc", 
+            "memory": "30000", 
             "desiredStatus": "RUNNING", 
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/eval_picard_markdup_memory_mc_mq_pgc:2", 
-            "cpu": "16", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory_mc_mq_pgc:2", 
+            "cpu": "8", 
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/7c5bb637-b19f-43fb-a455-88eafcde8088", 
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/5a5868ff-7d90-4b4d-9575-fdd61a93a861", 
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/6e323b44-82ec-4f49-a51b-7ee74dbe305b", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/388bd174-5971-4b64-b91d-b8cae7544d8a", 
                     "lastStatus": "PENDING", 
                     "name": "eval_picard_markdup_memory_mc_mq_pgc_task", 
                     "networkInterfaces": []

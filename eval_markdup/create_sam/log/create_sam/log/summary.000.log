@@ -1,0 +1,43 @@
+{
+    "AccountId": "183726612847",
+    "AmiId": "ami-0eb4239fe0f64fe58",
+    "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/create_sam",
+    "ClusterName": "create_sam",
+    "Ec2InstanceDiskSize": 200,
+    "EcsTaskMemory": 0,
+    "EcsTaskVcpu": 0,
+    "End": "2019-04-10 19:45:35.443403",
+    "Image": "kyamamot/eval-alignment-markdup:20190320",
+    "Jobs": [
+        {
+            "Ec2InstanceType": "m5.4xlarge",
+            "End": "2019-04-10 19:45:35.443237",
+            "ExitCode": 0,
+            "InstanceId": "i-0d53618214f3cb451",
+            "OdPrice": 0.96,
+            "Spot": true,
+            "SpotAz": "ap-southeast-1c",
+            "SpotPrice": 0.29727857142857145,
+            "Start": "2019-04-10 18:49:38.526779",
+            "SubnetId": "subnet-bb9a59e2",
+            "WorkHours": 0.9324767938888889
+        }
+    ],
+    "KeyName": "create_sam",
+    "LogGroupName": "ecsub-create_sam",
+    "No": 0,
+    "Region": "ap-southeast-1",
+    "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/create_sam/script/run.sh",
+    "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/create_sam/script/script.sh",
+    "S3Setenv": [
+        "s3://keisuke-nccj-otsuka/tools_evaluation/create_sam/script/setenv.0.sh"
+    ],
+    "SecurityGroupId": "sg-40e8073b",
+    "Shell": "/bin/bash",
+    "Spot": true,
+    "Start": "2019-04-10 18:49:34.953222",
+    "SubnetId": "",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/create_sam:1",
+    "UseAmazonEcr": false,
+    "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/create_sam/log/create_sam"
+}

@@ -3,24 +3,24 @@
     "AmiId": "ami-0eb4239fe0f64fe58",
     "ClusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination",
     "ClusterName": "eval_markdup_combination",
-    "Ec2InstanceDiskSize": 100,
+    "Ec2InstanceDiskSize": 200,
     "EcsTaskMemory": 0,
     "EcsTaskVcpu": 0,
-    "End": "2019-04-05 18:58:54.108308",
+    "End": "2019-04-12 15:51:13.844007",
     "Image": "kyamamot/eval-alignment-markdup:20190402",
     "Jobs": [
         {
             "Ec2InstanceType": "m5.2xlarge",
-            "End": "2019-04-05 18:58:54.108047",
+            "End": "2019-04-12 15:51:13.843855",
             "ExitCode": 0,
-            "InstanceId": "i-0079e2dd38860032a",
+            "InstanceId": "i-01219fa07962bc5d8",
             "OdPrice": 0.48,
             "Spot": true,
             "SpotAz": "ap-southeast-1c",
             "SpotPrice": 0.1308,
-            "Start": "2019-04-05 18:49:14.503753",
+            "Start": "2019-04-12 14:42:23.146766",
             "SubnetId": "subnet-bb9a59e2",
-            "WorkHours": 0.16100119277777777
+            "WorkHours": 1.1474158580555556
         }
     ],
     "KeyName": "eval_markdup_combination",
@@ -30,14 +30,20 @@
     "S3RunSh": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/run.sh",
     "S3Script": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/script.sh",
     "S3Setenv": [
-        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.0.sh"
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.0.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.1.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.2.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.3.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.4.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.5.sh",
+        "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination/script/setenv.6.sh"
     ],
     "SecurityGroupId": "sg-40e8073b",
     "Shell": "/bin/bash",
     "Spot": true,
-    "Start": "2019-04-05 18:49:11.088256",
+    "Start": "2019-04-12 14:42:19.621009",
     "SubnetId": "",
-    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:4",
+    "TaskDefinitionAn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination:12",
     "UseAmazonEcr": false,
     "Wdir": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup_combination/eval_markdup_combination/log/eval_markdup_combination"
 }

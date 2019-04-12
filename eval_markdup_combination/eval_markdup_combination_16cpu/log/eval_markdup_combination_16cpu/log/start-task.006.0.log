@@ -1,0 +1,45 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/1cfcdead-82c6-45ff-949b-16662895bdad", 
+            "group": "family:eval_markdup_combination_16cpu", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_ENVM_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_markdup_combination_16cpu/script/setenv.6.sh"
+                            }
+                        ], 
+                        "memory": 62000, 
+                        "name": "eval_markdup_combination_16cpu_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/bab68a3c-0939-40b8-a091-8eb85473c516", 
+            "createdAt": 1555047742.66, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_markdup_combination_16cpu", 
+            "memory": "62000", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_markdup_combination_16cpu:2", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/6ca803d3-eee8-47da-8e91-c09d7cfe5247", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/1cfcdead-82c6-45ff-949b-16662895bdad", 
+                    "lastStatus": "PENDING", 
+                    "name": "eval_markdup_combination_16cpu_task", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

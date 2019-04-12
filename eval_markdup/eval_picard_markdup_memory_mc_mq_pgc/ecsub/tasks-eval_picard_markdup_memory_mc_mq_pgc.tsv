@@ -1,7 +1,9 @@
 --env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx1g	-Xmx1g
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx2g	-Xmx2g
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx4g	-Xmx4g
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx1g -XX:+UseParallelGC	-Xmx1g,-XX:PGC
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx2g -XX:+UseParallelGC	-Xmx2g,-XX:PGC
-5929_tumor	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam	s3://keisuke-singapore/sample/exome/5929_tumor_100/bam/	-Xmx4g -XX:+UseParallelGC	-Xmx4g,-XX:PGC
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms1g -Xmx1g	-Xms1g -Xmx1g
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms8g -Xmx8g	-Xms8g -Xmx8g
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms16g -Xmx16g	-Xms16g -Xmx16g
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms24g -Xmx24g	-Xms24g -Xmx24g
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms1g -Xmx1g -XX:+UseParallelGC	-Xms1g -Xmx1g -XX:+UseParallelGC
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms8g -Xmx8g -XX:+UseParallelGC	-Xms8g -Xmx8g -XX:+UseParallelGC
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms16g -Xmx16g -XX:+UseParallelGC	-Xms16g -Xmx16g -XX:+UseParallelGC
+5929_tumor	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster_matetag.namesort.bam	s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/	-XX:-UseContainerSupport -Xms24g -Xmx24g -XX:+UseParallelGC	-Xms24g -Xmx24g -XX:+UseParallelGC

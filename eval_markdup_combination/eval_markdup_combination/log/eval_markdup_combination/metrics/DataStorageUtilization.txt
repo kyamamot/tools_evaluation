@@ -1,8 +1,0 @@
-picard-2.19.0	0	2019/04/05 09:51:00	1	Percent
-picard-2.19.0	1	2019/04/05 09:52:00	1	Percent
-picard-2.19.0	2	2019/04/05 09:53:00	1	Percent
-picard-2.19.0	3	2019/04/05 09:54:00	1	Percent
-picard-2.19.0	4	2019/04/05 09:55:00	9	Percent
-picard-2.19.0	5	2019/04/05 09:56:00	9	Percent
-picard-2.19.0	6	2019/04/05 09:57:00	10	Percent
-picard-2.19.0	7	2019/04/05 09:58:00	10	Percent

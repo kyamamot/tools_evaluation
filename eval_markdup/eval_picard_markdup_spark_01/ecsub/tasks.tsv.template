@@ -1,2 +1,0 @@
---env SAMPLE	--input INPUT_BAM	--output-recursive OUTPUT_DIR	--env JAVA_OPTION	--env EVAL_CONDITION
-___SAMPLE___	___INPUT_BAM___	___OUTPUT_DIR___		(default)

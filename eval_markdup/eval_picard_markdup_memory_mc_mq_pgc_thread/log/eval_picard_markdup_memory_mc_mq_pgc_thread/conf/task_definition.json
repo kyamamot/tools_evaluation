@@ -7,10 +7,10 @@
             "name": "scratch"
         }
     ],
-    "taskRoleArn": "arn:aws:iam::047717877309:role/ecsInstanceRole",
+    "taskRoleArn": "arn:aws:iam::183726612847:role/ecsInstanceRole",
     "containerDefinitions": [
         {
-            "image": "kyamamot/eval-alignment-markdup:20190320",
+            "image": "kyamamot/eval-alignment-markdup:20190402",
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -35,7 +35,7 @@
             "environment": [
                 {
                     "name": "SCRIPT_EXEC_PATH",
-                    "value": "s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/script.sh"
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/script.sh"
                 },
                 {
                     "name": "SCRIPT_ENVM_PATH",
@@ -43,7 +43,7 @@
                 }
             ],
             "command": [
-                "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-singapore/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/run.sh /exec.sh; /bin/bash /exec.sh"
+                "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory_mc_mq_pgc_thread/script/run.sh /exec.sh; /bin/bash /exec.sh"
             ],
             "memory": 300,
             "cpu": 1

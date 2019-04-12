@@ -1,0 +1,15 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_ENVM_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_picard_markdup_memory/script/setenv.6.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_picard_markdup_memory_task",
+            "memory": 62000
+        }
+    ]
+}

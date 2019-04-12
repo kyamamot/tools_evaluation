@@ -29,7 +29,7 @@
             }
         ], 
         "taskRoleArn": "arn:aws:iam::183726612847:role/ecsInstanceRole", 
-        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:1", 
+        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_picard_markdup_memory:3", 
         "containerDefinitions": [
             {
                 "environment": [
@@ -59,7 +59,7 @@
                         "awslogs-group": "ecsub-eval_picard_markdup_memory"
                     }
                 }, 
-                "cpu": 8192, 
+                "cpu": 1, 
                 "portMappings": [], 
                 "entryPoint": [
                     "/bin/bash", 
@@ -73,6 +73,6 @@
                 "volumesFrom": []
             }
         ], 
-        "revision": 1
+        "revision": 3
     }
 }

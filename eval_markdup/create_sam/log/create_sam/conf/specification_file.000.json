@@ -1,0 +1,33 @@
+{
+    "ImageId": "ami-0eb4239fe0f64fe58",
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/xvdcz",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 22,
+                "VolumeType": "gp2"
+            }
+        },
+        {
+            "DeviceName": "/dev/sdb",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 200,
+                "VolumeType": "gp2"
+            }
+        }
+    ],
+    "Placement": {
+        "AvailabilityZone": "ap-southeast-1c"
+    },
+    "UserData": "Q29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PSI9PUJPVU5EQVJZPT0iCk1J\nTUUtVmVyc2lvbjogMS4wCgotLT09Qk9VTkRBUlk9PQpDb250ZW50LVR5cGU6IHRleHQvY2xvdWQt\nYm9vdGhvb2s7IGNoYXJzZXQ9InVzLWFzY2lpIgoKIyBJbnN0YWxsIG5mcy11dGlscwpjbG91ZC1p\nbml0LXBlciBvbmNlIHl1bV91cGRhdGUgeXVtIHVwZGF0ZSAteQpjbG91ZC1pbml0LXBlciBvbmNl\nIGluc3RhbGxfdHIgeXVtIGluc3RhbGwgLXkgdHIKY2xvdWQtaW5pdC1wZXIgb25jZSBpbnN0YWxs\nX3RkIHl1bSBpbnN0YWxsIC15IHRkCmNsb3VkLWluaXQtcGVyIG9uY2UgaW5zdGFsbF9weXRob24y\nN19waXAgeXVtIGluc3RhbGwgLXkgcHl0aG9uMjctcGlwCmNsb3VkLWluaXQtcGVyIG9uY2UgaW5z\ndGFsbF9hd3NjbGkgcGlwIGluc3RhbGwgYXdzY2xpCgpjbG91ZC1pbml0LXBlciBvbmNlIGVjc19v\ncHRpb24gZWNobyAiRUNTX0NMVVNURVI9YXJuOmF3czplY3M6YXAtc291dGhlYXN0LTE6MTgzNzI2\nNjEyODQ3OmNsdXN0ZXIvY3JlYXRlX3NhbSIgPj4gL2V0Yy9lY3MvZWNzLmNvbmZpZwoKY2F0IDw8\nIEVPRiA+IC9yb290L21ldHJpY3NjcmlwdC5zaApBV1NSRUdJT049YXAtc291dGhlYXN0LTEKQVdT\nSU5TVEFOQ0VJRD1cJChjdXJsIC1zcyBodHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRh\nLWRhdGEvaW5zdGFuY2UtaWQpCkVDU19DTFVTVEVSX05BTUU9XCQoY2F0IC9ldGMvZWNzL2Vjcy5j\nb25maWcgfCBncmVwIF5FQ1NfQ0xVU1RFUiB8IGN1dCAtZCAiLyIgLWYgMikKCmRpc2tfdXRpbD1c\nJChkZiAvZXh0ZXJuYWwgfCBhd2sgJy9leHRlcm5hbC8ge3ByaW50IFwkNX0nIHwgYXdrIC1GJSAn\ne3ByaW50IFwkMX0nKQphd3MgY2xvdWR3YXRjaCBwdXQtbWV0cmljLWRhdGEgLS12YWx1ZSBcJGRp\nc2tfdXRpbCAtLW5hbWVzcGFjZSBFQ1NVQiAtLXVuaXQgUGVyY2VudCAtLW1ldHJpYy1uYW1lIERh\ndGFTdG9yYWdlVXRpbGl6YXRpb24gLS1yZWdpb24gXCRBV1NSRUdJT04gLS1kaW1lbnNpb25zIElu\nc3RhbmNlSWQ9XCRBV1NJTlNUQU5DRUlELENsdXN0ZXJOYW1lPVwkRUNTX0NMVVNURVJfTkFNRQoK\nc3RzPShcJCh2bXN0YXQgfCB0YWlsIC1uIDEpKQpjcHVfdXRpbD1cJChhd2sgJ0JFR0lOeyBwcmlu\ndGYgIiUuMGZcbiIsICdcJHtzdHNbMTJdfScrJ1wke3N0c1sxM119JyB9JykKYXdzIGNsb3Vkd2F0\nY2ggcHV0LW1ldHJpYy1kYXRhIC0tdmFsdWUgXCRjcHVfdXRpbCAtLW5hbWVzcGFjZSBFQ1NVQiAt\nLXVuaXQgUGVyY2VudCAtLW1ldHJpYy1uYW1lIENQVVV0aWxpemF0aW9uIC0tcmVnaW9uIFwkQVdT\nUkVHSU9OIC0tZGltZW5zaW9ucyBJbnN0YW5jZUlkPVwkQVdTSU5TVEFOQ0VJRCxDbHVzdGVyTmFt\nZT1cJEVDU19DTFVTVEVSX05BTUUKCiMgbmV3Cm1lbV90b3RhbD1cJChmcmVlIHwgYXdrICcvTWVt\nOi8ge3ByaW50IFwkMn0nKQptZW1fdXNlZD1cJChmcmVlIHwgYXdrICcvYnVmZmVyc1wvY2FjaGU6\nLyB7cHJpbnQgXCQzfScpCm1lbV91dGlsPVwkKGF3ayAnQkVHSU57IHByaW50ZiAiJS4wZlxuIiwg\nJ1wkbWVtX3VzZWQnKjEwMC8nXCRtZW1fdG90YWwnIH0nKQphd3MgY2xvdWR3YXRjaCBwdXQtbWV0\ncmljLWRhdGEgLS12YWx1ZSBcJG1lbV91dGlsIC0tbmFtZXNwYWNlIEVDU1VCIC0tdW5pdCBQZXJj\nZW50IC0tbWV0cmljLW5hbWUgTWVtb3J5VXRpbGl6YXRpb24gLS1yZWdpb24gXCRBV1NSRUdJT04g\nLS1kaW1lbnNpb25zIEluc3RhbmNlSWQ9XCRBV1NJTlNUQU5DRUlELENsdXN0ZXJOYW1lPVwkRUNT\nX0NMVVNURVJfTkFNRQoKRU9GCgpjaG1vZCAreCAvcm9vdC9tZXRyaWNzY3JpcHQuc2gKCmNhdCA8\nPCBFT0YgPiAvZXRjL2Nyb250YWIKU0hFTEw9L2Jpbi9iYXNoClBBVEg9L3Vzci9sb2NhbC9iaW46\nL3NiaW46L2JpbjovdXNyL3NiaW46L3Vzci9iaW4KTUFJTFRPPQpIT01FPS8KKi8xICogKiAqICog\ncm9vdCAvcm9vdC9tZXRyaWNzY3JpcHQuc2gKKi8zMCAqICogKiAqIGNhdCAvZGV2L251bGwgPiAv\ndmFyL3Nwb29sL21haWwvcm9vdApFT0YKCmNsb3VkLWluaXQtcGVyIG9uY2UgbWtmc19zZGIgbWtm\ncyAtdCBleHQ0IC9kZXYvc2RiCmNsb3VkLWluaXQtcGVyIG9uY2UgbWtkaXJfZXh0ZXJuYWwgbWtk\naXIgL2V4dGVybmFsCmNsb3VkLWluaXQtcGVyIG9uY2UgbW91bnRfc2RiIG1vdW50IC9kZXYvc2Ri\nIC9leHRlcm5hbAotLT09Qk9VTkRBUlk9PS0tCg==\n",
+    "KeyName": "create_sam",
+    "IamInstanceProfile": {
+        "Name": "ecsInstanceRole"
+    },
+    "InstanceType": "m5.4xlarge",
+    "SecurityGroupIds": [
+        "sg-40e8073b"
+    ]
+}

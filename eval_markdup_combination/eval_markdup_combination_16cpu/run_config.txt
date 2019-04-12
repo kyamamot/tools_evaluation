@@ -1,0 +1,13 @@
+SAMPLE=5929_tumor
+INPUT_FASTQ1=s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/fastq/100percent_5929_R1.fastq.gz
+INPUT_FASTQ2=s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/fastq/100percent_5929_R2.fastq.gz
+INPUT_SAM=s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/sam/5929_tumor.sam
+INPUT_BAM=s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/5929_tumor.samblaster.namesort.bam
+OUTPUT_DIR=s3://keisuke-nccj-otsuka/sample/exome/5929_tumor_100/bam/
+REFERENCE=s3://keisuke-nccj-otsuka/genome/_GRCh38/reference/GRCh38.d1.vd1/
+DOCKER_IMAGE=kyamamot/eval-alignment-markdup:20190402
+AWS_EC2_INSTANCE_TYPE=m5.4xlarge
+AWS_DISK_SIZE=200
+AWS_S3_BUCKET=s3://keisuke-nccj-otsuka/tools_evaluation/
+EVAL_DESCRIPTION=""
+EVAL_ENVIRONMENT="m5.4xlarge Amazon EC2 spot instance - 16 cpu, 64GiB memory, 200GB EBS"

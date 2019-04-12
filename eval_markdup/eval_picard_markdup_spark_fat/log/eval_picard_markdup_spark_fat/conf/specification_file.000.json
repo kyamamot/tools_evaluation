@@ -1,0 +1,33 @@
+{
+    "ImageId": "ami-0eb4239fe0f64fe58",
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/xvdcz",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 22,
+                "VolumeType": "gp2"
+            }
+        },
+        {
+            "DeviceName": "/dev/sdb",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 100,
+                "VolumeType": "gp2"
+            }
+        }
+    ],
+    "Placement": {
+        "AvailabilityZone": "ap-southeast-1c"
+    },
+    "UserData": "Q29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PSI9PUJPVU5EQVJZPT0iCk1J\nTUUtVmVyc2lvbjogMS4wCgotLT09Qk9VTkRBUlk9PQpDb250ZW50LVR5cGU6IHRleHQvY2xvdWQt\nYm9vdGhvb2s7IGNoYXJzZXQ9InVzLWFzY2lpIgoKIyBJbnN0YWxsIG5mcy11dGlscwpjbG91ZC1p\nbml0LXBlciBvbmNlIHl1bV91cGRhdGUgeXVtIHVwZGF0ZSAteQpjbG91ZC1pbml0LXBlciBvbmNl\nIGluc3RhbGxfdHIgeXVtIGluc3RhbGwgLXkgdHIKY2xvdWQtaW5pdC1wZXIgb25jZSBpbnN0YWxs\nX3RkIHl1bSBpbnN0YWxsIC15IHRkCmNsb3VkLWluaXQtcGVyIG9uY2UgaW5zdGFsbF9weXRob24y\nN19waXAgeXVtIGluc3RhbGwgLXkgcHl0aG9uMjctcGlwCmNsb3VkLWluaXQtcGVyIG9uY2UgaW5z\ndGFsbF9hd3NjbGkgcGlwIGluc3RhbGwgYXdzY2xpCgpjbG91ZC1pbml0LXBlciBvbmNlIGVjc19v\ncHRpb24gZWNobyAiRUNTX0NMVVNURVI9YXJuOmF3czplY3M6YXAtc291dGhlYXN0LTE6MTgzNzI2\nNjEyODQ3OmNsdXN0ZXIvZXZhbF9waWNhcmRfbWFya2R1cF9zcGFya19mYXQiID4+IC9ldGMvZWNz\nL2Vjcy5jb25maWcKCmNhdCA8PCBFT0YgPiAvcm9vdC9tZXRyaWNzY3JpcHQuc2gKQVdTUkVHSU9O\nPWFwLXNvdXRoZWFzdC0xCkFXU0lOU1RBTkNFSUQ9XCQoY3VybCAtc3MgaHR0cDovLzE2OS4yNTQu\nMTY5LjI1NC9sYXRlc3QvbWV0YS1kYXRhL2luc3RhbmNlLWlkKQpFQ1NfQ0xVU1RFUl9OQU1FPVwk\nKGNhdCAvZXRjL2Vjcy9lY3MuY29uZmlnIHwgZ3JlcCBeRUNTX0NMVVNURVIgfCBjdXQgLWQgIi8i\nIC1mIDIpCgpkaXNrX3V0aWw9XCQoZGYgL2V4dGVybmFsIHwgYXdrICcvZXh0ZXJuYWwvIHtwcmlu\ndCBcJDV9JyB8IGF3ayAtRiUgJ3twcmludCBcJDF9JykKYXdzIGNsb3Vkd2F0Y2ggcHV0LW1ldHJp\nYy1kYXRhIC0tdmFsdWUgXCRkaXNrX3V0aWwgLS1uYW1lc3BhY2UgRUNTVUIgLS11bml0IFBlcmNl\nbnQgLS1tZXRyaWMtbmFtZSBEYXRhU3RvcmFnZVV0aWxpemF0aW9uIC0tcmVnaW9uIFwkQVdTUkVH\nSU9OIC0tZGltZW5zaW9ucyBJbnN0YW5jZUlkPVwkQVdTSU5TVEFOQ0VJRCxDbHVzdGVyTmFtZT1c\nJEVDU19DTFVTVEVSX05BTUUKCnN0cz0oXCQodm1zdGF0IHwgdGFpbCAtbiAxKSkKY3B1X3V0aWw9\nXCQoYXdrICdCRUdJTnsgcHJpbnRmICIlLjBmXG4iLCAnXCR7c3RzWzEyXX0nKydcJHtzdHNbMTNd\nfScgfScpCmF3cyBjbG91ZHdhdGNoIHB1dC1tZXRyaWMtZGF0YSAtLXZhbHVlIFwkY3B1X3V0aWwg\nLS1uYW1lc3BhY2UgRUNTVUIgLS11bml0IFBlcmNlbnQgLS1tZXRyaWMtbmFtZSBDUFVVdGlsaXph\ndGlvbiAtLXJlZ2lvbiBcJEFXU1JFR0lPTiAtLWRpbWVuc2lvbnMgSW5zdGFuY2VJZD1cJEFXU0lO\nU1RBTkNFSUQsQ2x1c3Rlck5hbWU9XCRFQ1NfQ0xVU1RFUl9OQU1FCgojIG5ldwptZW1fdG90YWw9\nXCQoZnJlZSB8IGF3ayAnL01lbTovIHtwcmludCBcJDJ9JykKbWVtX3VzZWQ9XCQoZnJlZSB8IGF3\nayAnL2J1ZmZlcnNcL2NhY2hlOi8ge3ByaW50IFwkM30nKQptZW1fdXRpbD1cJChhd2sgJ0JFR0lO\neyBwcmludGYgIiUuMGZcbiIsICdcJG1lbV91c2VkJyoxMDAvJ1wkbWVtX3RvdGFsJyB9JykKYXdz\nIGNsb3Vkd2F0Y2ggcHV0LW1ldHJpYy1kYXRhIC0tdmFsdWUgXCRtZW1fdXRpbCAtLW5hbWVzcGFj\nZSBFQ1NVQiAtLXVuaXQgUGVyY2VudCAtLW1ldHJpYy1uYW1lIE1lbW9yeVV0aWxpemF0aW9uIC0t\ncmVnaW9uIFwkQVdTUkVHSU9OIC0tZGltZW5zaW9ucyBJbnN0YW5jZUlkPVwkQVdTSU5TVEFOQ0VJ\nRCxDbHVzdGVyTmFtZT1cJEVDU19DTFVTVEVSX05BTUUKCkVPRgoKY2htb2QgK3ggL3Jvb3QvbWV0\ncmljc2NyaXB0LnNoCgpjYXQgPDwgRU9GID4gL2V0Yy9jcm9udGFiClNIRUxMPS9iaW4vYmFzaApQ\nQVRIPS91c3IvbG9jYWwvYmluOi9zYmluOi9iaW46L3Vzci9zYmluOi91c3IvYmluCk1BSUxUTz0K\nSE9NRT0vCiovMSAqICogKiAqIHJvb3QgL3Jvb3QvbWV0cmljc2NyaXB0LnNoCiovMzAgKiAqICog\nKiBjYXQgL2Rldi9udWxsID4gL3Zhci9zcG9vbC9tYWlsL3Jvb3QKRU9GCgpjbG91ZC1pbml0LXBl\nciBvbmNlIG1rZnNfc2RiIG1rZnMgLXQgZXh0NCAvZGV2L3NkYgpjbG91ZC1pbml0LXBlciBvbmNl\nIG1rZGlyX2V4dGVybmFsIG1rZGlyIC9leHRlcm5hbApjbG91ZC1pbml0LXBlciBvbmNlIG1vdW50\nX3NkYiBtb3VudCAvZGV2L3NkYiAvZXh0ZXJuYWwKLS09PUJPVU5EQVJZPT0tLQo=\n",
+    "KeyName": "eval_picard_markdup_spark_fat",
+    "IamInstanceProfile": {
+        "Name": "ecsInstanceRole"
+    },
+    "InstanceType": "m5.4xlarge",
+    "SecurityGroupIds": [
+        "sg-40e8073b"
+    ]
+}

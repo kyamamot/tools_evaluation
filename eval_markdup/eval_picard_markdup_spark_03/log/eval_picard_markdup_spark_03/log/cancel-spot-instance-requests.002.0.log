@@ -1,8 +1,0 @@
-{
-    "CancelledSpotInstanceRequests": [
-        {
-            "State": "cancelled", 
-            "SpotInstanceRequestId": "sir-8jqr1w5m"
-        }
-    ]
-}

@@ -1,7 +1,7 @@
 {
     "TerminatingInstances": [
         {
-            "InstanceId": "i-04e2ce54eb0626858", 
+            "InstanceId": "i-0698bed2a6c3d4b83", 
             "CurrentState": {
                 "Code": 32, 
                 "Name": "shutting-down"

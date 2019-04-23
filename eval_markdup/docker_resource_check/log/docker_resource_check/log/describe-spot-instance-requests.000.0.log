@@ -4,21 +4,21 @@
             "Status": {
                 "Message": "Your spot request is fulfilled.",
                 "Code": "fulfilled",
-                "UpdateTime": "2019-04-01T07:36:14+00:00Z"
+                "UpdateTime": "2019-04-23T02:43:17+00:00Z"
             },
             "ProductDescription": "Linux/UNIX",
-            "ValidUntil": "2019-04-08T07:36:12+00:00Z",
+            "ValidUntil": "2019-04-30T02:43:16+00:00Z",
             "Tags": [],
-            "InstanceId": "i-0953a9ab1de353be9",
+            "InstanceId": "i-05ea120ce6096b114",
             "InstanceInterruptionBehavior": "terminate",
-            "SpotInstanceRequestId": "sir-23xr31fp",
+            "SpotInstanceRequestId": "sir-26gri4sn",
             "State": "active",
-            "LaunchedAvailabilityZone": "ap-southeast-1c",
+            "LaunchedAvailabilityZone": "ap-southeast-1a",
             "LaunchSpecification": {
                 "Placement": {
-                    "AvailabilityZone": "ap-southeast-1c"
+                    "AvailabilityZone": "ap-southeast-1a"
                 },
-                "ImageId": "ami-0eb4239fe0f64fe58",
+                "ImageId": "ami-04e47a1e7ce1d448a",
                 "BlockDeviceMappings": [
                     {
                         "DeviceName": "/dev/xvdcz",
@@ -33,7 +33,7 @@
                         "Ebs": {
                             "DeleteOnTermination": true,
                             "VolumeType": "gp2",
-                            "VolumeSize": 500
+                            "VolumeSize": 10
                         }
                     }
                 ],
@@ -41,31 +41,31 @@
                 "SecurityGroups": [
                     {
                         "GroupName": "default",
-                        "GroupId": "sg-b8b110c0"
+                        "GroupId": "sg-40e8073b"
                     }
                 ],
-                "SubnetId": "subnet-86d42ddf",
+                "SubnetId": "subnet-4baaaf02",
                 "Monitoring": {
                     "Enabled": false
                 },
                 "IamInstanceProfile": {
                     "Name": "ecsInstanceRole"
                 },
-                "InstanceType": "m5.4xlarge"
+                "InstanceType": "m5.xlarge"
             },
             "Type": "one-time",
-            "CreateTime": "2019-04-01T07:36:12+00:00Z",
-            "SpotPrice": "0.960000"
+            "CreateTime": "2019-04-23T02:43:16+00:00Z",
+            "SpotPrice": "0.240000"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "a10bffce-33a1-4814-a31c-6d5c6857d113",
+        "RequestId": "22ffda46-96dc-40e8-8a6a-291cdf1037ff",
         "HTTPHeaders": {
-            "date": "Mon, 01 Apr 2019 07:36:22 GMT",
-            "vary": "Accept-Encoding",
-            "content-length": "2825",
+            "date": "Tue, 23 Apr 2019 02:43:26 GMT",
+            "vary": "accept-encoding",
+            "content-length": "2823",
             "content-type": "text/xml;charset=UTF-8",
             "server": "AmazonEC2"
         }

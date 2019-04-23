@@ -1,3 +1,11 @@
-(default)	0	2019/04/01 07:38:00	1	Percent
-(default)	1	2019/04/01 07:39:00	1	Percent
-(default)	2	2019/04/01 07:40:00	1	Percent
+n/a	0	2019/04/23 02:45:00	1	Percent
+n/a	1	2019/04/23 02:46:00	1	Percent
+n/a	2	2019/04/23 02:47:00	1	Percent
+n/a	3	2019/04/23 02:48:00	1	Percent
+n/a	4	2019/04/23 02:49:00	1	Percent
+n/a	5	2019/04/23 02:50:00	1	Percent
+n/a	6	2019/04/23 02:51:00	1	Percent
+n/a	7	2019/04/23 02:52:00	1	Percent
+n/a	8	2019/04/23 02:53:00	1	Percent
+n/a	9	2019/04/23 02:54:00	1	Percent
+n/a	10	2019/04/23 02:55:00	1	Percent

@@ -3,13 +3,21 @@
         {
             "environment": [
                 {
-                    "name": "SCRIPT_ENVM_PATH",
-                    "value": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                    "name": "SCRIPT_SETENV_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                },
+                {
+                    "name": "SCRIPT_DOWNLOADER_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/downloader.0.sh"
+                },
+                {
+                    "name": "SCRIPT_UPLOADER_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/uploader.0.sh"
                 }
             ],
-            "cpu": 16,
+            "cpu": 4,
             "name": "docker_resource_check_task",
-            "memory": 62000
+            "memory": 15500
         }
     ]
 }

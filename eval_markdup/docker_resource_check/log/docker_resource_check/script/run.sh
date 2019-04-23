@@ -1,23 +1,25 @@
 set -ex
 pwd
 
-SCRIPT_ENVM_NAME=`basename ${SCRIPT_ENVM_PATH}`
-SCRIPT_EXEC_NAME=`basename ${SCRIPT_EXEC_PATH}`
+SCRIPT_SETENV_NAME=`basename ${SCRIPT_SETENV_PATH}`
+SCRIPT_RUN_NAME=`basename ${SCRIPT_RUN_PATH}`
+SCRIPT_DOWNLOADER_NAME=`basename ${SCRIPT_DOWNLOADER_PATH}`
+SCRIPT_UPLOADER_NAME=`basename ${SCRIPT_UPLOADER_PATH}`
 
-aws s3 cp ${SCRIPT_ENVM_PATH} ${SCRIPT_ENVM_NAME} --only-show-errors
-aws s3 cp ${SCRIPT_EXEC_PATH} ${SCRIPT_EXEC_NAME} --only-show-errors
+aws s3 cp  ${SCRIPT_SETENV_PATH} ${SCRIPT_SETENV_NAME} --only-show-errors
+aws s3 cp  ${SCRIPT_RUN_PATH} ${SCRIPT_RUN_NAME} --only-show-errors
+aws s3 cp  ${SCRIPT_DOWNLOADER_PATH} ${SCRIPT_DOWNLOADER_NAME} --only-show-errors
+aws s3 cp  ${SCRIPT_UPLOADER_PATH} ${SCRIPT_UPLOADER_NAME} --only-show-errors
 
-source ${SCRIPT_ENVM_NAME}
+source ${SCRIPT_SETENV_NAME}
 df -h
 
-if test -n "$INPUT_BAM"; then aws s3 cp --only-show-errors  $S3_INPUT_BAM $INPUT_BAM; fi
+/bin/bash ${SCRIPT_DOWNLOADER_NAME}
 
-
-# exec
-/bin/bash ${SCRIPT_EXEC_NAME}
+# run main script
+/bin/bash ${SCRIPT_RUN_NAME}
 
 #if [ $? -gt 0 ]; then exit $?; fi
 
 # upload
-if test -n "$OUTPUT_DIR"; then aws s3 cp --only-show-errors --recursive $OUTPUT_DIR $S3_OUTPUT_DIR; fi
-
+/bin/bash ${SCRIPT_UPLOADER_NAME}

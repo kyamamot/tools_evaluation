@@ -4,71 +4,80 @@
         {
             "launchType": "EC2",
             "attachments": [],
-            "stoppingAt": "2019/04/01 16:40:07 KST",
-            "clusterArn": "arn:aws:ecs:ap-southeast-1:047717877309:cluster/docker_resource_check",
+            "stoppingAt": "2019/04/23 11:55:10 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/docker_resource_check",
             "desiredStatus": "STOPPED",
-            "createdAt": "2019/04/01 16:38:47 KST",
-            "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+            "createdAt": "2019/04/23 11:45:52 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/11fcc49c-9392-47b3-9d59-b88c517ab6fc",
             "group": "family:docker_resource_check",
-            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-docker_resource_check;stream=ecsub/docker_resource_check_task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-docker_resource_check;stream=ecsub/docker_resource_check_task/11fcc49c-9392-47b3-9d59-b88c517ab6fc",
             "no": 0,
-            "log_local": "/Users/keisukeyamamoto/sandbox/tools_evaluation/eval_mark_dup/docker_resource_check/log/docker_resource_check/log/describe-tasks.000.0.log",
-            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:047717877309:container-instance/90b05ce3-1136-432a-8e4a-6006bbdbd875",
-            "pullStartedAt": "2019/04/01 16:38:48 KST",
+            "subnet_id": "subnet-4baaaf02",
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_markdup/docker_resource_check/log/docker_resource_check/log/describe-tasks.000.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/63f60303-bc90-4ad9-9b01-dd7a2c508f58",
+            "pullStartedAt": "2019/04/23 11:45:55 KST",
             "version": 3,
-            "stopCode": "EssentialContainerExited",
-            "connectivityAt": "2019/04/01 16:38:47 KST",
-            "startedAt": "2019/04/01 16:39:26 KST",
-            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/docker_resource_check:2",
+            "memory": "15500",
+            "connectivityAt": "2019/04/23 11:45:52 KST",
+            "startedAt": "2019/04/23 11:46:23 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/docker_resource_check:1",
             "containers": [
                 {
-                    "containerArn": "arn:aws:ecs:ap-southeast-1:047717877309:container/981c9e78-3f79-4465-be78-87938fe5db47",
-                    "taskArn": "arn:aws:ecs:ap-southeast-1:047717877309:task/ba278caa-4477-4a1d-8a4c-ae6d8d06751c",
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/4aebe258-95e0-448d-88e8-6a3090c6631b",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/11fcc49c-9392-47b3-9d59-b88c517ab6fc",
                     "name": "docker_resource_check_task",
                     "networkBindings": [],
                     "lastStatus": "STOPPED",
                     "healthStatus": "UNKNOWN",
-                    "networkInterfaces": [],
-                    "exitCode": 0
+                    "memory": "300",
+                    "cpu": "1",
+                    "networkInterfaces": []
                 }
             ],
             "tags": [],
-            "executionStoppedAt": "2019/04/01 16:40:07 KST",
-            "memory": "62000",
             "lastStatus": "STOPPED",
             "connectivity": "CONNECTED",
             "healthStatus": "UNKNOWN",
-            "disk_size": 500,
+            "disk_size": 10,
             "overrides": {
                 "containerOverrides": [
                     {
                         "environment": [
                             {
-                                "name": "SCRIPT_ENVM_PATH",
-                                "value": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                                "name": "SCRIPT_SETENV_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/setenv.0.sh"
+                            },
+                            {
+                                "name": "SCRIPT_DOWNLOADER_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/downloader.0.sh"
+                            },
+                            {
+                                "name": "SCRIPT_UPLOADER_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/uploader.0.sh"
                             }
                         ],
-                        "memory": 62000,
+                        "memory": 15500,
                         "name": "docker_resource_check_task",
-                        "cpu": 16
+                        "cpu": 4
                     }
                 ]
             },
-            "pullStoppedAt": "2019/04/01 16:39:25 KST",
-            "instance_type": "m5.4xlarge",
-            "stoppedAt": "2019/04/01 16:40:07 KST",
-            "stoppedReason": "Essential container in task exited",
-            "cpu": "16"
+            "pullStoppedAt": "2019/04/23 11:46:23 KST",
+            "instance_id": "i-05ea120ce6096b114",
+            "instance_type": "m5.xlarge",
+            "stoppedAt": "2019/04/23 11:55:10 KST",
+            "stoppedReason": "Host EC2 (instance i-05ea120ce6096b114) terminated.",
+            "cpu": "4"
         }
     ],
     "ResponseMetadata": {
         "RetryAttempts": 0,
         "HTTPStatusCode": 200,
-        "RequestId": "608a6fab-5451-11e9-ac91-d1b2f0a504f1",
+        "RequestId": "39a5c44b-6573-11e9-bb75-13130223afd8",
         "HTTPHeaders": {
-            "x-amzn-requestid": "608a6fab-5451-11e9-ac91-d1b2f0a504f1",
-            "date": "Mon, 01 Apr 2019 07:40:09 GMT",
-            "content-length": "1613",
+            "x-amzn-requestid": "39a5c44b-6573-11e9-bb75-13130223afd8",
+            "date": "Tue, 23 Apr 2019 02:55:17 GMT",
+            "content-length": "1804",
             "content-type": "application/x-amz-json-1.1"
         }
     }

@@ -28,17 +28,25 @@
                 "name": "scratch"
             }
         ], 
-        "taskRoleArn": "arn:aws:iam::047717877309:role/ecsInstanceRole", 
-        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:047717877309:task-definition/docker_resource_check:2", 
+        "taskRoleArn": "arn:aws:iam::183726612847:role/ecsInstanceRole", 
+        "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/docker_resource_check:1", 
         "containerDefinitions": [
             {
                 "environment": [
                     {
-                        "name": "SCRIPT_EXEC_PATH", 
-                        "value": "s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/script.sh"
+                        "name": "SCRIPT_DOWNLOADER_PATH", 
+                        "value": ""
                     }, 
                     {
-                        "name": "SCRIPT_ENVM_PATH", 
+                        "name": "SCRIPT_RUN_PATH", 
+                        "value": "s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/script.sh"
+                    }, 
+                    {
+                        "name": "SCRIPT_SETENV_PATH", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "SCRIPT_UPLOADER_PATH", 
                         "value": ""
                     }
                 ], 
@@ -50,7 +58,7 @@
                         "containerPath": "/scratch"
                     }
                 ], 
-                "image": "kyamamot/eval-gatk-spark:20190401", 
+                "image": "kyamamot/eval-samtools-1.9:20190201", 
                 "logConfiguration": {
                     "logDriver": "awslogs", 
                     "options": {
@@ -67,12 +75,12 @@
                 ], 
                 "memory": 300, 
                 "command": [
-                    "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-singapore/tools_evaluation/docker_resource_check/script/run.sh /exec.sh; /bin/bash /exec.sh"
+                    "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-nccj-otsuka/tools_evaluation/docker_resource_check/script/run.sh /run.sh; /bin/bash /run.sh"
                 ], 
                 "essential": true, 
                 "volumesFrom": []
             }
         ], 
-        "revision": 2
+        "revision": 1
     }
 }

@@ -1,0 +1,55 @@
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dc2dde55-7123-4b2a-bb1b-a2394f901c8c", 
+            "group": "family:eval_fusioncatcher_01", 
+            "attachments": [], 
+            "tags": [], 
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_SETENV_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/setenv.0.sh"
+                            }, 
+                            {
+                                "name": "SCRIPT_DOWNLOADER_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/downloader.0.sh"
+                            }, 
+                            {
+                                "name": "SCRIPT_UPLOADER_PATH", 
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/uploader.0.sh"
+                            }
+                        ], 
+                        "memory": 62900, 
+                        "name": "eval_fusioncatcher_01_task", 
+                        "cpu": 16
+                    }
+                ]
+            }, 
+            "launchType": "EC2", 
+            "lastStatus": "PENDING", 
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/29e2d9a9-28d0-47ac-8913-cb79ad385da2", 
+            "createdAt": 1556069806.498, 
+            "version": 1, 
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_fusioncatcher_01", 
+            "memory": "62900", 
+            "desiredStatus": "RUNNING", 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_fusioncatcher_01:1", 
+            "cpu": "16", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/769e3672-dc9b-4495-b347-f73d7c16c544", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/dc2dde55-7123-4b2a-bb1b-a2394f901c8c", 
+                    "name": "eval_fusioncatcher_01_task", 
+                    "lastStatus": "PENDING", 
+                    "memory": "300", 
+                    "cpu": "1", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}

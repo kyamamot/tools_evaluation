@@ -1,0 +1,87 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "launchType": "EC2",
+            "attachments": [],
+            "stoppingAt": "2019/04/24 15:16:14 KST",
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:183726612847:cluster/eval_fusioncatcher_01",
+            "desiredStatus": "STOPPED",
+            "createdAt": "2019/04/24 10:36:46 KST",
+            "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5f1c8458-feee-46a5-a314-5bf46119fc1c",
+            "group": "family:eval_fusioncatcher_01",
+            "log": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logEventViewer:group=ecsub-eval_fusioncatcher_01;stream=ecsub/eval_fusioncatcher_01_task/5f1c8458-feee-46a5-a314-5bf46119fc1c",
+            "no": 1,
+            "subnet_id": "subnet-bb9a59e2",
+            "log_local": "/Users/keisukeyamamoto/tools_evaluation/eval_fusion_detection/eval_fusioncatcher_01/log/eval_fusioncatcher_01/log/describe-tasks.001.0.log",
+            "containerInstanceArn": "arn:aws:ecs:ap-southeast-1:183726612847:container-instance/84a35a80-933a-4dd7-9ffa-a5363f3edc81",
+            "pullStartedAt": "2019/04/24 10:36:47 KST",
+            "version": 4,
+            "stopCode": "EssentialContainerExited",
+            "connectivityAt": "2019/04/24 10:36:46 KST",
+            "startedAt": "2019/04/24 10:37:24 KST",
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:183726612847:task-definition/eval_fusioncatcher_01:1",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-1:183726612847:container/faf4050e-3f6e-4ad7-9fca-459530bb5441",
+                    "taskArn": "arn:aws:ecs:ap-southeast-1:183726612847:task/5f1c8458-feee-46a5-a314-5bf46119fc1c",
+                    "name": "eval_fusioncatcher_01_task",
+                    "networkBindings": [],
+                    "lastStatus": "STOPPED",
+                    "healthStatus": "UNKNOWN",
+                    "memory": "300",
+                    "networkInterfaces": [],
+                    "cpu": "1",
+                    "exitCode": 0
+                }
+            ],
+            "tags": [],
+            "executionStoppedAt": "2019/04/24 15:16:14 KST",
+            "memory": "62900",
+            "lastStatus": "STOPPED",
+            "connectivity": "CONNECTED",
+            "healthStatus": "UNKNOWN",
+            "disk_size": 200,
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "environment": [
+                            {
+                                "name": "SCRIPT_SETENV_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/setenv.1.sh"
+                            },
+                            {
+                                "name": "SCRIPT_DOWNLOADER_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/downloader.1.sh"
+                            },
+                            {
+                                "name": "SCRIPT_UPLOADER_PATH",
+                                "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/uploader.1.sh"
+                            }
+                        ],
+                        "memory": 62900,
+                        "name": "eval_fusioncatcher_01_task",
+                        "cpu": 16
+                    }
+                ]
+            },
+            "pullStoppedAt": "2019/04/24 10:37:23 KST",
+            "instance_id": "i-009a7ac3eb8274e6c",
+            "instance_type": "m5.4xlarge",
+            "stoppedAt": "2019/04/24 15:16:14 KST",
+            "stoppedReason": "Essential container in task exited",
+            "cpu": "16"
+        }
+    ],
+    "ResponseMetadata": {
+        "RetryAttempts": 0,
+        "HTTPStatusCode": 200,
+        "RequestId": "78068934-6658-11e9-803f-9372355e0281",
+        "HTTPHeaders": {
+            "x-amzn-requestid": "78068934-6658-11e9-803f-9372355e0281",
+            "date": "Wed, 24 Apr 2019 06:16:16 GMT",
+            "content-length": "1875",
+            "content-type": "application/x-amz-json-1.1"
+        }
+    }
+}

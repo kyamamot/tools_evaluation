@@ -1,0 +1,23 @@
+{
+    "containerOverrides": [
+        {
+            "environment": [
+                {
+                    "name": "SCRIPT_SETENV_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/setenv.1.sh"
+                },
+                {
+                    "name": "SCRIPT_DOWNLOADER_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/downloader.1.sh"
+                },
+                {
+                    "name": "SCRIPT_UPLOADER_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/uploader.1.sh"
+                }
+            ],
+            "cpu": 16,
+            "name": "eval_fusioncatcher_01_task",
+            "memory": 62900
+        }
+    ]
+}

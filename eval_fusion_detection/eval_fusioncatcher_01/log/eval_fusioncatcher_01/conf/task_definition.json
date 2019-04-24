@@ -1,0 +1,61 @@
+{
+    "volumes": [
+        {
+            "host": {
+                "sourcePath": "/external"
+            },
+            "name": "scratch"
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::183726612847:role/ecsInstanceRole",
+    "containerDefinitions": [
+        {
+            "image": "kyamamot/eval-fusioncatcher:20190423",
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-stream-prefix": "ecsub",
+                    "awslogs-group": "ecsub-eval_fusioncatcher_01",
+                    "awslogs-region": "ap-southeast-1"
+                }
+            },
+            "entryPoint": [
+                "/bin/bash",
+                "-c"
+            ],
+            "mountPoints": [
+                {
+                    "sourceVolume": "scratch",
+                    "containerPath": "/scratch"
+                }
+            ],
+            "name": "eval_fusioncatcher_01_task",
+            "workingDirectory": "/scratch",
+            "essential": true,
+            "environment": [
+                {
+                    "name": "SCRIPT_RUN_PATH",
+                    "value": "s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/script.sh"
+                },
+                {
+                    "name": "SCRIPT_SETENV_PATH",
+                    "value": ""
+                },
+                {
+                    "name": "SCRIPT_DOWNLOADER_PATH",
+                    "value": ""
+                },
+                {
+                    "name": "SCRIPT_UPLOADER_PATH",
+                    "value": ""
+                }
+            ],
+            "command": [
+                "apt update; apt install -y python-pip; pip install awscli --upgrade; aws configure list; aws s3 cp s3://keisuke-nccj-otsuka/tools_evaluation/eval_fusioncatcher_01/script/run.sh /run.sh; /bin/bash /run.sh"
+            ],
+            "memory": 300,
+            "cpu": 1
+        }
+    ],
+    "family": "eval_fusioncatcher_01"
+}
